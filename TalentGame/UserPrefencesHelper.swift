@@ -19,6 +19,10 @@ class UserPreferencesHelper
     static func getUserDefaultString(key: String) -> String {
         let defaults = UserDefaults.standard
         let value = defaults.string(forKey: key)
+        if(value == nil)
+        {
+            return "en"
+        }
         return value!
     }
     
@@ -30,7 +34,10 @@ class UserPreferencesHelper
     static func getUserDefaultInt(key: String) -> Int {
         let defaults = UserDefaults.standard
         let value:Int = defaults.integer(forKey: key)
-        return value;
+        if(value == 0){
+            return 1
+        }
+        return value
     }
 
 

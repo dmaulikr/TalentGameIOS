@@ -30,3 +30,14 @@ func hexStringToUIColor (hex:String) -> UIColor {
         alpha: CGFloat(1.0)
     )
 }
+
+extension String {
+    func localized() ->String {
+        
+        let lang = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
+        
+        let path = Bundle.main.path(forResource: lang, ofType: "lproj")
+        let bundle = Bundle(path: path!)
+        
+        return NSLocalizedString(self, tableName: nil, bundle: bundle!, value: "", comment: "")
+}}

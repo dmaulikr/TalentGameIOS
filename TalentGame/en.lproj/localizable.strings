@@ -6,3 +6,9 @@
   Copyright © 2017 TMA Method. All rights reserved.
 */
 "app_name" = "Talent Game"
+"dimension1_text" = "Emotional balance"
+"dimension2_text" = "Motives"
+"dimension3_text" = "Social talents"
+"dimension4_text" = "Influential talents"
+"dimension5_text" = "Leadership talents"
+"dimension6_text" = "Organizational talents"
