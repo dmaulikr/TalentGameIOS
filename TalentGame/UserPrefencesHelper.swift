@@ -14,6 +14,7 @@ class UserPreferencesHelper
     static func setUserDefaultString(key: String, value: String) {
         let defaults = UserDefaults.standard
         defaults.set(value, forKey: key)
+        UserDefaults.standard.synchronize()
     }
     
     static func getUserDefaultString(key: String) -> String {

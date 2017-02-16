@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app_name</key>
+	<dict>
+		<key>value</key>
+		<string>Talent Game</string>
+	</dict>
+	<key>dimension1_text</key>
+	<dict>
+		<key>value</key>
+		<string>Emotional balance</string>
+	</dict>
+	<key>dimension2_text</key>
+	<dict>
+		<key>value</key>
+		<string>Motives</string>
+	</dict>
+	<key>dimension3_text</key>
+	<dict>
+		<key>value</key>
+		<string>Social talents</string>
+	</dict>
+	<key>dimension4_text</key>
+	<dict>
+		<key>value</key>
+		<string>Influential talents</string>
+	</dict>
+	<key>dimension5_text</key>
+	<dict>
+		<key>value</key>
+		<string>Leadership talents</string>
+	</dict>
+	<key>dimension6_text</key>
+	<dict>
+		<key>value</key>
+		<string>Organizational talents</string>
+	</dict>
+</dict>
+</plist>
