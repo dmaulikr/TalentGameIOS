@@ -16,7 +16,9 @@ import UIKit
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
-        self.navigationItem.title = "app_name".localized()
+        self.navigationItem.title = "app_name".localized
+        //self.navigationItem.title = String.localize("app_name","App Title");
+        //self.navigationItem.title = "app_name".localized(withComment: "App Title")
         
         setButtons()
         

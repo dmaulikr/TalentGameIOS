@@ -101,19 +101,19 @@
                                             <rect key="frame" x="0.0" y="-228" width="375" height="540"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="19w-wk-hbn">
-                                                    <rect key="frame" x="0.0" y="0.0" width="123.5" height="540"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="124" height="540"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="YES"/>
                                                     </accessibility>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="labelTalentName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FG3-54-jMg">
-                                                    <rect key="frame" x="123.5" y="260" width="128" height="20.5"/>
+                                                    <rect key="frame" x="124" y="260" width="128" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="vgH-C4-Z8U">
-                                                    <rect key="frame" x="251.5" y="0.0" width="123.5" height="540"/>
+                                                    <rect key="frame" x="252" y="0.0" width="123" height="540"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="YES"/>
                                                     </accessibility>
