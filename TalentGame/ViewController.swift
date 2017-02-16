@@ -16,7 +16,7 @@ import UIKit
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
-        self.navigationItem.title = "app_name".localized()
+        self.navigationItem.title = NSLocalizedString("app_name", comment: "")
         
         setButtons()
         

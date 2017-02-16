@@ -20,9 +20,10 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="dVF-6I-aX5">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="aMd-lW-0Wv">
+                        <barButtonItem key="leftBarButtonItem" image="icon_settings" style="plain" id="aMd-lW-0Wv">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="XaJ-sO-AWC" kind="popoverPresentation" popoverAnchorBarButtonItem="aMd-lW-0Wv" id="lnx-HW-dWD">
@@ -30,6 +31,7 @@
                                 </segue>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="img_sort_az" id="Ke5-aB-TIY"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -94,37 +96,48 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5nW-P7-Yq6" id="bSZ-Yf-UV8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1di-d3-niv">
-                                            <rect key="frame" x="0.0" y="-228" width="375" height="540"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="1di-d3-niv">
+                                            <rect key="frame" x="0.0" y="-228" width="375" height="150"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="19w-wk-hbn">
-                                                    <rect key="frame" x="0.0" y="0.0" width="123.5" height="540"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="19w-wk-hbn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="YES"/>
                                                     </accessibility>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="OZD-mW-9e0"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="labelTalentName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FG3-54-jMg">
-                                                    <rect key="frame" x="123.5" y="260" width="128" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="labelTalentName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FG3-54-jMg">
+                                                    <rect key="frame" x="100" y="0.0" width="128" height="150"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="vgH-C4-Z8U">
-                                                    <rect key="frame" x="251.5" y="0.0" width="123.5" height="540"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="vgH-C4-Z8U">
+                                                    <rect key="frame" x="228" y="0.0" width="147" height="150"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="YES"/>
                                                     </accessibility>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="150" id="GF6-Ef-ZWz"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="vgH-C4-Z8U" secondAttribute="trailing" id="UNr-gv-xfa"/>
+                                                <constraint firstItem="FG3-54-jMg" firstAttribute="leading" secondItem="19w-wk-hbn" secondAttribute="trailing" id="asr-Bp-9Zg"/>
+                                                <constraint firstItem="vgH-C4-Z8U" firstAttribute="leading" secondItem="FG3-54-jMg" secondAttribute="trailing" id="lfO-nD-jF7"/>
+                                            </constraints>
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="1di-d3-niv" firstAttribute="leading" secondItem="bSZ-Yf-UV8" secondAttribute="leading" id="4g6-sM-zzg"/>
-                                        <constraint firstItem="1di-d3-niv" firstAttribute="top" secondItem="bSZ-Yf-UV8" secondAttribute="top" id="qD8-xG-DNG"/>
-                                        <constraint firstAttribute="trailing" secondItem="1di-d3-niv" secondAttribute="trailing" id="x7o-0A-yRQ"/>
+                                        <constraint firstItem="1di-d3-niv" firstAttribute="leading" secondItem="bSZ-Yf-UV8" secondAttribute="leading" id="nGf-q5-mbG"/>
+                                        <constraint firstItem="1di-d3-niv" firstAttribute="top" secondItem="bSZ-Yf-UV8" secondAttribute="top" constant="-228" id="uoO-CX-hr4"/>
+                                        <constraint firstAttribute="trailing" secondItem="1di-d3-niv" secondAttribute="trailing" id="vzS-kM-izR"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -137,9 +150,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e2X-TI-Ley" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2455.1999999999998" y="37.331334332833585"/>
+            <point key="canvasLocation" x="2535" y="-18"/>
         </scene>
-        <!--Facebook-->
+        <!--Facebook View Controller-->
         <scene sceneID="MAm-1l-JpG">
             <objects>
                 <viewController id="OLg-Qt-MKo" customClass="FacebookViewController" customModule="TalentGame" customModuleProvider="target" sceneMemberID="viewController">
@@ -151,8 +164,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ZL-XH-s3B">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ZL-XH-s3B">
+                                <rect key="frame" x="0.0" y="28" width="375" height="590"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -164,7 +177,7 @@
                             <constraint firstItem="1ZL-XH-s3B" firstAttribute="bottom" secondItem="G8R-lG-z1U" secondAttribute="top" id="pAT-Pd-JcL"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Facebook" id="HpR-lC-BhL"/>
+                    <tabBarItem key="tabBarItem" title="" image="facebook_icon" selectedImage="facebook_icon" id="HpR-lC-BhL"/>
                     <navigationItem key="navigationItem" id="dI6-pb-hb4"/>
                     <connections>
                         <outlet property="webViewInstance" destination="1ZL-XH-s3B" id="KXF-r3-SVI"/>
@@ -172,12 +185,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f0C-Ur-nzp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-306" y="740"/>
+            <point key="canvasLocation" x="-307" y="799"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="IXt-LX-h3m">
             <objects>
-                <tabBarController id="4ea-co-tsA" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" id="4ea-co-tsA" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="NEc-ko-0PY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -213,7 +226,7 @@
             </objects>
             <point key="canvasLocation" x="1692" y="37.331334332833585"/>
         </scene>
-        <!--Info-->
+        <!--View Controller-->
         <scene sceneID="leZ-Tg-IOf">
             <objects>
                 <viewController id="GWA-1I-FSp" sceneMemberID="viewController">
@@ -226,13 +239,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.66989502942306522" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Info" id="o7d-69-uis"/>
+                    <tabBarItem key="tabBarItem" title="" image="info" selectedImage="info" id="o7d-69-uis"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Nu-gV-ByZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-306" y="1545"/>
         </scene>
-        <!--Games-->
+        <!--View Controller-->
         <scene sceneID="XTP-do-09Y">
             <objects>
                 <viewController id="0wD-HD-KHJ" sceneMemberID="viewController">
@@ -251,13 +264,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.72909247295530788" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Games" id="wxG-gD-jcg"/>
+                    <tabBarItem key="tabBarItem" title="" image="img_btn_games" selectedImage="img_btn_games" id="wxG-gD-jcg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zcz-73-Kfm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="706.39999999999998" y="1664.617691154423"/>
         </scene>
-        <!--LinkedIn-->
+        <!--Linked In View Controller-->
         <scene sceneID="2me-Xc-52N">
             <objects>
                 <viewController id="sR2-Ek-C71" customClass="LinkedInViewController" customModule="TalentGame" customModuleProvider="target" sceneMemberID="viewController">
@@ -269,8 +282,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Csp-r7-Ybk">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Csp-r7-Ybk">
+                                <rect key="frame" x="0.0" y="28" width="375" height="590"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -282,7 +295,7 @@
                             <constraint firstItem="Csp-r7-Ybk" firstAttribute="top" secondItem="yKe-3A-zxE" secondAttribute="bottom" constant="8" symbolic="YES" id="yn4-VB-RgG"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="LinkedIn" id="MT6-3Q-H9n"/>
+                    <tabBarItem key="tabBarItem" title="" image="linkedin" selectedImage="linkedin" id="MT6-3Q-H9n"/>
                     <navigationItem key="navigationItem" id="ofH-RP-8su"/>
                     <connections>
                         <outlet property="webViewInstance" destination="Csp-r7-Ybk" id="3U4-ZC-uNt"/>
@@ -292,11 +305,11 @@
             </objects>
             <point key="canvasLocation" x="753" y="845"/>
         </scene>
-        <!--Home-->
+        <!--Navigation Controller-->
         <scene sceneID="PzR-PB-Dcx">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QRV-vf-CM7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="JXw-q4-uh9"/>
+                <navigationController storyboardIdentifier="NavHomeViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QRV-vf-CM7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="home" selectedImage="home" id="JXw-q4-uh9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kyz-fg-Sp6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -314,6 +327,13 @@
     </scenes>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
+        <image name="facebook_icon" width="25" height="25"/>
+        <image name="home" width="25" height="25"/>
+        <image name="icon_settings" width="25" height="25"/>
+        <image name="img_btn_games" width="25" height="25"/>
+        <image name="img_sort_az" width="25" height="25"/>
+        <image name="info" width="25" height="25"/>
+        <image name="linkedin" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="t90-xZ-eOp"/>

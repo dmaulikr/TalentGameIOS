@@ -32,7 +32,7 @@ func hexStringToUIColor (hex:String) -> UIColor {
 }
 
 extension String {
-    func localized() ->String {
+    func localized() -> String {
         
         let lang = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
         

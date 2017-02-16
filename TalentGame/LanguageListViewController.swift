@@ -43,9 +43,14 @@ class LanguageListViewController: UIViewController, UIPickerViewDataSource, UIPi
            UserPreferencesHelper.setUserDefaultString(key: Constants.LOCALE_LANG, value: pickerDataSoruce[row].culture)
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "NavHomeViewController")
-        self.present(controller, animated: true, completion: nil)
-
+        let controller = storyboard.instantiateViewController(withIdentifier: "TabBarController")
+        self.present(controller, animated: false, completion: nil)
+        
+//        let appDelegate = UIApplication.shared.delegate! as! AppDelegate
+//        
+//        let initialViewController = self.storyboard!.instantiateViewController(withIdentifier: "NavHomeViewController")
+//        appDelegate.window?.rootViewController = initialViewController
+//        appDelegate.window?.makeKeyAndVisible()
     }
     /*
     // MARK: - Navigation
