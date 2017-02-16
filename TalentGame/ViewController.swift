@@ -17,7 +17,7 @@ import UIKit
         // Do any additional setup after loading the view, typically from a nib.
     
         self.navigationItem.title = NSLocalizedString("app_name", comment: "")
-        
+        self.navigationController?.navigationBar.barTintColor = hexStringToUIColor(hex: Constants.colors[8])
         setButtons()
         
     }
