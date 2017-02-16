@@ -57,8 +57,11 @@ class TalentListViewController: UITableViewController {
         // Fetches the appropriate meal for the data source layout.
         let talent = talents[indexPath.row]
         
-        let image123:UIImage = UIImage(named: "defaultPhoto")!
-        let image789:UIImage = UIImage(named: "defaultPhoto")!
+        let image123_pic = "artboard_123_\(talent.dimensionId)_\(talent.talentId)"
+        let image789_pic = "artboard_789_\(talent.dimensionId)_\(talent.talentId)"
+        
+        let image123:UIImage = UIImage(named: image123_pic)!
+        let image789:UIImage = UIImage(named: image789_pic)!
 
         cell.image123?.image = image123
         cell.labelTalentName?.text = talent.talentName

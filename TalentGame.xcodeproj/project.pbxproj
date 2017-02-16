@@ -66,6 +66,7 @@
 		915072EF1E3241A500F08C0A /* LanguageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageService.swift; sourceTree = "<group>"; };
 		915072F11E3289CF00F08C0A /* UserPrefencesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPrefencesHelper.swift; sourceTree = "<group>"; };
 		9150F7351E3F705F001D2413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		915429AA1E5472C7004DD7EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/localizable.strings; sourceTree = "<group>"; };
 		9157B5901E40741F001AAE3D /* TalentListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalentListTableViewCell.swift; sourceTree = "<group>"; };
 		915D2CDA1E43619600A28DD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/localizable.strings; sourceTree = "<group>"; };
 		915D2CDB1E43619800A28DD5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/localizable.strings; sourceTree = "<group>"; };
