@@ -113,6 +113,7 @@
 		E694FB9A1E554F7D00F52537 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = da; path = da.lproj/Localizable.plist; sourceTree = "<group>"; };
 		E694FB9B1E554F7E00F52537 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ar-SA"; path = "ar-SA.lproj/Localizable.plist"; sourceTree = "<group>"; };
 		E694FB9C1E554F7F00F52537 /* pl-PL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pl-PL"; path = "pl-PL.lproj/Localizable.plist"; sourceTree = "<group>"; };
+		E694FB9D1E55572200F52537 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +334,7 @@
 				915D2CE21E4361C700A28DD5 /* ar-SA */,
 				915D2CE31E4361CA00A28DD5 /* pl-PL */,
 				E60C4A6C1E55417F007A9B85 /* de */,
+				E694FB9D1E55572200F52537 /* es */,
 			);
 			name = localizable.strings;
 			sourceTree = "<group>";
