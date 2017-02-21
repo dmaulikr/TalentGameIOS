@@ -8,9 +8,11 @@
 
 import UIKit
 
-@IBDesignable class ViewController: UIViewController
+class ViewController: UIViewController
 {    
     var dimensions: [Dimension] = DimensionService.getAllDimensions()
+    
+    //@IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +21,8 @@ import UIKit
         self.navigationItem.title = "app_name".localized
         //self.navigationItem.title = String.localize("app_name","App Title");
         //self.navigationItem.title = "app_name".localized(withComment: "App Title")
+        
+        //self.scrollView.contentSize = CGSize(width:320, height: 700);
         
         setButtons()
         
