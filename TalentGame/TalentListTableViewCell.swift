@@ -13,15 +13,15 @@ class TalentListTableViewCell: UITableViewCell {
     @IBOutlet var image123: UIImageView!
     @IBOutlet var labelTalentName: UILabel!
     @IBOutlet var image789: UIImageView!
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+//    override func awakeFromNib() {
+//        super.awakeFromNib()
+//        // Initialization code
+//    }
+//
+//    override func setSelected(_ selected: Bool, animated: Bool) {
+//        super.setSelected(selected, animated: animated)
+//
+//        // Configure the view for the selected state
+//    }
 
 }

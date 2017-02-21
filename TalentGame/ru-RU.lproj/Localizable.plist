@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app_name</key>
+	<dict>
+		<key>value</key>
+		<string>Talent Game EN</string>
+	</dict>
+    <key>Address</key>
+    <dict>
+        <key>value</key>
+        <string>Адрес</string>
+    </dict>
+    <key>AppInfo</key>
+    <dict>
+        <key>value</key>
+        <string>Люди наиболее мотивированы, продуктивны и успешны в работе, которая лучше всего совпадает с их талантами. Мы использовали эту идею в настольной Игре Талантов ТМА. При помощи этой игры вы сможете получить понятные ответы на многие вопросы, например: Какими талантами я обладаю? Какие таланты я могу в себе раскрыть? В каком направлении идет наша команда? Как лучше использовать способности членов команды? Игра Талантов ТМА включает в себя 44 карточки талантов и 4 карточки с вариантами игр и инструкциями. Данная игра является практическим инструментом для каждого, кто хочет работать со своими талантами. В игру можно играть одному или с командой. Эта игра также предназначена для специалистов ТМА и тренеров, которые могут ее использовать на индивидуальных или групповых тренингах. В довершение ко всему, Игра Талантов ТМА также поможет Вам понять основополагающие принципы управления талантами в игровой форме. По этой причине игра также подойдет для тех, кто участвует в сертификационном тренинге специалистов ТМА. Хотите стать специалистом ТМА и использовать научно одобренные инструменты ТМА (в т.ч. в режиме онлайн)? Хотите использовать таланты людей и организаций по максимуму и в положительном направлении? Свяжитесь с нами по электронной почте info@tmamethod.com или позвоните нам по телефону +31 30 2670444.</string>
+    </dict>
+    <key>Email</key>
+    <dict>
+        <key>value</key>
+        <string>Электронная почта</string>
+    </dict>
+    <key>FollowUsOn</key>
+    <dict>
+        <key>value</key>
+        <string>Следите за нашими новостями в</string>
+    </dict>
+    <key>Game1</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 1</string>
+    </dict>
+    <key>Game1_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Положите все карточки талантов на стол.
+            2. Выберите 8 карточек с талантами, которые Вы узнаете в себе.
+            3. Подумайте над тем, как Вы можете применить эти таланты в работе
+        </string>
+    </dict>
+    <key>Game1_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 1: раскройте свои таланты</string>
+    </dict>
+    <key>Game1_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Эта игра поможет Вам понять, какими талантами Вы обладаете.</string>
+    </dict>
+    <key>Game2</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 2</string>
+    </dict>
+    <key>Game2_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Сначала выберите, что бы Вы хотели в себе развить. Например, навык или компетенцию (Ведение переговоров, Помощь клиентам, Сотрудничество и т.д.).
+            2. Положите стопку карточек талантов на стол, затем вытяните одну карточку.
+            3. Вам нужно решить, обладаете ли Вы талантом, указанном на каждой карте, которую Вы вытянули.
+            4. Если у Вас нет какого-то таланта, отложите эту карточку и вытяните следующую.
+            5. Если Вы вытянули карточку с подходящим талантом, подумайте, может ли этот талант помочь Вам в развитии определенного навыка или компетенции и каким образом.
+            6. Продолжайте вытягивать карточки, пока не наберете достаточное количество талантов, которые могут помочь Вам в Вашем дальнейшем развитии.
+        </string>
+    </dict>
+    <key>Game2_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 2: Личное развитие</string>
+    </dict>
+    <key>Game2_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Эта игра поможет Вам понять, какие таланты Вы можете использовать в Вашем личном развитии.</string>
+    </dict>
+    <key>Game3</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 3</string>
+    </dict>
+    <key>Game3_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Положите все карточки талантов на стол.
+            2. Сначала выберите того, кто будет получать отзывы от остальных участников.
+            3. Остальные участники по очереди должны выбрать карточку с талантом, который подходит получателю, по их мнению.
+            4. Когда все участники выберут карточки талантов для получателя, наступает очередь получателя. Все участники возвращают карточки получателю.
+            5. Игра продолжается до тех пор, пока все не получат отзывы о себе.
+        </string>
+    </dict>
+    <key>Game3_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 3: Отзывы о талантах</string>
+    </dict>
+    <key>Game3_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>В игру должны играть минимум три человека. Цель игры - узнать таланты друг друга. </string>
+    </dict>
+    <key>Game4</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 4</string>
+    </dict>
+    <key>Game4_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Положите все карточки на стол.
+            2. Выберите того, кто начнет игру. Первый человек выбирает карточку с талантом, которая раскрывает талант команды, по его/ее мнению, и объясняет свой выбор.
+            3. Затем другие могут высказаться, согласны ли они с выбором таланта команды. Если (почти) все согласны с выбором, тогда этот талант можно назвать первым талантом команды. Если мнения слишком различаются, следует отложить данную карточку с талантом.
+            4. Затем следующий человек выбирает карточку с талантом, который является талантом команды, по его/ее мнению, и объясняет свой выбор. Другие также могут высказывать свое мнение.
+            5. Играть следует до тех пор, пока не наберется от 3 до 5 талантов команды, с которыми (почти) все согласятся.
+            6. После того, как Вы определитесь с количеством талантов команды, Вы можете обсудить, как использовать данные таланты в работе команды.
+        </string>
+    </dict>
+    <key>Game4_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 4: Таланты команды</string>
+    </dict>
+    <key>Game4_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Минимальное количество игроков - 3 человека. Цель игры: определить таланты команды (в целом).</string>
+    </dict>
+    <key>Game5</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 5</string>
+    </dict>
+    <key>Game5_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Разложите карточки талантов на столе рубашкой вверх.
+            2. Выберите того, кто начнет игру. Первый человек открывает две любые карточки. Если на двух карточках одинаковые движущие силы (текст вниху справа), тогда игрок сохраняет эти карточки и перечисляет, какие движущие силы он/она открыл(а) и какие таланты (текст вверху слева) содержат обе карточки. Затем нужно открыть еще две карточки. Игрок продолжает открывать карточки, пока не откроет две разные.
+            3. Затем следующий игрок открывает две карточки и повторяет действия, описанные во шаге 2.
+            4. Игра заканчивается, когда все пары движущих сил установлены. Игрок с наибольшим количеством пар побеждает.
+        </string>
+    </dict>
+    <key>Game5_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 5: Запоминание талантов и мотивации.</string>
+    </dict>
+    <key>Game5_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Количество игроков: от 2 до 4. Цель игры: выяснить, какие навыки сочетаются с движущими силами.</string>
+    </dict>
+    <key>Game6</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 6</string>
+    </dict>
+    <key>Game6_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Мы представили 5 вариантов игр в нашей Игре Талантов ТМА. Мы предлагаем Вам придумать свои варианты. Если Вы хотите поделиться своей версией с сообществом ТМА, пишите нам на info@tmamethod.com или поделитесь своими идеями в нашей группе ТМА или на LinkedIn. Возможно, мы добавим именно Ваш вариант в наше приложение.
+            Ваша команда ТМА
+        </string>
+    </dict>
+    <key>Game6_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Игра 6: Придумайте свой вариант игры.</string>
+    </dict>
+    <key>Game6_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string></string>
+    </dict>
+    <key>Linkedin</key>
+    <dict>
+        <key>value</key>
+        <string>Linkedin</string>
+    </dict>
+    <key>Phone</key>
+    <dict>
+        <key>value</key>
+        <string>Телефон</string>
+    </dict>
+    <key>TMAMethode</key>
+    <dict>
+        <key>value</key>
+        <string>Метод ТМА</string>
+    </dict>
+    <key>Twitter</key>
+    <dict>
+        <key>value</key>
+        <string>Twitter</string>
+    </dict>
+    <key>TwitterId</key>
+    <dict>
+        <key>value</key>
+        <string>tmamethode</string>
+    </dict>
+    <key>Website</key>
+    <dict>
+        <key>value</key>
+        <string>Сайт</string>
+    </dict>
+    <key>app_name</key>
+    <dict>
+        <key>value</key>
+        <string>Игра Талантов ТМА</string>
+    </dict>
+    <key>btn_Games</key>
+    <dict>
+        <key>value</key>
+        <string>Игры</string>
+    </dict>
+    <key>btn_contact</key>
+    <dict>
+        <key>value</key>
+        <string>Контакт</string>
+    </dict>
+    <key>btn_facebook</key>
+    <dict>
+        <key>value</key>
+        <string>Facebook</string>
+    </dict>
+    <key>btn_info</key>
+    <dict>
+        <key>value</key>
+        <string>Информация</string>
+    </dict>
+    <key>btn_linkedin</key>
+    <dict>
+        <key>value</key>
+        <string>Linkedin</string>
+    </dict>
+    <key>btn_media</key>
+    <dict>
+        <key>value</key>
+        <string>Медиа</string>
+    </dict>
+    <key>changeLanguage</key>
+    <dict>
+        <key>value</key>
+        <string>Изменить язык</string>
+    </dict>
+    <key>contactText</key>
+    <dict>
+        <key>value</key>
+        <string>Метод ТМА – это интегрированная система для подбора и развития сотрудников, в которой таланты и навыки являются ключевой составляющей. Метод ТМА доступен в форме онлайн-сервиса и используется для управления талантами и компетенциями, обратной связи 360 градусов, образованию карьерных центров, оценок, Оценки талантов ТМА, построения траекторий развития менеджмента, в вопросах мобильности, обсуждениях, а также для собеседований. </string>
+    </dict>
+    <key>dimension1_text</key>
+    <dict>
+        <key>value</key>
+        <string>Эмоциональное равновесие</string>
+    </dict>
+    <key>dimension2_text</key>
+    <dict>
+        <key>value</key>
+        <string>Мотивы</string>
+    </dict>
+    <key>dimension3_text</key>
+    <dict>
+        <key>value</key>
+        <string>Социальные таланты</string>
+    </dict>
+    <key>dimension4_text</key>
+    <dict>
+        <key>value</key>
+        <string>Влиятельные таланты</string>
+    </dict>
+    <key>dimension5_text</key>
+    <dict>
+        <key>value</key>
+        <string>Лидерские таланты</string>
+    </dict>
+    <key>dimension6_text</key>
+    <dict>
+        <key>value</key>
+        <string>Организационные таланты</string>
+    </dict>
+    <key>launching_app_name</key>
+    <dict>
+        <key>value</key>
+        <string>Игра Талантов</string>
+    </dict>
+    <key>locale_lang</key>
+    <dict>
+        <key>value</key>
+        <string>lang_culture</string>
+    </dict>
+    <key>title_activity_Games</key>
+    <dict>
+        <key>value</key>
+        <string>Игры</string>
+    </dict>
+    <key>title_activity_app_info</key>
+    <dict>
+        <key>value</key>
+        <string>Информация</string>
+    </dict>
+    <key>title_activity_contact</key>
+    <dict>
+        <key>value</key>
+        <string>Контакты</string>
+    </dict>
+    <key>title_activity_media</key>
+    <dict>
+        <key>value</key>
+        <string>Медиа</string>
+    </dict>
+    <key>title_drives_alphabetical</key>
+    <dict>
+        <key>value</key>
+        <string>По алфавиту</string>
+    </dict>
+    <key>Talent1</key>
+	<dict>
+		<key>value</key>
+		<string>Амбициозность и сложные задачи</string>
+	</dict>
+	<key>Talent2</key>
+	<dict>
+		<key>value</key>
+		<string>Уважение</string>
+	</dict>
+	<key>Talent3</key>
+	<dict>
+		<key>value</key>
+		<string>Порядок и структура</string>
+	</dict>
+	<key>Talent4</key>
+	<dict>
+		<key>value</key>
+		<string>Экстраверсия </string>
+	</dict>
+	<key>Talent5</key>
+	<dict>
+		<key>value</key>
+		<string>Независимое мышление и деятельность</string>
+	</dict>
+	<key>Talent6</key>
+	<dict>
+		<key>value</key>
+		<string>Коммуникабельность и контакты</string>
+	</dict>
+	<key>Talent7</key>
+	<dict>
+		<key>value</key>
+		<string>Социальная эмпатия</string>
+	</dict>
+	<key>Talent8</key>
+	<dict>
+		<key>value</key>
+		<string>Потребность в поддержке</string>
+	</dict>
+	<key>Talent9</key>
+	<dict>
+		<key>value</key>
+		<string>Доминирование</string>
+	</dict>
+	<key>Talent10</key>
+	<dict>
+		<key>value</key>
+		<string>Самоуважение</string>
+	</dict>
+	<key>Talent11</key>
+	<dict>
+		<key>value</key>
+		<string>Отзывчивость</string>
+	</dict>
+	<key>Talent12</key>
+	<dict>
+		<key>value</key>
+		<string>Разнообразие</string>
+	</dict>
+	<key>Talent13</key>
+	<dict>
+		<key>value</key>
+		<string>Настойчивость</string>
+	</dict>
+	<key>Talent14</key>
+	<dict>
+		<key>value</key>
+		<string>Энергия и действия</string>
+	</dict>
+	<key>Talent15</key>
+	<dict>
+		<key>value</key>
+		<string>Конфронтация</string>
+	</dict>
+	<key>Talent17</key>
+	<dict>
+		<key>value</key>
+		<string>Конформизм</string>
+	</dict>
+	<key>Talent18</key>
+	<dict>
+		<key>value</key>
+		<string>Потребность в статусе</string>
+	</dict>
+	<key>Talent21</key>
+	<dict>
+		<key>value</key>
+		<string>Ответственность и лидерство</string>
+	</dict>
+	<key>Talent22</key>
+	<dict>
+		<key>value</key>
+		<string>Прагматизм</string>
+	</dict>
+	<key>Talent25</key>
+	<dict>
+		<key>value</key>
+		<string>Принятие решений</string>
+	</dict>
+	<key>Talent27</key>
+	<dict>
+		<key>value</key>
+		<string>Целенаправленность </string>
+	</dict>
+	<key>Talent29</key>
+	<dict>
+		<key>value</key>
+		<string>Управление стрессом и давлением</string>
+	</dict>
+	<key>TalentImageTitle_18_789</key>
+	<dict>
+		<key>value</key>
+		<string>Презентабельный, гордый</string>
+	</dict>
+	<key>TalentImageTitle_18_123</key>
+	<dict>
+		<key>value</key>
+		<string>Скромный, выдержанный</string>
+	</dict>
+	<key>TalentImageTitle_12_789</key>
+	<dict>
+		<key>value</key>
+		<string>Очень разнообразный, ориентированный на окружение</string>
+	</dict>
+	<key>TalentImageTitle_12_123</key>
+	<dict>
+		<key>value</key>
+		<string>Четкий фокус, сосредоточенный</string>
+	</dict>
+	<key>TalentImageTitle_1_789</key>
+	<dict>
+		<key>value</key>
+		<string>Соперничающий, фокус на достижения</string>
+	</dict>
+	<key>TalentImageTitle_1_123</key>
+	<dict>
+		<key>value</key>
+		<string>Довольный, чувство перспективы</string>
+	</dict>
+	<key>TalentImageTitle_25_789</key>
+	<dict>
+		<key>value</key>
+		<string>Предпреимчивый, решающий проблемы</string>
+	</dict>
+	<key>TalentImageTitle_25_123</key>
+	<dict>
+		<key>value</key>
+		<string>Детальный, обдумывает</string>
+	</dict>
+	<key>TalentImageTitle_17_789</key>
+	<dict>
+		<key>value</key>
+		<string>Формальный, целостный</string>
+	</dict>
+	<key>TalentImageTitle_17_123</key>
+	<dict>
+		<key>value</key>
+		<string>Неформальный, прогрессивный</string>
+	</dict>
+	<key>TalentImageTitle_15_789</key>
+	<dict>
+		<key>value</key>
+		<string>Настойчивый, точный</string>
+	</dict>
+	<key>TalentImageTitle_15_123</key>
+	<dict>
+		<key>value</key>
+		<string>Незлопамятный, толерантный</string>
+	</dict>
+	<key>TalentImageTitle_27_789</key>
+	<dict>
+		<key>value</key>
+		<string>Ориентирован на цель, точный</string>
+	</dict>
+	<key>TalentImageTitle_27_123</key>
+	<dict>
+		<key>value</key>
+		<string>Ориентированный на процесс, импровизирует</string>
+	</dict>
+	<key>TalentImageTitle_9_789</key>
+	<dict>
+		<key>value</key>
+		<string>Лидирующий, убедительный</string>
+	</dict>
+	<key>TalentImageTitle_9_123</key>
+	<dict>
+		<key>value</key>
+		<string>Влияет на других мягко, уступчивый</string>
+	</dict>
+	<key>TalentImageTitle_10_789</key>
+	<dict>
+		<key>value</key>
+		<string>Уверенный, неунывающий</string>
+	</dict>
+	<key>TalentImageTitle_10_123</key>
+	<dict>
+		<key>value</key>
+		<string>Избегает ошибок, самокритичный</string>
+	</dict>
+	<key>TalentImageTitle_14_789</key>
+	<dict>
+		<key>value</key>
+		<string>Предприимчивый, очень энергичный</string>
+	</dict>
+	<key>TalentImageTitle_14_123</key>
+	<dict>
+		<key>value</key>
+		<string>Спокойный, терпеливый</string>
+	</dict>
+	<key>TalentImageTitle_4_789</key>
+	<dict>
+		<key>value</key>
+		<string>Заметный, присутствующий</string>
+	</dict>
+	<key>TalentImageTitle_4_123</key>
+	<dict>
+		<key>value</key>
+		<string>Незаметный, дает место другим</string>
+	</dict>
+	<key>TalentImageTitle_2_789</key>
+	<dict>
+		<key>value</key>
+		<string>Почтительный, восхищается</string>
+	</dict>
+	<key>TalentImageTitle_2_123</key>
+	<dict>
+		<key>value</key>
+		<string>Равенство, обращается</string>
+	</dict>
+	<key>TalentImageTitle_8_789</key>
+	<dict>
+		<key>value</key>
+		<string>Благодарный, просит поддержки</string>
+	</dict>
+	<key>TalentImageTitle_8_123</key>
+	<dict>
+		<key>value</key>
+		<string>Независимый, особо не нуждается в поддержке</string>
+	</dict>
+	<key>TalentImageTitle_29_789</key>
+	<dict>
+		<key>value</key>
+		<string>Стабильный, стрессоустойчивый</string>
+	</dict>
+	<key>TalentImageTitle_29_123</key>
+	<dict>
+		<key>value</key>
+		<string>Преданный идее, обеспокоенный</string>
+	</dict>
+	<key>TalentImageTitle_11_789</key>
+	<dict>
+		<key>value</key>
+		<string>Приспосабливающийся, ориентирован на сервис</string>
+	</dict>
+	<key>TalentImageTitle_11_123</key>
+	<dict>
+		<key>value</key>
+		<string>Деловое отношение, делегирует</string>
+	</dict>
+	<key>TalentImageTitle_7_789</key>
+	<dict>
+		<key>value</key>
+		<string>Участливый, дипломатичный</string>
+	</dict>
+	<key>TalentImageTitle_7_123</key>
+	<dict>
+		<key>value</key>
+		<string>Прямолинейный, функциональный</string>
+	</dict>
+	<key>TalentImageTitle_6_789</key>
+	<dict>
+		<key>value</key>
+		<string>Дружелюбный, общительный</string>
+	</dict>
+	<key>TalentImageTitle_6_123</key>
+	<dict>
+		<key>value</key>
+		<string>Сосредоточен на фактах, функциональный</string>
+	</dict>
+	<key>TalentImageTitle_13_789</key>
+	<dict>
+		<key>value</key>
+		<string>Любит усердствовать, доводит задачи до конца</string>
+	</dict>
+	<key>TalentImageTitle_13_123</key>
+	<dict>
+		<key>value</key>
+		<string>Легко отпускает ситуацию, меняет приоритеты</string>
+	</dict>
+	<key>TalentImageTitle_5_789</key>
+	<dict>
+		<key>value</key>
+		<string>Самостоятельный, собственное мнение</string>
+	</dict>
+	<key>TalentImageTitle_5_123</key>
+	<dict>
+		<key>value</key>
+		<string>Ориентирован на команду, откровенный</string>
+	</dict>
+	<key>TalentImageTitle_21_789</key>
+	<dict>
+		<key>value</key>
+		<string>Ответственный, направляющий</string>
+	</dict>
+	<key>TalentImageTitle_21_123</key>
+	<dict>
+		<key>value</key>
+		<string>Уступчивый, покладистый</string>
+	</dict>
+	<key>TalentImageTitle_3_789</key>
+	<dict>
+		<key>value</key>
+		<string>Точный, методичный</string>
+	</dict>
+	<key>TalentImageTitle_3_123</key>
+	<dict>
+		<key>value</key>
+		<string>Креативный, гибкий</string>
+	</dict>
+	<key>TalentImageTitle_22_789</key>
+	<dict>
+		<key>value</key>
+		<string>Практичный, продуктивный</string>
+	</dict>
+	<key>TalentImageTitle_22_123</key>
+	<dict>
+		<key>value</key>
+		<string>Теоретический, абстрактный</string>
+	</dict>
+</dict>
+</plist>

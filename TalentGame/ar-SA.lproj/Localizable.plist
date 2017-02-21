@@ -37,5 +37,115 @@
 		<key>value</key>
 		<string>Organizational talents</string>
 	</dict>
+    <key>Talent1</key>
+    <dict>
+        <key>value</key>
+        <string>الطموح والتحديات</string>
+    </dict>
+    <key>Talent2</key>
+    <dict>
+        <key>value</key>
+        <string>الاحترام</string>
+    </dict>
+    <key>Talent3</key>
+    <dict>
+        <key>value</key>
+        <string>الترتيب والبنية</string>
+    </dict>
+    <key>Talent4</key>
+    <dict>
+        <key>value</key>
+        <string>الانفتاح</string>
+    </dict>
+    <key>Talent5</key>
+    <dict>
+        <key>value</key>
+        <string>التفكير والعمل المستقل</string>
+    </dict>
+    <key>Talent6</key>
+    <dict>
+        <key>value</key>
+        <string>المخالطة الاجتماعية والتواصل</string>
+    </dict>
+    <key>Talent7</key>
+    <dict>
+        <key>value</key>
+        <string>لتعاطف الاجتماعي</string>
+    </dict>
+    <key>Talent8</key>
+    <dict>
+        <key>value</key>
+        <string>الحاجة للدعم</string>
+    </dict>
+    <key>Talent9</key>
+    <dict>
+        <key>value</key>
+        <string>الهيمنة</string>
+    </dict>
+    <key>Talent10</key>
+    <dict>
+        <key>value</key>
+        <string>تقدير الذات</string>
+    </dict>
+    <key>Talent11</key>
+    <dict>
+        <key>value</key>
+        <string>الاستعداد للمساعدة</string>
+    </dict>
+    <key>Talent12</key>
+    <dict>
+        <key>value</key>
+        <string>التنوع</string>
+    </dict>
+    <key>Talent13</key>
+    <dict>
+        <key>value</key>
+        <string>المثابرة</string>
+    </dict>
+    <key>Talent14</key>
+    <dict>
+        <key>value</key>
+        <string>الطاقة والعمل</string>
+    </dict>
+    <key>Talent15</key>
+    <dict>
+        <key>value</key>
+        <string>المواجهة</string>
+    </dict>
+    <key>Talent17</key>
+    <dict>
+        <key>value</key>
+        <string>المطابقة</string>
+    </dict>
+    <key>Talent18</key>
+    <dict>
+        <key>value</key>
+        <string>الحاجة للمكانة</string>
+    </dict>
+    <key>Talent21</key>
+    <dict>
+        <key>value</key>
+        <string>المسؤولية والقيادة</string>
+    </dict>
+    <key>Talent22</key>
+    <dict>
+        <key>value</key>
+        <string>البراغماتية</string>
+    </dict>
+    <key>Talent25</key>
+    <dict>
+        <key>value</key>
+        <string>الحسم</string>
+    </dict>
+    <key>Talent27</key>
+    <dict>
+        <key>value</key>
+        <string>وضوح الهدف</string>
+    </dict>
+    <key>Talent29</key>
+    <dict>
+        <key>value</key>
+        <string>إدارة التوتر والضغط النفسي</string>
+    </dict>
 </dict>
 </plist>
