@@ -7,35 +7,615 @@
 		<key>value</key>
 		<string>Talent Game NL</string>
 	</dict>
-	<key>dimension1_text</key>
-	<dict>
-		<key>value</key>
-		<string>Emotional balance</string>
-	</dict>
-	<key>dimension2_text</key>
-	<dict>
-		<key>value</key>
-		<string>Motives</string>
-	</dict>
-	<key>dimension3_text</key>
-	<dict>
-		<key>value</key>
-		<string>Social talents</string>
-	</dict>
-	<key>dimension4_text</key>
-	<dict>
-		<key>value</key>
-		<string>Influential talents</string>
-	</dict>
-	<key>dimension5_text</key>
-	<dict>
-		<key>value</key>
-		<string>Leadership talents</string>
-	</dict>
-	<key>dimension6_text</key>
-	<dict>
-		<key>value</key>
-		<string>Organizational talents</string>
-	</dict>
+    <key>Address</key>
+    <dict>
+        <key>value</key>
+        <string>Adres</string>
+    </dict>
+    <key>AppInfo</key>
+    <dict>
+        <key>value</key>
+        <string>Mensen zijn het meest gemotiveerd, effectief en succesvol in werk dat dicht bij hun talenten ligt. Vanuit deze visie is de TMA Talent Game gemaakt. Via de game krijg je op een laagdrempelige manier antwoorden op vragen als: welke talenten heb ik, welke talenten kan ik bewuster inzetten, waar zijn wij als team goed in en hoe kunnen we de kwaliteiten van teamleden beter inzetten? De TMA Talent Game bevat 44 talentkaarten en 4 kaarten met spelvarianten en uitleg. De game is een praktisch hulpmiddel voor iedereen die meer wil doen met z’n eigen talenten. Het kan individueel en in teamverband worden gespeeld. Daarnaast is de game er voor TMA Professionals en trainers die het spel gebruiken bij de begeleiding van individuen en teams. Tenslotte is de TMA Talent Game er ook om op speelse wijze ervaring op te doen met de achterliggende concepten van talentmanagement, zoals drijfveren. Daarmee is het tevens geschikt voor mensen die de TMA Professional training volgen. Ben je geïnteresseerd om gecertificeerd TMA Professional te worden zodat je de online TMA instrumenten kan gebruiken? Wil jij ook op positieve wijze het beste uit de talenten van mensen en organisaties halen? Neem dan contact op via info@tmamethod.com of bel 030-2670444. Download de TMA Talent Game App en gebruik de digitale talentkaarten en aanvullende spelvarianten op je mobiel om de samenwerking en performance van je team te vergroten. Kijk voor meer informatie op www.tmamethod.com De TMA organisatie is uitgever van praktische online instrumenten op gebied van selectie en ontwikkeling van mensen en teams. TMA biedt professioneel inzicht in de relatie tussen het gewenste werkgedrag en de talenten van individuen en teams.</string>
+    </dict>
+    <key>Email</key>
+    <dict>
+        <key>value</key>
+        <string>E-mail</string>
+    </dict>
+    <key>FollowUsOn</key>
+    <dict>
+        <key>value</key>
+        <string>Volg ons op</string>
+    </dict>
+    <key>Game1</key>
+    <dict>
+        <key>value</key>
+        <string>Game 1</string>
+    </dict>
+    <key>Game1_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Leg alle talentkaarten open op tafel. 2. Kies uit de talentkaarten 8 talenten die je in jezelf herkent. 3. Bedenk hoe deze talenten nuttig kunnen zijn in je werksituatie.</string>
+    </dict>
+    <key>Game1_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Game 1: Ontdek je eigen talenten</string>
+    </dict>
+    <key>Game1_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Met deze spelvorm kun je jezelf bewust worden van je talenten.</string>
+    </dict>
+    <key>Game2</key>
+    <dict>
+        <key>value</key>
+        <string>Game 2</string>
+    </dict>
+    <key>Game2_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Kies allereerst wat jij wilt ontwikkelen. Bijvoorbeeld een vaardigheid of een competentie zoals onderhandelen, klanten helpen, samenwerken etc. 2. Leg alle talentkaarten op een stapel en pak vervolgens één kaart van de stapel. 3. Bij iedere kaart die je oppakt, bedenk je of jij dat talent hebt. 4. Als je het talent niet hebt, leg je de kaart weg en pak je een volgende kaart van de stapel. 5. Als je een talentkaart pakt die wel op jou van toepassing is, bedenk je of en hoe dit talent jou kan helpen bij de ontwikkeling van de vaardigheid of competentie. 6. Blijf kaarten trekken tot je genoeg talenten hebt die jou kunnen helpen bij je ontwikkeling.</string>
+    </dict>
+    <key>Game2_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Game 2: Persoonlijke ontwikkeling</string>
+    </dict>
+    <key>Game2_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Met deze spelvorm krijg je inzicht in de talenten die je kunt inzetten voor je eigen persoonlijke ontwikkeling.</string>
+    </dict>
+    <key>Game3</key>
+    <dict>
+        <key>value</key>
+        <string>Game 3</string>
+    </dict>
+    <key>Game3_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Leg alle talentkaarten open op tafel. 2. Kies allereerst een centraal persoon die talentenfeedback van de andere deelnemers krijgt. 3. De overige personen kiezen om de beurt een talentkaart waarvan ze vinden dat die op de centrale persoon van toepassing is en geven die aan de centrale persoon. Je kunt daarbij naar eigen inzicht een toelichting geven. 4. Als alle deelnemers een talentkaart aan de centrale persoon hebben gegeven, is er de volgende centrale persoon aan de beurt. Alle deelnemers geven opnieuw een talentkaart aan diegene. 5. Het spel gaat net zo lang door totdat iedereen een keer de centrale persoon is geweest.</string>
+    </dict>
+    <key>Game3_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Game 3: Talentenfeedback</string>
+    </dict>
+    <key>Game3_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Deze spelvorm speel je met minimaal 3 mensen. Het spel heeft tot doel elkaars talenten te herkennen en te benoemen.</string>
+    </dict>
+    <key>Game4</key>
+    <dict>
+        <key>value</key>
+        <string>Game 4</string>
+    </dict>
+    <key>Game4_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Leg alle talentkaarten open op tafel. 2. Kies een startpersoon. De startpersoon kiest een talentkaart waarvan hij/zij vindt dat het een echt talent van het team is en legt uit waarom. 3. Vervolgens mogen de andere personen vertellen of zij ook vinden dat dit een teamtalent is. Als (bijna) iedereen vindt dat dit een teamtalent is, benoem je dit tot eerste teamtalent. Als de meningen te veel verschillen, leg je de talentkaart weg. 4. Vervolgens pakt een volgend persoon een talentkaart waarvan hij/zij vindt dat het een teamtalent is en legt uit waarom hij dat vindt. Daarna mogen anderen hierover hun mening geven. 5. Je gaat net zo lang door totdat je 3 tot 5 teamtalenten hebt gevonden waar (bijna) iedereen het mee eens is. 6. Nadat je een aantal teamtalenten hebt gevonden, kun je met elkaar bespreken hoe je deze teamtalenten in het werk kunt gebruiken.</string>
+    </dict>
+    <key>Game4_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Game 4: De talenten van het team</string>
+    </dict>
+    <key>Game4_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Deze spelvorm speel je minimaal met 3 mensen. Het spel heeft tot doel de talenten van het team (als totaal) te benoemen.</string>
+    </dict>
+    <key>Game5</key>
+    <dict>
+        <key>value</key>
+        <string>Game 5</string>
+    </dict>
+    <key>Game5_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Leg alle talentkaarten verspreid dicht op tafel met de bollen naar boven. 2. Kies een startpersoon. De startpersoon opent 2 willekeurige kaarten. Indien de twee kaarten dezelfde drijfveer hebben (tekst rechtsonder) mag de persoon deze set kaarten houden en noemt op welke drijfveer hij/zij heeft gevonden en welke talenten (tekst linksboven) op beide kaarten staat. Dan mag deze speler nogmaals 2 kaarten omdraaien. Dit gaat net zolang door tot de persoon twee verschillende kaarten opendraait. 3. Dan is het de beurt aan de volgende speler om 2 kaarten open te draaien en herhalen de handelingen zich zoals in stap 2 beschreven. 4. Het spel is ten einde als alle paren drijfveren zijn gevonden. De speler met de meeste paren heeft gewonnen.</string>
+    </dict>
+    <key>Game5_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Game 5: Talenten en drijfveren memory</string>
+    </dict>
+    <key>Game5_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Deze spelvorm speel je met 2 tot 4 mensen. Het spel heeft tot doel te leren welke talenten bij welke drijfveren horen.</string>
+    </dict>
+    <key>Game6</key>
+    <dict>
+        <key>value</key>
+        <string>Game 6</string>
+    </dict>
+    <key>Game6_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Bij de TMA Talent Game zijn 5 spelvarianten toegevoegd. We nodigen je graag uit zelf spelvarianten te bedenken. Als je jouw variant met de TMA community wilt delen stuur het dan op naar de TMA organisatie (info@tmamethod.com) of post het op de TMA groep op LinkedIN. Wellicht wordt jouw spelvariant dan wel opgenomen in de Talent Game App! Het TMA team</string>
+    </dict>
+    <key>Game6_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Game 6: Bedenk je eigen spelvarianten</string>
+    </dict>
+    <key>Game6_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string></string>
+    </dict>
+    <key>Linkedin</key>
+    <dict>
+        <key>value</key>
+        <string>Linkedin</string>
+    </dict>
+    <key>Phone</key>
+    <dict>
+        <key>value</key>
+        <string>Telefoon</string>
+    </dict>
+    <key>TMAMethode</key>
+    <dict>
+        <key>value</key>
+        <string>TMA Methode</string>
+    </dict>
+    <key>Twitter</key>
+    <dict>
+        <key>value</key>
+        <string>Twitter</string>
+    </dict>
+    <key>TwitterId</key>
+    <dict>
+        <key>value</key>
+        <string>tmamethode</string>
+    </dict>
+    <key>Website</key>
+    <dict>
+        <key>value</key>
+        <string>Web</string>
+    </dict>
+    <key>app_name</key>
+    <dict>
+        <key>value</key>
+        <string>TMA Talent Game</string>
+    </dict>
+    <key>btn_Games</key>
+    <dict>
+        <key>value</key>
+        <string>Games</string>
+    </dict>
+    <key>btn_contact</key>
+    <dict>
+        <key>value</key>
+        <string>Contact</string>
+    </dict>
+    <key>btn_facebook</key>
+    <dict>
+        <key>value</key>
+        <string>Facebook</string>
+    </dict>
+    <key>btn_info</key>
+    <dict>
+        <key>value</key>
+        <string>Info</string>
+    </dict>
+    <key>btn_linkedin</key>
+    <dict>
+        <key>value</key>
+        <string>Linkedin</string>
+    </dict>
+    <key>btn_media</key>
+    <dict>
+        <key>value</key>
+        <string>Media</string>
+    </dict>
+    <key>changeLanguage</key>
+    <dict>
+        <key>value</key>
+        <string>Verander taal</string>
+    </dict>
+    <key>contactText</key>
+    <dict>
+        <key>value</key>
+        <string>De TMA Methode is de geïntegreerde systematiek voor selectie en ontwikkeling van medewerkers waarbij talenten en competenties centraal staan. TMA Methode wordt aangeboden als online service en gebruikt voor competentie- en talentmanagement, 360 graden feedback, inrichten loopbaancentra, assessments, TMA Talentenanalyses, MD trajecten, mobiliteitsvraagstukken, beoordeling, beroepskeuze en selectiegesprekken.</string>
+    </dict>
+    <key>dimension1_text</key>
+    <dict>
+        <key>value</key>
+        <string>Emotionele balans</string>
+    </dict>
+    <key>dimension2_text</key>
+    <dict>
+        <key>value</key>
+        <string>Motieven</string>
+    </dict>
+    <key>dimension3_text</key>
+    <dict>
+        <key>value</key>
+        <string>Sociale talenten</string>
+    </dict>
+    <key>dimension4_text</key>
+    <dict>
+        <key>value</key>
+        <string>Beïnvloedende talenten</string>
+    </dict>
+    <key>dimension5_text</key>
+    <dict>
+        <key>value</key>
+        <string>Leidinggevende talenten</string>
+    </dict>
+    <key>dimension6_text</key>
+    <dict>
+        <key>value</key>
+        <string>Organisatorische talenten</string>
+    </dict>
+    <key>launching_app_name</key>
+    <dict>
+        <key>value</key>
+        <string>Talent Game</string>
+    </dict>
+    <key>locale_lang</key>
+    <dict>
+        <key>value</key>
+        <string>lang_culture</string>
+    </dict>
+    <key>title_activity_Games</key>
+    <dict>
+        <key>value</key>
+        <string>Games</string>
+    </dict>
+    <key>title_activity_app_info</key>
+    <dict>
+        <key>value</key>
+        <string>Info</string>
+    </dict>
+    <key>title_activity_contact</key>
+    <dict>
+        <key>value</key>
+        <string>Contact</string>
+    </dict>
+    <key>title_activity_media</key>
+    <dict>
+        <key>value</key>
+        <string>Media</string>
+    </dict>
+    <key>title_drives_alphabetical</key>
+    <dict>
+        <key>value</key>
+        <string>Drijfveren Alfabetisch</string>
+    </dict>
+    <key>Talent1</key>
+    <dict>
+        <key>value</key>
+        <string>Ambitie &amp; uitdaging</string>
+    </dict>
+    <key>Talent2</key>
+    <dict>
+        <key>value</key>
+        <string>Ontzag</string>
+    </dict>
+    <key>Talent3</key>
+    <dict>
+        <key>value</key>
+        <string>Orde &amp; structuur</string>
+    </dict>
+    <key>Talent4</key>
+    <dict>
+        <key>value</key>
+        <string>Extraversie</string>
+    </dict>
+    <key>Talent5</key>
+    <dict>
+        <key>value</key>
+        <string>Onafhankelijk denken &amp; handelen</string>
+    </dict>
+    <key>Talent6</key>
+    <dict>
+        <key>value</key>
+        <string>Sociabiliteit &amp; contact</string>
+    </dict>
+    <key>Talent7</key>
+    <dict>
+        <key>value</key>
+        <string>Sociale empathie</string>
+    </dict>
+    <key>Talent8</key>
+    <dict>
+        <key>value</key>
+        <string>Steunbehoefte</string>
+    </dict>
+    <key>Talent9</key>
+    <dict>
+        <key>value</key>
+        <string>Dominantie</string>
+    </dict>
+    <key>Talent10</key>
+    <dict>
+        <key>value</key>
+        <string>Eigenwaarde</string>
+    </dict>
+    <key>Talent11</key>
+    <dict>
+        <key>value</key>
+        <string>Hulpverlenen</string>
+    </dict>
+    <key>Talent12</key>
+    <dict>
+        <key>value</key>
+        <string>Afwisseling</string>
+    </dict>
+    <key>Talent13</key>
+    <dict>
+        <key>value</key>
+        <string>Volharding</string>
+    </dict>
+    <key>Talent14</key>
+    <dict>
+        <key>value</key>
+        <string>Energie &amp; actie</string>
+    </dict>
+    <key>Talent15</key>
+    <dict>
+        <key>value</key>
+        <string>Confrontatie</string>
+    </dict>
+    <key>Talent17</key>
+    <dict>
+        <key>value</key>
+        <string>Conformeren</string>
+    </dict>
+    <key>Talent18</key>
+    <dict>
+        <key>value</key>
+        <string>Aanzienbehoefte</string>
+    </dict>
+    <key>Talent21</key>
+    <dict>
+        <key>value</key>
+        <string>Verantwoording &amp; leiderschap</string>
+    </dict>
+    <key>Talent22</key>
+    <dict>
+        <key>value</key>
+        <string>Pragmatisme</string>
+    </dict>
+    <key>Talent25</key>
+    <dict>
+        <key>value</key>
+        <string>Besluiten nemen</string>
+    </dict>
+    <key>Talent27</key>
+    <dict>
+        <key>value</key>
+        <string>Doelgerichtheid</string>
+    </dict>
+    <key>Talent29</key>
+    <dict>
+        <key>value</key>
+        <string>Stressbestendig &amp; druk</string>
+    </dict>
+    <key>TalentImageTitle_18_789</key>
+    <dict>
+        <key>value</key>
+        <string>Representatief, trots</string>
+    </dict>
+    <key>TalentImageTitle_18_123</key>
+    <dict>
+        <key>value</key>
+        <string>Bescheiden, nuchter,</string>
+    </dict>
+    <key>TalentImageTitle_12_789</key>
+    <dict>
+        <key>value</key>
+        <string>Gevarieerd, omgevingsgericht </string>
+    </dict>
+    <key>TalentImageTitle_12_123</key>
+    <dict>
+        <key>value</key>
+        <string>Focus, geconcentreerd, </string>
+    </dict>
+    <key>TalentImageTitle_1_789</key>
+    <dict>
+        <key>value</key>
+        <string>Competitief, houdt van presteren</string>
+    </dict>
+    <key>TalentImageTitle_1_123</key>
+    <dict>
+        <key>value</key>
+        <string>Tevreden, relativerend</string>
+    </dict>
+    <key>TalentImageTitle_25_789</key>
+    <dict>
+        <key>value</key>
+        <string>Initiatiefrijk, probleem-oplossend</string>
+    </dict>
+    <key>TalentImageTitle_25_123</key>
+    <dict>
+        <key>value</key>
+        <string>Genuanceerd, overwegend</string>
+    </dict>
+    <key>TalentImageTitle_17_789</key>
+    <dict>
+        <key>value</key>
+        <string>Formeel, integer</string>
+    </dict>
+    <key>TalentImageTitle_17_123</key>
+    <dict>
+        <key>value</key>
+        <string>Informeel, grensverleggend</string>
+    </dict>
+    <key>TalentImageTitle_15_789</key>
+    <dict>
+        <key>value</key>
+        <string>Assertief, duidelijk </string>
+    </dict>
+    <key>TalentImageTitle_15_123</key>
+    <dict>
+        <key>value</key>
+        <string>Vergevingsgezind, tolerant</string>
+    </dict>
+    <key>TalentImageTitle_27_789</key>
+    <dict>
+        <key>value</key>
+        <string>Doelgericht, concreet</string>
+    </dict>
+    <key>TalentImageTitle_27_123</key>
+    <dict>
+        <key>value</key>
+        <string>Procesgericht, weet makkelijk te improviseren</string>
+    </dict>
+    <key>TalentImageTitle_9_789</key>
+    <dict>
+        <key>value</key>
+        <string>Sturend, overtuigend</string>
+    </dict>
+    <key>TalentImageTitle_9_123</key>
+    <dict>
+        <key>value</key>
+        <string>Subtiel, meegaand</string>
+    </dict>
+    <key>TalentImageTitle_10_789</key>
+    <dict>
+        <key>value</key>
+        <string>Zelfvertrouwen, veerkrachtig</string>
+    </dict>
+    <key>TalentImageTitle_10_123</key>
+    <dict>
+        <key>value</key>
+        <string>Fouten vermijden, zelfkritisch</string>
+    </dict>
+    <key>TalentImageTitle_14_789</key>
+    <dict>
+        <key>value</key>
+        <string>Ondernemend, energievol</string>
+    </dict>
+    <key>TalentImageTitle_14_123</key>
+    <dict>
+        <key>value</key>
+        <string>Kalm, geduldig</string>
+    </dict>
+    <key>TalentImageTitle_4_789</key>
+    <dict>
+        <key>value</key>
+        <string>Opvallend, aanwezig</string>
+    </dict>
+    <key>TalentImageTitle_4_123</key>
+    <dict>
+        <key>value</key>
+        <string>Onopvallend, geeft anderen ruimte</string>
+    </dict>
+    <key>TalentImageTitle_2_789</key>
+    <dict>
+        <key>value</key>
+        <string>Respectvol, bewonderen </string>
+    </dict>
+    <key>TalentImageTitle_2_123</key>
+    <dict>
+        <key>value</key>
+        <string>Gelijkwaardig, benaderen</string>
+    </dict>
+    <key>TalentImageTitle_8_789</key>
+    <dict>
+        <key>value</key>
+        <string>Dankbaar, aan support vragt</string>
+    </dict>
+    <key>TalentImageTitle_8_123</key>
+    <dict>
+        <key>value</key>
+        <string>Zelfstandig, weinig hulp nodig</string>
+    </dict>
+    <key>TalentImageTitle_29_789</key>
+    <dict>
+        <key>value</key>
+        <string>Stabiel, stressbestendig</string>
+    </dict>
+    <key>TalentImageTitle_29_123</key>
+    <dict>
+        <key>value</key>
+        <string>Betrokken, bezorgd</string>
+    </dict>
+    <key>TalentImageTitle_11_789</key>
+    <dict>
+        <key>value</key>
+        <string>Hulpverlenend, servicegericht </string>
+    </dict>
+    <key>TalentImageTitle_11_123</key>
+    <dict>
+        <key>value</key>
+        <string>Zakelijk, delegeren</string>
+    </dict>
+    <key>TalentImageTitle_7_789</key>
+    <dict>
+        <key>value</key>
+        <string>Inlevend, diplomatiek </string>
+    </dict>
+    <key>TalentImageTitle_7_123</key>
+    <dict>
+        <key>value</key>
+        <string>Feitelijk en functioneel</string>
+    </dict>
+    <key>TalentImageTitle_6_789</key>
+    <dict>
+        <key>value</key>
+        <string>Amicaal, communicatief</string>
+    </dict>
+    <key>TalentImageTitle_6_123</key>
+    <dict>
+        <key>value</key>
+        <string>Individueel, gereserveerd</string>
+    </dict>
+    <key>TalentImageTitle_13_789</key>
+    <dict>
+        <key>value</key>
+        <string>doorwerken, taken afronden</string>
+    </dict>
+    <key>TalentImageTitle_13_123</key>
+    <dict>
+        <key>value</key>
+        <string>loslaten, prioriteiten verleggen</string>
+    </dict>
+    <key>TalentImageTitle_5_789</key>
+    <dict>
+        <key>value</key>
+        <string>Autonoom, eigen mening</string>
+    </dict>
+    <key>TalentImageTitle_5_123</key>
+    <dict>
+        <key>value</key>
+        <string>Groepsgericht, transparant</string>
+    </dict>
+    <key>TalentImageTitle_21_789</key>
+    <dict>
+        <key>value</key>
+        <string>Verantwoordelijk, leidend </string>
+    </dict>
+    <key>TalentImageTitle_21_123</key>
+    <dict>
+        <key>value</key>
+        <string>Volgend, accepteren</string>
+    </dict>
+    <key>TalentImageTitle_3_789</key>
+    <dict>
+        <key>value</key>
+        <string>Accuraat, planmatig</string>
+    </dict>
+    <key>TalentImageTitle_3_123</key>
+    <dict>
+        <key>value</key>
+        <string>Creatief, flexibel</string>
+    </dict>
+    <key>TalentImageTitle_22_789</key>
+    <dict>
+        <key>value</key>
+        <string>Praktisch, efficiënt</string>
+    </dict>
+    <key>TalentImageTitle_22_123</key>
+    <dict>
+        <key>value</key>
+        <string>Theoretisch, abstract </string>
+    </dict>
 </dict>
 </plist>

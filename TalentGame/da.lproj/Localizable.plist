@@ -7,35 +7,614 @@
 		<key>value</key>
 		<string>Talent Game DA</string>
 	</dict>
-	<key>dimension1_text</key>
-	<dict>
-		<key>value</key>
-		<string>Emotional balance</string>
-	</dict>
-	<key>dimension2_text</key>
-	<dict>
-		<key>value</key>
-		<string>Motives</string>
-	</dict>
-	<key>dimension3_text</key>
-	<dict>
-		<key>value</key>
-		<string>Social talents</string>
-	</dict>
-	<key>dimension4_text</key>
-	<dict>
-		<key>value</key>
-		<string>Influential talents</string>
-	</dict>
-	<key>dimension5_text</key>
-	<dict>
-		<key>value</key>
-		<string>Leadership talents</string>
-	</dict>
-	<key>dimension6_text</key>
-	<dict>
-		<key>value</key>
-		<string>Organizational talents</string>
-	</dict>
+    <key>Address</key>
+    <dict>
+        <key>value</key>
+        <string>Adresse</string>
+    </dict>
+    <key>AppInfo</key>
+    <dict>
+        <key>value</key>
+        <string>Folk fremviser mest motivation, effektivitet og succes i det arbejde der ligger tættest på deres talenter. Det er den vision TMA-Talentspil bygger på. Ved hjælp af spillet kan du få sammenfattende svar på mange spørgsmål, såsom: Hvilke talenter behersker jeg? Hvilke talenter skal jeg blive opmærksom på? Hvor står vi som team? Hvordan kan vi øge brug af teammedlemmernes færdigheder? TMA Talentspil indeholder 44 talentkort og 4 kort med spilvariationer og forklaring. Spillet er et praktisk værktøj for alle som vil arbejde med deres talenter. Du kan spille enten alene eller i gruppe. Spillet er desuden rettet mod TMA-eksperter og trænere som bruger det i individuel eller team-coaching. Sidst men ikke mindst hjælper TMA Talentspil dig med at få erfaring gennem et spil med underliggende koncepter af talentmanagement. Det gør det også brugbart for dem der deltager i TMA-eksperttræning. Er du interesseret i at blive en certificeret TMA-ekspert og bruge videnskabeligt begrundede og online TMA-værktøjer? Vil du gøre det bedste ud af menneskellige og erhvervsmæssige talenter på en positiv måde? Så kontakt os via info@tmamethod.com eller ring på +31 30 2670444.</string>
+    </dict>
+    <key>Email</key>
+    <dict>
+        <key>value</key>
+        <string>E-mail</string>
+    </dict>
+    <key>FollowUsOn</key>
+    <dict>
+        <key>value</key>
+        <string>Følg os på</string>
+    </dict>
+    <key>Game1</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 1</string>
+    </dict>
+    <key>Game1_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Læg alle talentkortene på bordet. 2. Vælg otte talenter som du kan genkende. 3. Overvej hvordan du kan bruge disse talenter i din arbejdsgang.</string>
+    </dict>
+    <key>Game1_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 1: Udforsk dine egne talenter</string>
+    </dict>
+    <key>Game1_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Dette spil gør dig opmærksom på dine talenter.</string>
+    </dict>
+    <key>Game2</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 2</string>
+    </dict>
+    <key>Game2_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Først skal du bestemme hvad det er du vil udvikle. F.eks. en evne eller en kompetence såsom forhandlingsevne, orientering mod kunder, samarbejde osv. 2. Læg alle talentkortene i en bunke og tag et kort. 3. For hvert kort du tager skal du bestemme om du har det talent eller ej. 4. Hvis du ikke har dette talent, læg kortet fra dig og tag et nyt ét fra bunken. 5. Hvis du tager et kort som passer til dig, overvej om og hvordan talentet kan hjælpe dig med at udvikle en vis evne eller kompetence. 6. Bliv ved med at tage kort indtil du har nok talenter som kan hjælpe dig i din udvikling.</string>
+    </dict>
+    <key>Game2_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 2: Personlig udvikling</string>
+    </dict>
+    <key>Game2_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Dette spil hjælper dig med at finde ud af hvilke talenter du kan bruge til din personlige udvikling.</string>
+    </dict>
+    <key>Game3</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 3</string>
+    </dict>
+    <key>Game3_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Læg alle talentkortene på bordet. 2. Vælg en centralperson der bliver den første at modtage feedback fra de andre deltagere. 3. De andre skal efter tur vælge et talentkort som de synes passer til centralpersonen og give det videre til personen. 4. Når alle deltagere har givet kort til centralpersonen, er det den næste centralpersons tur. Alle deltagere går i gang med at give et talentkort til denne person. 5. Spillet fortsætter indtil alle har været centralpersoner.</string>
+    </dict>
+    <key>Game3_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 3: Feedback om talent</string>
+    </dict>
+    <key>Game3_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Man spiller det her spil med mindst 3 andre mennesker. Spillet går ud på at genkende hinandens talenter.</string>
+    </dict>
+    <key>Game4</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 4</string>
+    </dict>
+    <key>Game4_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Læg alle talentkortene på bordet. 2. Vælg en person der starter. Personen tager et talentkort som han/ hun synes er teamets virkelige talent og forklarer hvorfor. 3. Bagefter kan de andre sige om de også synes det er teamets talent. Hvis (næsten) alle er enige om det er teamets talent, nævner man det teamets første talent. Hvis meninger er meget forskellige, læg kortet fra dig. 4. Bagefter tager den næste person et talentkort som han/ hun synes er teamets talent og forklarer hvorfor han/ hun synes det. De andre giver også deres syn på det. 5. I fortsætter intil I har 3 til 5 teamets talenter som (næsten) alle er enige om. 6. Efter at I har et sæt af teamets talenter, kan I diskutere hvordan I kan bruge disse talenter i jeres fælles arbejde.</string>
+    </dict>
+    <key>Game4_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 4: Teamets talenter</string>
+    </dict>
+    <key>Game4_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Man spiller det her spil med mindst 3 andre mennesker. Spillet går ud på at genkende talenter i teamet (som en helhed).</string>
+    </dict>
+    <key>Game5</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 5</string>
+    </dict>
+    <key>Game5_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Spred alle kortene på bordet med bagsiden op. 2. Vælg en person der starter. Personen vender to tilfældige kort om. Hvis kortene har de samme drivkræfter (teksten under den højre del), beholder personen kortene og siger hvilke drivkræfter han/ hun har fundet og hvad talenter (teksten over den venstre del) på begge kort siger. Den samme person får lov til at vende om to kort mere. Det fortsætter indtil personen vender om to kort som er forskellige. 3. Så er det den næste persons tur til at vende to kort om og gentage alt som er beskrivet i trin 2. 4. Spillet slutter når alle par af drivkræfter er blevet fundet. Den der har flest par vinder.</string>
+    </dict>
+    <key>Game5_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 5: Talent- og motivationshukommelse</string>
+    </dict>
+    <key>Game5_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Man spiller det her spil med 2 til 4 mennesker. Formålet er at finde ud af hvilke evner hører til hvilke drivkræfter.</string>
+    </dict>
+    <key>Game6</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 6</string>
+    </dict>
+    <key>Game6_Description</key>
+    <dict>
+        <key>value</key>
+        <string>TMA Talentspil indeholder 5 spilvariationer. Vi opfordrer dig til at finde på dine egne spilvariationer. Hvis du vil dele din version med TMA-gruppen, send den til TMA (info@tmamethod.com) eller læg det ud i TMA’s gruppe på LinkedIn. Det kan godt være din version bliver en del af Talentspil App. TMA-teamet</string>
+    </dict>
+    <key>Game6_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Spil 6: Lav din egen spilvariation</string>
+    </dict>
+    <key>Game6_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string></string>
+    </dict>
+    <key>Linkedin</key>
+    <dict>
+        <key>value</key>
+        <string>Linkedin</string>
+    </dict>
+    <key>Phone</key>
+    <dict>
+        <key>value</key>
+        <string>Telefon</string>
+    </dict>
+    <key>TMAMethode</key>
+    <dict>
+        <key>value</key>
+        <string>TMA Methode</string>
+    </dict>
+    <key>Twitter</key>
+    <dict>
+        <key>value</key>
+        <string>Twitter</string>
+    </dict>
+    <key>TwitterId</key>
+    <dict>
+        <key>value</key>
+        <string>tmamethode</string>
+    </dict>
+    <key>Website</key>
+    <dict>
+        <key>value</key>
+        <string>Hjemmeside</string>
+    </dict>
+    <key>app_name</key>
+    <dict>
+        <key>value</key>
+        <string>TMA Talentspil</string>
+    </dict>
+    <key>btn_Games</key>
+    <dict>
+        <key>value</key>
+        <string>Spil</string>
+    </dict>
+    <key>btn_contact</key>
+    <dict>
+        <key>value</key>
+        <string>Kontakt</string>
+    </dict>
+    <key>btn_facebook</key>
+    <dict>
+        <key>value</key>
+        <string>Facebook</string>
+    </dict>
+    <key>btn_info</key>
+    <dict>
+        <key>value</key>
+        <string>Info</string>
+    </dict>
+    <key>btn_linkedin</key>
+    <dict>
+        <key>value</key>
+        <string>Linkedin</string>
+    </dict>
+    <key>btn_media</key>
+    <dict>
+        <key>value</key>
+        <string>Medier</string>
+    </dict>
+    <key>changeLanguage</key>
+    <dict>
+        <key>value</key>
+        <string>Skift sprog</string>
+    </dict>
+    <key>contactText</key>
+    <dict>
+        <key>value</key>
+        <string>TMA-metode er et integreret system for udvælgelse og udvikling af medarbejdere hvor talenter og færdigheder er nøglebegreber. TMA-metode tilbydes som online service og bruges til kompetence- og talentmanagement, 360 graders feedback, oprettelse af karrierecentre, evalueringer, TMA-talentanalyser, MD baner, mobilitet, diskussioner, karriere- og jobsamtaler.</string>
+    </dict>
+    <key>dimension1_text</key>
+    <dict>
+        <key>value</key>
+        <string>Følelsesmæssig balance</string>
+    </dict>
+    <key>dimension2_text</key>
+    <dict>
+        <key>value</key>
+        <string>Motiver</string>
+    </dict>
+    <key>dimension3_text</key>
+    <dict>
+        <key>value</key>
+        <string>Kommunikationsevner</string>
+    </dict>
+    <key>dimension4_text</key>
+    <dict>
+        <key>value</key>
+        <string>Påvirkende talenter</string>
+    </dict>
+    <key>dimension5_text</key>
+    <dict>
+        <key>value</key>
+        <string>ledelsesevner</string>
+    </dict>
+    <key>dimension6_text</key>
+    <dict>
+        <key>value</key>
+        <string>Organisationstalent</string>
+    </dict>
+    <key>launching_app_name</key>
+    <dict>
+        <key>value</key>
+        <string>Talentspil</string>
+    </dict>
+    <key>locale_lang</key>
+    <dict>
+        <key>value</key>
+        <string>lang_culture</string>
+    </dict>
+    <key>title_activity_Games</key>
+    <dict>
+        <key>value</key>
+        <string>Spil</string>
+    </dict>
+    <key>title_activity_app_info</key>
+    <dict>
+        <key>value</key>
+        <string>Info</string>
+    </dict>
+    <key>title_activity_contact</key>
+    <dict>
+        <key>value</key>
+        <string>Kontakt</string>
+    </dict>
+    <key>title_activity_media</key>
+    <dict>
+        <key>value</key>
+        <string>Medier</string>
+    </dict>
+    <key>title_drives_alphabetical</key>
+    <dict>
+        <key>value</key>
+        <string>Drivkræfter alfabetisk</string>
+    </dict>    <key>Talent1</key>
+    <dict>
+        <key>value</key>
+        <string>Ambition og udfordring</string>
+    </dict>
+    <key>Talent2</key>
+    <dict>
+        <key>value</key>
+        <string>Respekt</string>
+    </dict>
+    <key>Talent3</key>
+    <dict>
+        <key>value</key>
+        <string>Orden og struktur</string>
+    </dict>
+    <key>Talent4</key>
+    <dict>
+        <key>value</key>
+        <string>Imødekommenhed</string>
+    </dict>
+    <key>Talent5</key>
+    <dict>
+        <key>value</key>
+        <string>Tænke og handle uafhængigt</string>
+    </dict>
+    <key>Talent6</key>
+    <dict>
+        <key>value</key>
+        <string>Sociabilitet og kontakt</string>
+    </dict>
+    <key>Talent7</key>
+    <dict>
+        <key>value</key>
+        <string>Social empati</string>
+    </dict>
+    <key>Talent8</key>
+    <dict>
+        <key>value</key>
+        <string>Støttebehov</string>
+    </dict>
+    <key>Talent9</key>
+    <dict>
+        <key>value</key>
+        <string>Dominans</string>
+    </dict>
+    <key>Talent10</key>
+    <dict>
+        <key>value</key>
+        <string>Selvværd</string>
+    </dict>
+    <key>Talent11</key>
+    <dict>
+        <key>value</key>
+        <string>Hjælpsomhed</string>
+    </dict>
+    <key>Talent12</key>
+    <dict>
+        <key>value</key>
+        <string>Afveksling</string>
+    </dict>
+    <key>Talent13</key>
+    <dict>
+        <key>value</key>
+        <string>Standhaftighed</string>
+    </dict>
+    <key>Talent14</key>
+    <dict>
+        <key>value</key>
+        <string>Energi og handling</string>
+    </dict>
+    <key>Talent15</key>
+    <dict>
+        <key>value</key>
+        <string>Konfrontation</string>
+    </dict>
+    <key>Talent17</key>
+    <dict>
+        <key>value</key>
+        <string>Tilpasning</string>
+    </dict>
+    <key>Talent18</key>
+    <dict>
+        <key>value</key>
+        <string>Anseelsesbehov</string>
+    </dict>
+    <key>Talent21</key>
+    <dict>
+        <key>value</key>
+        <string>Ansvar og ledelse</string>
+    </dict>
+    <key>Talent22</key>
+    <dict>
+        <key>value</key>
+        <string>Pragmatisme</string>
+    </dict>
+    <key>Talent25</key>
+    <dict>
+        <key>value</key>
+        <string>Tage beslutninger</string>
+    </dict>
+    <key>Talent27</key>
+    <dict>
+        <key>value</key>
+        <string>Målrettet</string>
+    </dict>
+    <key>Talent29</key>
+    <dict>
+        <key>value</key>
+        <string>Stressbestandig og travlhed</string>
+    </dict>
+    <key>TalentImageTitle_18_789</key>
+    <dict>
+        <key>value</key>
+        <string>Repræsentativ, stolt</string>
+    </dict>
+    <key>TalentImageTitle_18_123</key>
+    <dict>
+        <key>value</key>
+        <string>Beskeden, nøgtern</string>
+    </dict>
+    <key>TalentImageTitle_12_789</key>
+    <dict>
+        <key>value</key>
+        <string>Varieret, omgivelsesfokuseret </string>
+    </dict>
+    <key>TalentImageTitle_12_123</key>
+    <dict>
+        <key>value</key>
+        <string>Fokus, koncentreret</string>
+    </dict>
+    <key>TalentImageTitle_1_789</key>
+    <dict>
+        <key>value</key>
+        <string>Konkurrerende, præstere</string>
+    </dict>
+    <key>TalentImageTitle_1_123</key>
+    <dict>
+        <key>value</key>
+        <string>Tilfreds, relativerende </string>
+    </dict>
+    <key>TalentImageTitle_25_789</key>
+    <dict>
+        <key>value</key>
+        <string>Initiativrig, problemløsende</string>
+    </dict>
+    <key>TalentImageTitle_25_123</key>
+    <dict>
+        <key>value</key>
+        <string>Nuanceret, overvejende</string>
+    </dict>
+    <key>TalentImageTitle_17_789</key>
+    <dict>
+        <key>value</key>
+        <string>Formel, reel</string>
+    </dict>
+    <key>TalentImageTitle_17_123</key>
+    <dict>
+        <key>value</key>
+        <string>Uformel, banebrydende</string>
+    </dict>
+    <key>TalentImageTitle_15_789</key>
+    <dict>
+        <key>value</key>
+        <string>Assertiv, tydeligt</string>
+    </dict>
+    <key>TalentImageTitle_15_123</key>
+    <dict>
+        <key>value</key>
+        <string>Tilgivende, tolerant</string>
+    </dict>
+    <key>TalentImageTitle_27_789</key>
+    <dict>
+        <key>value</key>
+        <string>Målrettet, konkret</string>
+    </dict>
+    <key>TalentImageTitle_27_123</key>
+    <dict>
+        <key>value</key>
+        <string>Procesfokuseret, ændre kurs</string>
+    </dict>
+    <key>TalentImageTitle_9_789</key>
+    <dict>
+        <key>value</key>
+        <string>Styrende, overbevisende</string>
+    </dict>
+    <key>TalentImageTitle_9_123</key>
+    <dict>
+        <key>value</key>
+        <string>Subtilt, kompromissøgende</string>
+    </dict>
+    <key>TalentImageTitle_10_789</key>
+    <dict>
+        <key>value</key>
+        <string>Selvtillid, modstandsdygtig</string>
+    </dict>
+    <key>TalentImageTitle_10_123</key>
+    <dict>
+        <key>value</key>
+        <string>Undgår fejl, selvkritisk</string>
+    </dict>
+    <key>TalentImageTitle_14_789</key>
+    <dict>
+        <key>value</key>
+        <string>Iværksættende, energisk</string>
+    </dict>
+    <key>TalentImageTitle_14_123</key>
+    <dict>
+        <key>value</key>
+        <string>Rolig, tålmodig</string>
+    </dict>
+    <key>TalentImageTitle_4_789</key>
+    <dict>
+        <key>value</key>
+        <string>Skiller sig ud, til stede</string>
+    </dict>
+    <key>TalentImageTitle_4_123</key>
+    <dict>
+        <key>value</key>
+        <string>Skiller sig ikke ud, giver andre plads</string>
+    </dict>
+    <key>TalentImageTitle_2_789</key>
+    <dict>
+        <key>value</key>
+        <string>Respektfuld, beundrer</string>
+    </dict>
+    <key>TalentImageTitle_2_123</key>
+    <dict>
+        <key>value</key>
+        <string>Ligeværdig, henvender </string>
+    </dict>
+    <key>TalentImageTitle_8_789</key>
+    <dict>
+        <key>value</key>
+        <string>Taknemmelig, beder let om støtte</string>
+    </dict>
+    <key>TalentImageTitle_8_123</key>
+    <dict>
+        <key>value</key>
+        <string>Selvstændig, meget lidt brug for hjælp</string>
+    </dict>
+    <key>TalentImageTitle_29_789</key>
+    <dict>
+        <key>value</key>
+        <string>Stabil, stressbestandig</string>
+    </dict>
+    <key>TalentImageTitle_29_123</key>
+    <dict>
+        <key>value</key>
+        <string>Involveret, bekymret</string>
+    </dict>
+    <key>TalentImageTitle_11_789</key>
+    <dict>
+        <key>value</key>
+        <string>Hjælpsom, serviceorienteret </string>
+    </dict>
+    <key>TalentImageTitle_11_123</key>
+    <dict>
+        <key>value</key>
+        <string>Forretningsorienteret, uddelegerende</string>
+    </dict>
+    <key>TalentImageTitle_7_789</key>
+    <dict>
+        <key>value</key>
+        <string>Indlevelse, diplomatisk</string>
+    </dict>
+    <key>TalentImageTitle_7_123</key>
+    <dict>
+        <key>value</key>
+        <string>Faktuel, funktionel</string>
+    </dict>
+    <key>TalentImageTitle_6_789</key>
+    <dict>
+        <key>value</key>
+        <string>Venskabelig, kommunikativ</string>
+    </dict>
+    <key>TalentImageTitle_6_123</key>
+    <dict>
+        <key>value</key>
+        <string>Individuel, reserveret</string>
+    </dict>
+    <key>TalentImageTitle_13_789</key>
+    <dict>
+        <key>value</key>
+        <string>Arbejde igennem, færdiggør </string>
+    </dict>
+    <key>TalentImageTitle_13_123</key>
+    <dict>
+        <key>value</key>
+        <string>Slipper, ændrer hurtigere kurs</string>
+    </dict>
+    <key>TalentImageTitle_5_789</key>
+    <dict>
+        <key>value</key>
+        <string>Autonom, egen mening</string>
+    </dict>
+    <key>TalentImageTitle_5_123</key>
+    <dict>
+        <key>value</key>
+        <string>Gruppeorienteret, transparent</string>
+    </dict>
+    <key>TalentImageTitle_21_789</key>
+    <dict>
+        <key>value</key>
+        <string>Ansvarlig, ledende</string>
+    </dict>
+    <key>TalentImageTitle_21_123</key>
+    <dict>
+        <key>value</key>
+        <string>Følgende, accepterer </string>
+    </dict>
+    <key>TalentImageTitle_3_789</key>
+    <dict>
+        <key>value</key>
+        <string>Præcis, systematisk</string>
+    </dict>
+    <key>TalentImageTitle_3_123</key>
+    <dict>
+        <key>value</key>
+        <string>Kreativ, fleksibel </string>
+    </dict>
+    <key>TalentImageTitle_22_789</key>
+    <dict>
+        <key>value</key>
+        <string>Praktisk, effektiv</string>
+    </dict>
+    <key>TalentImageTitle_22_123</key>
+    <dict>
+        <key>value</key>
+        <string>Teoretisk, abstrakt </string>
+    </dict>
 </dict>
 </plist>

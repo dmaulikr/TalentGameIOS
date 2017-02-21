@@ -50,22 +50,17 @@ class TalentListViewController: UITableViewController {
         // Table view cells are reused and should be dequeued using a cell identifier.
         let cellIdentifier = "TalentListTableViewCell"
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? TalentListTableViewCell  else {
-            fatalError("The dequeued cell is not an instance of TalentListTableViewCell.")
-        }
-        
-        // Fetches the appropriate meal for the data source layout.
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as!TalentListTableViewCell
+        // Fetches the appropriate talent for the data source layout.
         let talent = talents[indexPath.row]
         
         let image123_pic = "artboard_123_\(talent.dimensionId)_\(talent.talentId)"
         let image789_pic = "artboard_789_\(talent.dimensionId)_\(talent.talentId)"
         
-        let image123:UIImage = UIImage(named: image123_pic)!
-        let image789:UIImage = UIImage(named: image789_pic)!
 
-        cell.image123?.image = image123
+        cell.image123?.image = UIImage(named: image123_pic)
         cell.labelTalentName?.text = talent.talentName
-        cell.image789?.image = image789
+        cell.image789?.image = UIImage(named: image789_pic)
         return cell
     }
 

@@ -1,0 +1,12 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "CAu-ft-TLC"; */
+"CAu-ft-TLC.title" = "Item";
+
+/* Class = "UILabel"; text = "labelTalentName"; ObjectID = "FG3-54-jMg"; */
+"FG3-54-jMg.text" = "labelTalentName";
+
+/* Class = "UINavigationItem"; title = "select language"; ObjectID = "P5a-Xh-Ocm"; */
+"P5a-Xh-Ocm.title" = "select language";
+
+/* Class = "UIViewController"; title = "Select Language"; ObjectID = "XaJ-sO-AWC"; */
+"XaJ-sO-AWC.title" = "Select Language";

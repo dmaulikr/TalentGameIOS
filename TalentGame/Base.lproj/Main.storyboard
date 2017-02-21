@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="TalentGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TalentGame" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,7 +23,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="dVF-6I-aX5">
-                        <barButtonItem key="leftBarButtonItem" image="icon_settings" style="plain" id="aMd-lW-0Wv">
+                        <barButtonItem key="leftBarButtonItem" image="icon_settings" style="done" id="aMd-lW-0Wv">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="XaJ-sO-AWC" kind="popoverPresentation" popoverAnchorBarButtonItem="aMd-lW-0Wv" id="lnx-HW-dWD">
@@ -41,7 +41,7 @@
         <!--Select Language-->
         <scene sceneID="Cyx-cx-Z5g">
             <objects>
-                <viewController storyboardIdentifier="LanguageStoryboard" title="Select Language" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XaJ-sO-AWC" customClass="LanguageListViewController" customModule="TalentGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LanguageStoryboard" title="Select Language" id="XaJ-sO-AWC" customClass="LanguageListViewController" customModule="TalentGame" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aSK-lz-cfU"/>
                         <viewControllerLayoutGuide type="bottom" id="2eJ-QA-a4Y"/>
@@ -96,14 +96,14 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5nW-P7-Yq6" id="bSZ-Yf-UV8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="1di-d3-niv">
-                                            <rect key="frame" x="0.0" y="-228" width="375" height="150"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="24"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="19w-wk-hbn">
-                                                    <rect key="frame" x="0.0" y="0.0" width="124" height="540"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="19w-wk-hbn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="24"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="YES"/>
                                                     </accessibility>
@@ -111,33 +111,30 @@
                                                         <constraint firstAttribute="width" constant="100" id="OZD-mW-9e0"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="labelTalentName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FG3-54-jMg">
-                                                    <rect key="frame" x="124" y="260" width="128" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="labelTalentName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FG3-54-jMg">
+                                                    <rect key="frame" x="100" y="0.0" width="128" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="vgH-C4-Z8U">
-                                                    <rect key="frame" x="252" y="0.0" width="123" height="540"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vgH-C4-Z8U">
+                                                    <rect key="frame" x="325" y="0.0" width="50" height="24"/>
                                                     <accessibility key="accessibilityConfiguration">
                                                         <bool key="isElement" value="YES"/>
                                                     </accessibility>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="150" id="GF6-Ef-ZWz"/>
-                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="vgH-C4-Z8U" secondAttribute="trailing" id="UNr-gv-xfa"/>
                                                 <constraint firstItem="FG3-54-jMg" firstAttribute="leading" secondItem="19w-wk-hbn" secondAttribute="trailing" id="asr-Bp-9Zg"/>
-                                                <constraint firstItem="vgH-C4-Z8U" firstAttribute="leading" secondItem="FG3-54-jMg" secondAttribute="trailing" id="lfO-nD-jF7"/>
                                             </constraints>
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="1di-d3-niv" firstAttribute="leading" secondItem="bSZ-Yf-UV8" secondAttribute="leading" id="nGf-q5-mbG"/>
-                                        <constraint firstItem="1di-d3-niv" firstAttribute="top" secondItem="bSZ-Yf-UV8" secondAttribute="top" constant="-228" id="uoO-CX-hr4"/>
-                                        <constraint firstAttribute="trailing" secondItem="1di-d3-niv" secondAttribute="trailing" id="vzS-kM-izR"/>
+                                        <constraint firstAttribute="bottom" secondItem="1di-d3-niv" secondAttribute="bottom" constant="20" symbolic="YES" id="98d-1n-GgM"/>
+                                        <constraint firstItem="1di-d3-niv" firstAttribute="leading" secondItem="bSZ-Yf-UV8" secondAttribute="leading" id="Acc-YA-YdD"/>
+                                        <constraint firstItem="1di-d3-niv" firstAttribute="top" secondItem="bSZ-Yf-UV8" secondAttribute="top" id="dtw-fk-0Sw"/>
+                                        <constraint firstAttribute="bottom" secondItem="1di-d3-niv" secondAttribute="bottom" constant="20" symbolic="YES" id="qqZ-y4-CLk"/>
+                                        <constraint firstAttribute="trailing" secondItem="1di-d3-niv" secondAttribute="trailing" id="wkq-cm-iVE"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -219,7 +216,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="6ak-G9-8Ty" kind="show" id="yR5-UE-6Dd"/>
+                        <segue destination="6ak-G9-8Ty" kind="show" identifier="PushToTalentListView" id="yR5-UE-6Dd"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F0W-le-SIx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -326,7 +323,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="defaultPhoto" width="540" height="540"/>
         <image name="facebook_icon" width="25" height="25"/>
         <image name="home" width="25" height="25"/>
         <image name="icon_settings" width="25" height="25"/>
@@ -336,6 +332,6 @@
         <image name="linkedin" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="t90-xZ-eOp"/>
+        <segue reference="o6a-14-UkO"/>
     </inferredMetricsTieBreakers>
 </document>

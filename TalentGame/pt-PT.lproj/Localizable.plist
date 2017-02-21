@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app_name</key>
+	<dict>
+		<key>value</key>
+		<string>Talent Game EN</string>
+	</dict>
+    <key>Address</key>
+    <dict>
+        <key>value</key>
+        <string>Endereço</string>
+    </dict>
+    <key>AppInfo</key>
+    <dict>
+        <key>value</key>
+        <string>As pessoas são motivadas, tornam-se mais eficazes e bem-sucedidas no trabalho que esteja mais próximo de seus talentos. Esta visão tem sido utilizada no Jogo de Talento TMA. Através do jogo, você pode obter respostas abrangentes para muitas perguntas, tais como: Que talentos eu tenho? De quais talentos eu posso estar ciente? Onde estamos como equipe? Como podemos fazer melhor uso das habilidades dos membros da equipe? O Jogo de Talento TMA inclui 44 cartões de talentos e quatro cartões com variações de jogo e explicação. O jogo é uma ferramenta prática para todos aqueles que desejam trabalhar com seus talentos. Você pode jogar individualmente e em suas equipes. Além disso, este jogo é destinado para profissionais e formadores TMA que usam o jogo em coaching individual e de equipe. Finalmente, o Jogo de Talento TMA também ajuda a ganhar experiência na forma de jogo, com os conceitos subjacentes à gestão de talentos. Isso se torna também adequado para as pessoas que tomam parte na formação profissional TMA. Você está interessado em se tornar um profissional certificado TMA e usar on-line os Instrumentos TMA validados cientificamente? Você quer fazer o melhor com os talentos das pessoas e organizações de uma maneira positiva? Por favor contacte-nos através do info@tmamethod.com ou ligue para +31 30 2670444.</string>
+    </dict>
+    <key>Email</key>
+    <dict>
+        <key>value</key>
+        <string>Email</string>
+    </dict>
+    <key>FollowUsOn</key>
+    <dict>
+        <key>value</key>
+        <string>Siga-nos no</string>
+    </dict>
+    <key>Game1</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 1</string>
+    </dict>
+    <key>Game1_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Coloque todos os cartões de talento na mesa. 2. Escolha, entre os cartões de talentos, oito talentos que você reconhece. 3. Pense em como você pode usar esses talentos em sua situação de trabalho .</string>
+    </dict>
+    <key>Game1_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 1: Descubra seus próprios talentos</string>
+    </dict>
+    <key>Game1_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Com este tipo de jogo, você pode tornar-se consciente de seus talentos.</string>
+    </dict>
+    <key>Game2</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 2</string>
+    </dict>
+    <key>Game2_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Primeiro, escolha o que você quer para se desenvolver. Por exemplo, uma habilidade ou uma competência, como Negociação, Ajudar os clientes, Cooperação etc. 2. Coloque todos os cartões de talentos em uma pilha e, em seguida, pegue um cartão. 3. Para cada cartão que você escolher, você deve decidir se você tem esse talento ou não. 4. Se você não tem o talento, afaste o cartão e pegue um outro cartão da pilha. 5. Se você pegar um cartão de talento que se aplica a você, pense como esse talento pode ajudá-lo no desenvolvimento de uma certa habilidade ou competência. 6. Continue a tirar cartas até que você tenha talentos suficientes que possam ajudá-lo em seu desenvolvimento.</string>
+    </dict>
+    <key>Game2_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 2: Desenvolvimento pessoal</string>
+    </dict>
+    <key>Game2_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Com este tipo de jogo, você pode entender quais talentos você pode usar para seu próprio desenvolvimento pessoal.</string>
+    </dict>
+    <key>Game3</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 3</string>
+    </dict>
+    <key>Game3_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Coloque todos os cartões de talento na mesa. 2. Primeiro, escolha uma pessoa central, que recebe o feedback de talento de outros participantes. 3. Outras pessoas devem escolher e virar um cartão de talento que eles acham que se aplica à pessoa central e dá-lo a essa pessoa central. 4. Quando todos os participantes derem um cartão de talento para a pessoa central, será a vez da pessoa central. Todos os participantes dão um cartão de talento de volta para essa pessoa. 5. O jogo continua até que cada participante tenha sido, uma vez, uma pessoa central.</string>
+    </dict>
+    <key>Game3_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 3: Feedback de Talento</string>
+    </dict>
+    <key>Game3_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Você deve jogar este tipo de jogo com pelo menos 3 pessoas. O jogo visa reconhecer talentos e nomes uns dos outros.</string>
+    </dict>
+    <key>Game4</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 4</string>
+    </dict>
+    <key>Game4_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Coloque todos os cartões de talento na mesa. 2. Escolha uma pessoa para iniciar. A pessoa que começa escolhe um cartão de talento que ele / ela acha que é um talento verdadeiro da equipe e explica o porquê. 3. Em seguida, a outra pessoa pode dizer se ele / ela sente que este é um talento da equipe. Se (quase) todos concordam que este é um talento da equipe, você o nomeia como o primeiro talento da equipe. Se as opiniões diferirem muito, afaste o cartão de talento. 4. Em seguida, a próxima pessoa pega um cartão de talento que ele / ela acha que é um talento da equipe e explica por que ele / ela pensa dessa forma. Em seguida, os outros podem dar a sua opinião sobre isso também. 5. Você deve continuar até que tenha de 3 a 5 talentos da equipe em que (quase) todo mundo concorde. 6. Depois de ter definido a quantidade de talentos da equipe, vocês podem discutir uns com os outros como usá-los no trabalho de equipe.</string>
+    </dict>
+    <key>Game4_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 4: Talentos da equipe</string>
+    </dict>
+    <key>Game4_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Você deve jogar este tipo de jogo com pelo menos 3 pessoas. O jogo tem como objetivo identificar talentos da equipe (como um todo).</string>
+    </dict>
+    <key>Game5</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 5</string>
+    </dict>
+    <key>Game5_Description</key>
+    <dict>
+        <key>value</key>
+        <string>1. Coloque todos os cartões de talentos espalhados sobre a mesa com as costas para cima. 2. Escolha uma pessoa para começar. A pessoa que começa abre duas cartas aleatórias. Se as duas cartas tiverem as mesmas categorias (texto abaixo do lado direito), a pessoa deve manter este conjunto de cartões e nomear quais categorias ele / ela encontrou e quais talentos (texto acima do lado esquerdo) se mantêm em ambos os cartões. Esse jogador pode abrir mais duas cartas novamente. Isso continua até que a pessoa abra dois cartões diferentes. 3. Em seguida, é a vez do próximo jogador abrir dois cartões e repetir as ações, conforme descrito na etapa 2. 4. O jogo termina quando todos os pares de categorias forem encontrados. O jogador com mais pares ganha.</string>
+    </dict>
+    <key>Game5_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 5: Mémoria de talento e motivação</string>
+    </dict>
+    <key>Game5_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string>Você deve jogar este jogo com 2 a 4 pessoas. O objetivo do jogo é descobrir quais competências pertencem a cada categoria.</string>
+    </dict>
+    <key>Game6</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 6</string>
+    </dict>
+    <key>Game6_Description</key>
+    <dict>
+        <key>value</key>
+        <string>5 variações do jogo estão incluídas no Jogo de Talento TMA. Nós convidamos você a pensar em variações desse jogo. Se você quiser compartilhar a sua versão com a comunidade TMA, envie-o para TMA (info@tmamethod.com) ou coloque-o no grupo do TMA no LinkedIn. Talvez o seu tipo de jogo seja incluído no App. do Jogo de Talento equipe TMA</string>
+    </dict>
+    <key>Game6_Title</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo 6: Projete suas próprias variações de jogo</string>
+    </dict>
+    <key>Game6_Title_Description</key>
+    <dict>
+        <key>value</key>
+        <string></string>
+    </dict>
+    <key>Linkedin</key>
+    <dict>
+        <key>value</key>
+        <string>Linkedin</string>
+    </dict>
+    <key>Phone</key>
+    <dict>
+        <key>value</key>
+        <string>Telefone</string>
+    </dict>
+    <key>TMAMethode</key>
+    <dict>
+        <key>value</key>
+        <string>TMA Methode</string>
+    </dict>
+    <key>Twitter</key>
+    <dict>
+        <key>value</key>
+        <string>Twitter</string>
+    </dict>
+    <key>TwitterId</key>
+    <dict>
+        <key>value</key>
+        <string>tmamethode</string>
+    </dict>
+    <key>Website</key>
+    <dict>
+        <key>value</key>
+        <string>Website</string>
+    </dict>
+    <key>app_name</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo do Talento TMA</string>
+    </dict>
+    <key>btn_Games</key>
+    <dict>
+        <key>value</key>
+        <string>Jogos</string>
+    </dict>
+    <key>btn_contact</key>
+    <dict>
+        <key>value</key>
+        <string>Contato</string>
+    </dict>
+    <key>btn_facebook</key>
+    <dict>
+        <key>value</key>
+        <string>Facebook</string>
+    </dict>
+    <key>btn_info</key>
+    <dict>
+        <key>value</key>
+        <string>Info</string>
+    </dict>
+    <key>btn_linkedin</key>
+    <dict>
+        <key>value</key>
+        <string>Linkedin</string>
+    </dict>
+    <key>btn_media</key>
+    <dict>
+        <key>value</key>
+        <string>Mídia</string>
+    </dict>
+    <key>changeLanguage</key>
+    <dict>
+        <key>value</key>
+        <string>Mudar idioma</string>
+    </dict>
+    <key>contactText</key>
+    <dict>
+        <key>value</key>
+        <string>O Método TMA é um sistema integrado para a seleção e desenvolvimento de funcionários, onde talentos e habilidades são a chave. O Método TMA é oferecido como um serviço on-line e usado para a gestão de competência e e de talentos, feedback 360 graus, para estabeler centros de carreira, avaliações, avaliação de Talento TMA, trajetórias MD, problemas de mobilidade, discussões, entrevistas de carreira e de emprego.</string>
+    </dict>
+    <key>dimension1_text</key>
+    <dict>
+        <key>value</key>
+        <string>Equilíbrio emocional</string>
+    </dict>
+    <key>dimension2_text</key>
+    <dict>
+        <key>value</key>
+        <string>Motivos</string>
+    </dict>
+    <key>dimension3_text</key>
+    <dict>
+        <key>value</key>
+        <string>Talentos sociais</string>
+    </dict>
+    <key>dimension4_text</key>
+    <dict>
+        <key>value</key>
+        <string>Talentos influentes</string>
+    </dict>
+    <key>dimension5_text</key>
+    <dict>
+        <key>value</key>
+        <string>Talentos de liderança</string>
+    </dict>
+    <key>dimension6_text</key>
+    <dict>
+        <key>value</key>
+        <string>Talentos organizacionais</string>
+    </dict>
+    <key>launching_app_name</key>
+    <dict>
+        <key>value</key>
+        <string>Jogo do talento</string>
+    </dict>
+    <key>locale_lang</key>
+    <dict>
+        <key>value</key>
+        <string>lang_culture</string>
+    </dict>
+    <key>title_activity_Games</key>
+    <dict>
+        <key>value</key>
+        <string>Jogos</string>
+    </dict>
+    <key>title_activity_app_info</key>
+    <dict>
+        <key>value</key>
+        <string>Info</string>
+    </dict>
+    <key>title_activity_contact</key>
+    <dict>
+        <key>value</key>
+        <string>Contato</string>
+    </dict>
+    <key>title_activity_media</key>
+    <dict>
+        <key>value</key>
+        <string>Mídia</string>
+    </dict>
+    <key>title_drives_alphabetical</key>
+    <dict>
+        <key>value</key>
+        <string>Categorias alfabética</string>
+    </dict>    <key>Talent1</key>
+    <dict>
+        <key>value</key>
+        <string>Ambição &amp; desafios</string>
+    </dict>
+    <key>Talent2</key>
+    <dict>
+        <key>value</key>
+        <string>Respeito</string>
+    </dict>
+    <key>Talent3</key>
+    <dict>
+        <key>value</key>
+        <string>Ordem &amp; Estrutura</string>
+    </dict>
+    <key>Talent4</key>
+    <dict>
+        <key>value</key>
+        <string>Extroversão</string>
+    </dict>
+    <key>Talent5</key>
+    <dict>
+        <key>value</key>
+        <string>Pensamento &amp; Atuação Independente</string>
+    </dict>
+    <key>Talent6</key>
+    <dict>
+        <key>value</key>
+        <string>Sociabilidade &amp; Contato</string>
+    </dict>
+    <key>Talent7</key>
+    <dict>
+        <key>value</key>
+        <string>Empatia Social</string>
+    </dict>
+    <key>Talent8</key>
+    <dict>
+        <key>value</key>
+        <string>Necessidade de Apoio</string>
+    </dict>
+    <key>Talent9</key>
+    <dict>
+        <key>value</key>
+        <string>Dominância</string>
+    </dict>
+    <key>Talent10</key>
+    <dict>
+        <key>value</key>
+        <string>Autoestima</string>
+    </dict>
+    <key>Talent11</key>
+    <dict>
+        <key>value</key>
+        <string>Boa-Vontade</string>
+    </dict>
+    <key>Talent12</key>
+    <dict>
+        <key>value</key>
+        <string>Variedade</string>
+    </dict>
+    <key>Talent13</key>
+    <dict>
+        <key>value</key>
+        <string>Persistência</string>
+    </dict>
+    <key>Talent14</key>
+    <dict>
+        <key>value</key>
+        <string>Energia &amp; Ação</string>
+    </dict>
+    <key>Talent15</key>
+    <dict>
+        <key>value</key>
+        <string>Confrontação</string>
+    </dict>
+    <key>Talent17</key>
+    <dict>
+        <key>value</key>
+        <string>Conformidade</string>
+    </dict>
+    <key>Talent18</key>
+    <dict>
+        <key>value</key>
+        <string>Necessidade de Status</string>
+    </dict>
+    <key>Talent21</key>
+    <dict>
+        <key>value</key>
+        <string>Responsabilidade &amp; Liderança</string>
+    </dict>
+    <key>Talent22</key>
+    <dict>
+        <key>value</key>
+        <string>Pragmatismo</string>
+    </dict>
+    <key>Talent25</key>
+    <dict>
+        <key>value</key>
+        <string>Poder de Decisão</string>
+    </dict>
+    <key>Talent27</key>
+    <dict>
+        <key>value</key>
+        <string>Determinação</string>
+    </dict>
+    <key>Talent29</key>
+    <dict>
+        <key>value</key>
+        <string>Gerenciamento de Estresse e Pressão</string>
+    </dict>
+    <key>TalentImageTitle_18_789</key>
+    <dict>
+        <key>value</key>
+        <string>Apresentável, orgulhoso</string>
+    </dict>
+    <key>TalentImageTitle_18_123</key>
+    <dict>
+        <key>value</key>
+        <string>Humilde, comedido</string>
+    </dict>
+    <key>TalentImageTitle_12_789</key>
+    <dict>
+        <key>value</key>
+        <string>Muito diverso, orientado ao ambiente</string>
+    </dict>
+    <key>TalentImageTitle_12_123</key>
+    <dict>
+        <key>value</key>
+        <string>Concentração total, concentrado</string>
+    </dict>
+    <key>TalentImageTitle_1_789</key>
+    <dict>
+        <key>value</key>
+        <string>Competitivo, foco em realizações</string>
+    </dict>
+    <key>TalentImageTitle_1_123</key>
+    <dict>
+        <key>value</key>
+        <string>Contente, senso de perspectiva</string>
+    </dict>
+    <key>TalentImageTitle_25_789</key>
+    <dict>
+        <key>value</key>
+        <string>Empreendedor, resolve problemas</string>
+    </dict>
+    <key>TalentImageTitle_25_123</key>
+    <dict>
+        <key>value</key>
+        <string>Cuidadoso, pondera</string>
+    </dict>
+    <key>TalentImageTitle_17_789</key>
+    <dict>
+        <key>value</key>
+        <string>Formal, íntegro</string>
+    </dict>
+    <key>TalentImageTitle_17_123</key>
+    <dict>
+        <key>value</key>
+        <string>Informal, inovador</string>
+    </dict>
+    <key>TalentImageTitle_15_789</key>
+    <dict>
+        <key>value</key>
+        <string>Assertivo, explícito</string>
+    </dict>
+    <key>TalentImageTitle_15_123</key>
+    <dict>
+        <key>value</key>
+        <string>Indulgente, tolerante</string>
+    </dict>
+    <key>TalentImageTitle_27_789</key>
+    <dict>
+        <key>value</key>
+        <string>Orientado a objetivos, determinado</string>
+    </dict>
+    <key>TalentImageTitle_27_123</key>
+    <dict>
+        <key>value</key>
+        <string>Orientado a processos, improvisa</string>
+    </dict>
+    <key>TalentImageTitle_9_789</key>
+    <dict>
+        <key>value</key>
+        <string>Condutor, convincente</string>
+    </dict>
+    <key>TalentImageTitle_9_123</key>
+    <dict>
+        <key>value</key>
+        <string>Influencia os outros sutilmente, complacente</string>
+    </dict>
+    <key>TalentImageTitle_10_789</key>
+    <dict>
+        <key>value</key>
+        <string>Confiante, resiliente</string>
+    </dict>
+    <key>TalentImageTitle_10_123</key>
+    <dict>
+        <key>value</key>
+        <string>Evita erros, autocrítico</string>
+    </dict>
+    <key>TalentImageTitle_14_789</key>
+    <dict>
+        <key>value</key>
+        <string>Empreendedor, muito energético</string>
+    </dict>
+    <key>TalentImageTitle_14_123</key>
+    <dict>
+        <key>value</key>
+        <string>Calmo, paciente</string>
+    </dict>
+    <key>TalentImageTitle_4_789</key>
+    <dict>
+        <key>value</key>
+        <string>Notável, presente</string>
+    </dict>
+    <key>TalentImageTitle_4_123</key>
+    <dict>
+        <key>value</key>
+        <string>Imperceptível, dá lugar aos outros</string>
+    </dict>
+    <key>TalentImageTitle_2_789</key>
+    <dict>
+        <key>value</key>
+        <string>Respeitador, admira</string>
+    </dict>
+    <key>TalentImageTitle_2_123</key>
+    <dict>
+        <key>value</key>
+        <string>Igualdade, aborda</string>
+    </dict>
+    <key>TalentImageTitle_8_789</key>
+    <dict>
+        <key>value</key>
+        <string>Agradecido, pede apoio</string>
+    </dict>
+    <key>TalentImageTitle_8_123</key>
+    <dict>
+        <key>value</key>
+        <string>Independente, precisa de pouco apoio</string>
+    </dict>
+    <key>TalentImageTitle_29_789</key>
+    <dict>
+        <key>value</key>
+        <string>Estável, imune ao estresse</string>
+    </dict>
+    <key>TalentImageTitle_29_123</key>
+    <dict>
+        <key>value</key>
+        <string>Comprometido, preocupado</string>
+    </dict>
+    <key>TalentImageTitle_11_789</key>
+    <dict>
+        <key>value</key>
+        <string>Acomoda-se, orientado a serviços</string>
+    </dict>
+    <key>TalentImageTitle_11_123</key>
+    <dict>
+        <key>value</key>
+        <string>Atitude eficiente, delega</string>
+    </dict>
+    <key>TalentImageTitle_7_789</key>
+    <dict>
+        <key>value</key>
+        <string>Empático, diplomático</string>
+    </dict>
+    <key>TalentImageTitle_7_123</key>
+    <dict>
+        <key>value</key>
+        <string>Direto, funcional</string>
+    </dict>
+    <key>TalentImageTitle_6_789</key>
+    <dict>
+        <key>value</key>
+        <string>Amigável, comunicativo</string>
+    </dict>
+    <key>TalentImageTitle_6_123</key>
+    <dict>
+        <key>value</key>
+        <string>Foca-se em fatos, funcional</string>
+    </dict>
+    <key>TalentImageTitle_13_789</key>
+    <dict>
+        <key>value</key>
+        <string>Gosta de trabalhar, termina as tarefas</string>
+    </dict>
+    <key>TalentImageTitle_13_123</key>
+    <dict>
+        <key>value</key>
+        <string>Desapega-se facilmente, substitui prioridades</string>
+    </dict>
+    <key>TalentImageTitle_5_789</key>
+    <dict>
+        <key>value</key>
+        <string>Autônomo, pontos de vista próprios</string>
+    </dict>
+    <key>TalentImageTitle_5_123</key>
+    <dict>
+        <key>value</key>
+        <string>Orientado para a equipe, transparente</string>
+    </dict>
+    <key>TalentImageTitle_21_789</key>
+    <dict>
+        <key>value</key>
+        <string>Responsável, diretivo</string>
+    </dict>
+    <key>TalentImageTitle_21_123</key>
+    <dict>
+        <key>value</key>
+        <string>Obediente, aceita</string>
+    </dict>
+    <key>TalentImageTitle_3_789</key>
+    <dict>
+        <key>value</key>
+        <string>Preciso, metódico</string>
+    </dict>
+    <key>TalentImageTitle_3_123</key>
+    <dict>
+        <key>value</key>
+        <string>Criativo, flexível</string>
+    </dict>
+    <key>TalentImageTitle_22_789</key>
+    <dict>
+        <key>value</key>
+        <string>Prático, eficiente</string>
+    </dict>
+    <key>TalentImageTitle_22_123</key>
+    <dict>
+        <key>value</key>
+        <string>Teórico, abstrato</string>
+    </dict>
+</dict>
+</plist>
