@@ -25,6 +25,17 @@ class InfoViewController: UIViewController {
         
     }
 
+    override func viewDidLayoutSubviews() {
+        
+        super.viewDidLayoutSubviews()
+        
+//        let contentSize = self.textLabel.sizeThatFits(self.textLabel.bounds.size)
+//        var frame = self.textLabel.frame
+//        frame.size.height = contentSize.height + 100;
+//        self.textLabel.frame = frame
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -39,6 +50,7 @@ class InfoViewController: UIViewController {
         
         textLabel.text = "AppInfo".localized;
     }
+    
     
     /*
     // MARK: - Navigation
