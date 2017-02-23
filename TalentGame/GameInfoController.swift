@@ -12,11 +12,14 @@ class GameInfoController: UIViewController {
 
     var dimensions: [Dimension] = DimensionService.getAllDimensions()
     
+    var constX:NSLayoutConstraint?
+    var constY:NSLayoutConstraint?
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.navigationItem.title = "Games"        
-        setButtons()    }
+        setButtons()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -70,6 +73,7 @@ class GameInfoController: UIViewController {
         controller.titleName = dimensions[sender.tag].dimensionName
         controller.colorCode = locale_lang
         controller.dimensionId = (sender.tag) + 1
+        controller.modalPresentationStyle = .popover
         self.navigationController?.pushViewController(controller, animated: true)
     }
 

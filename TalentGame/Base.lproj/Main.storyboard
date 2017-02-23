@@ -97,7 +97,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5nW-P7-Yq6" id="bSZ-Yf-UV8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="1di-d3-niv">
@@ -236,7 +236,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FMO-MJ-jwm">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FMO-MJ-jwm">
                                 <rect key="frame" x="16" y="64" width="343" height="554"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Q2-84-WnR">
@@ -245,28 +245,30 @@
                                             <constraint firstAttribute="height" constant="50" id="Unn-sc-f1A"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info@tmamethod.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as0-IT-6xb">
-                                        <rect key="frame" x="0.0" y="60" width="343" height="20"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="info@tmamethod.com" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qpx-65-xv6">
+                                        <rect key="frame" x="0.0" y="55" width="343" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="R6d-s1-htf"/>
+                                            <constraint firstAttribute="height" constant="30" id="HOw-FI-qMf"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="http://www.tmamethode.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ses-pC-WqO">
-                                        <rect key="frame" x="0.0" y="90" width="343" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="http://www.tmamethod.com" translatesAutoresizingMaskIntoConstraints="NO" id="0b1-ni-u8K">
+                                        <rect key="frame" x="0.0" y="90" width="343" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="obd-bW-1rA"/>
+                                            <constraint firstAttribute="height" constant="30" id="lAy-sl-P2j"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
+                                    </textView>
                                     <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TMA Talent Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnw-L8-P11">
-                                        <rect key="frame" x="0.0" y="120" width="343" height="50"/>
+                                        <rect key="frame" x="0.0" y="125" width="343" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="b6I-cx-hft"/>
+                                            <constraint firstAttribute="height" constant="50" id="ADf-0P-Va2"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" red="1" green="0.45370410901485902" blue="0.08568191640553402" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -280,11 +282,11 @@
                                     </textView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="as0-IT-6xb" firstAttribute="trailing" secondItem="Ses-pC-WqO" secondAttribute="trailing" id="7Lo-lb-bgj"/>
+                                    <constraint firstItem="Pnw-L8-P11" firstAttribute="trailing" secondItem="0b1-ni-u8K" secondAttribute="trailing" id="24h-cZ-b9z"/>
                                     <constraint firstAttribute="trailing" secondItem="5Q2-84-WnR" secondAttribute="trailing" id="Hrq-DE-koC"/>
-                                    <constraint firstItem="5Q2-84-WnR" firstAttribute="trailing" secondItem="as0-IT-6xb" secondAttribute="trailing" id="Qhf-VI-hmO"/>
-                                    <constraint firstItem="Ses-pC-WqO" firstAttribute="trailing" secondItem="Pnw-L8-P11" secondAttribute="trailing" id="cbx-b9-wf7"/>
-                                    <constraint firstItem="FDk-p4-eUq" firstAttribute="trailing" secondItem="Pnw-L8-P11" secondAttribute="trailing" id="soq-rE-gDw"/>
+                                    <constraint firstItem="0b1-ni-u8K" firstAttribute="trailing" secondItem="qpx-65-xv6" secondAttribute="trailing" id="XMw-NN-9Js"/>
+                                    <constraint firstItem="Pnw-L8-P11" firstAttribute="trailing" secondItem="FDk-p4-eUq" secondAttribute="trailing" id="jSb-5W-FYf"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="qpx-65-xv6" secondAttribute="trailing" id="wPC-JY-Dfe"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -298,11 +300,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="sqT-Rw-jVp"/>
                     <connections>
-                        <outlet property="emailLabel" destination="as0-IT-6xb" id="87Z-6V-HAW"/>
+                        <outlet property="emailLabel" destination="qpx-65-xv6" id="yyH-VR-bNT"/>
                         <outlet property="imageView" destination="5Q2-84-WnR" id="hc8-UV-HuF"/>
                         <outlet property="textLabel" destination="FDk-p4-eUq" id="QM0-kw-wq0"/>
                         <outlet property="titleLabel" destination="Pnw-L8-P11" id="WFh-zK-c8M"/>
-                        <outlet property="websiteLabel" destination="Ses-pC-WqO" id="Hwn-7q-rDa"/>
+                        <outlet property="websiteLabel" destination="0b1-ni-u8K" id="7hk-M5-VZt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Nu-gV-ByZ" userLabel="First Responder" sceneMemberID="firstResponder"/>

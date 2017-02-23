@@ -12,10 +12,9 @@ class InfoViewController: UIViewController {
     //MARK: - Outlets
     
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var emailLabel: UITextView!
+    @IBOutlet weak var websiteLabel: UITextView!
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var websiteLabel: UILabel!
-    
     @IBOutlet weak var textLabel: UITextView!
     
     override func viewDidLoad() {
@@ -29,11 +28,6 @@ class InfoViewController: UIViewController {
         
         super.viewDidLayoutSubviews()
         
-//        let contentSize = self.textLabel.sizeThatFits(self.textLabel.bounds.size)
-//        var frame = self.textLabel.frame
-//        frame.size.height = contentSize.height + 100;
-//        self.textLabel.frame = frame
-        
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,9 +39,7 @@ class InfoViewController: UIViewController {
     {
         emailLabel.text = "info@tmamethod.com";
         websiteLabel.text = "http://www.tmamethod.com";
-        
         titleLabel.text = "app_name".localized;
-        
         textLabel.text = "AppInfo".localized;
     }
     

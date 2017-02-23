@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController
 {    
     var dimensions: [Dimension] = DimensionService.getAllDimensions()
+   
     
     //@IBOutlet weak var scrollView: UIScrollView!
     
