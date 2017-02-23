@@ -38,7 +38,7 @@ class ViewController: UIViewController
         let button_width = 120
         let button_height = 120
         var button_x_dimensions:[Int] = [80, 230, 30, 180, 80, 230]
-        var button_y_dimensions:[Int] = [100, 100, 300, 300, 500, 500]
+        var button_y_dimensions:[Int] = [80, 80, 280, 280, 480, 480]
  
         let button1 = UIButton(type: .custom)
         let button2 = UIButton(type: .custom)
@@ -57,7 +57,10 @@ class ViewController: UIViewController
             buttons[index].layer.cornerRadius = 0.5 * buttons[index].bounds.size.width
            
             buttons[index].setTitle(dimensions[index].dimensionName, for: .normal)
-            
+            buttons[index].titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
+            buttons[index].titleLabel?.textAlignment = NSTextAlignment.center;
+            buttons[index].titleLabel?.font = UIFont.boldSystemFont(ofSize: 14);
+
             buttons[index].tag = index
             buttons[index].addTarget(self, action: #selector(self.buttonClicked), for: UIControlEvents.touchUpInside)
             
