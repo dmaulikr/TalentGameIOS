@@ -13,8 +13,6 @@ private class Localizator {
     static let sharedInstance = Localizator()
     
     
-    
-    
     lazy var localizableDictionary: NSDictionary! = {
         if let path = Bundle.main.path(forResource: "Localizable", ofType: "plist") {
             return NSDictionary(contentsOfFile: path)
