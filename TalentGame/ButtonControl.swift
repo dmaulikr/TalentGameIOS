@@ -8,95 +8,80 @@
 
 import UIKit
 
-@IBDesignable class ButtonControl: UIStackView {
+@IBDesignable class ButtonControl: UIButton {
     
     //MARK: Properties
-    private var ratingButtons = [UIButton]()
     
-    var rating = 0 {
-        didSet {
-            //updateButtonSelectionStates()
-        }
-    }
+    var dimensions: [Dimension] = DimensionService.getAllDimensions()
     
     
     @IBInspectable var buttonSize: CGSize = CGSize(width: 120, height: 120){
         didSet {
-            setupButtons()
-        }
-    }
-    @IBInspectable var buttonCount: Int = 2{
-        didSet {
-            setupButtons()
-        }
-    }
-    @IBInspectable var buttonRadius: Float = 60{
-        didSet {
-            setupButtons()
+            setupButton()
         }
     }
     
-    @IBInspectable var startIndex: Int = 0{
+    @IBInspectable var buttonRadius: Float = 60{
         didSet {
-            setupButtons()
+            setupButton()
+        }
+    }
+    
+    @IBInspectable var index: Int = 0{
+        didSet {
+            setupButton()
         }
     }
     
     //MARK: Initialization
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setupButtons();
+        
+        setupButton();
     }
     
-    required init(coder: NSCoder) {
-        super.init(coder: coder)
-        setupButtons();
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setupButton();
+        
     }
+    
+//    required init(coder: NSCoder) {
+//        super.init(coder: coder)
+//        setupButton();
+//    }
     
     
     
     //MARK: Private Methods
-    private func setupButtons() {
+    private func setupButton() {
         
-        // clear any existing buttons
-        for button in ratingButtons {
-            removeArrangedSubview(button)
-            button.removeFromSuperview()
-        }
-        ratingButtons.removeAll()
         
-        var i = startIndex;
-        
-        //var dimensions: [Dimension] = DimensionService.getAllDimensions()
-        
-        for index in 0..<buttonCount {
             
-            // Create the button
-            let button = UIButton(type: .custom)
+            if(index >= 6)
+            {
+                return;
+            }
             
             // Add constraints
-            button.translatesAutoresizingMaskIntoConstraints = false
-            button.heightAnchor.constraint(equalToConstant: buttonSize.height).isActive = true
-            button.widthAnchor.constraint(equalToConstant: buttonSize.width).isActive = true
+            self.translatesAutoresizingMaskIntoConstraints = false
+            self.heightAnchor.constraint(equalToConstant: buttonSize.height).isActive = true
+            self.widthAnchor.constraint(equalToConstant: buttonSize.width).isActive = true
             
-            button.layer.cornerRadius = CGFloat(buttonRadius)
-            button.backgroundColor = hexStringToUIColor(hex: Constants.colors[i]);            button.tintColor = UIColor.white
-            //button.setTitle(dimensions[index].dimensionName, for: .normal)
-            button.setTitleColor(UIColor.white, for: [.highlighted, .selected, .normal])
+            self.layer.cornerRadius = CGFloat(buttonRadius)
+            self.backgroundColor = hexStringToUIColor(hex: Constants.colors[index]);
+            self.tintColor = UIColor.white
+            self.setTitle(dimensions[index].dimensionName, for: .normal)
+            self.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
+            self.titleLabel?.textAlignment = NSTextAlignment.center;
+            self.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14);
+            self.setTitleColor(UIColor.white, for: [.highlighted, .selected, .normal])
             
             // Set the accessibility label
-            button.accessibilityLabel = "Set \(index + 1) star rating"
+            //self.accessibilityLabel = "Set \(index + 1) star rating"
             
-            
-            // Add the button to the stack
-            addArrangedSubview(button)
-            
-            // Add the new button to the rating button array
-            ratingButtons.append(button)
-            
-            i += 1;
-            
-        }
+        
+            self.tag = index;
         
     }
 }

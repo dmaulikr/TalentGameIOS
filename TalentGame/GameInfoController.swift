@@ -18,7 +18,7 @@ class GameInfoController: UIViewController {
         super.viewDidLoad()
 
         self.navigationItem.title = "Games"        
-        setButtons()
+        //setButtons()
     }
 
     override func didReceiveMemoryWarning() {
