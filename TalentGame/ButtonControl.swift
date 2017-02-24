@@ -27,6 +27,12 @@ import UIKit
         }
     }
     
+    @IBInspectable var isGame: Bool = false{
+        didSet {
+            setupButton()
+        }
+    }
+    
     @IBInspectable var index: Int = 0{
         didSet {
             setupButton()
@@ -71,7 +77,10 @@ import UIKit
             self.layer.cornerRadius = CGFloat(buttonRadius)
             self.backgroundColor = hexStringToUIColor(hex: Constants.colors[index]);
             self.tintColor = UIColor.white
-            self.setTitle(dimensions[index].dimensionName, for: .normal)
+            let key = "Game\(index + 1)_Title";
+            let title: String = isGame ? dimensions[index].dimensionName : (key).localized;
+        
+            self.setTitle(title, for: .normal)
             self.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
             self.titleLabel?.textAlignment = NSTextAlignment.center;
             self.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14);

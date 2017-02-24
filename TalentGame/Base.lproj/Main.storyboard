@@ -35,6 +35,7 @@
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                         <integer key="value" value="0"/>
                                                     </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="buttonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UxD-HQ-R8r"/>
@@ -47,6 +48,7 @@
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                         <integer key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="buttonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v7z-BL-73P"/>
@@ -67,6 +69,7 @@
                                                             <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                                 <integer key="value" value="2"/>
                                                             </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="buttonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zSZ-TW-HTK"/>
@@ -79,6 +82,7 @@
                                                             <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                                 <integer key="value" value="3"/>
                                                             </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="buttonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4q-0o-Q7I"/>
@@ -103,6 +107,7 @@
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                         <integer key="value" value="4"/>
                                                     </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="buttonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dGA-th-dTe"/>
@@ -115,6 +120,7 @@
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                         <integer key="value" value="5"/>
                                                     </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="buttonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e22-fJ-YzI"/>
@@ -453,6 +459,7 @@
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                         <integer key="value" value="0"/>
                                                     </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4R-yL-3YN" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
@@ -462,6 +469,7 @@
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                         <integer key="value" value="1"/>
                                                     </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                         </subviews>
@@ -479,6 +487,7 @@
                                                             <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                                 <integer key="value" value="2"/>
                                                             </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMt-j1-apt" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
@@ -488,6 +497,7 @@
                                                             <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                                 <integer key="value" value="3"/>
                                                             </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
                                                 </subviews>
@@ -504,6 +514,7 @@
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                         <integer key="value" value="4"/>
                                                     </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQv-Ta-qpG" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
@@ -513,6 +524,7 @@
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
                                                         <integer key="value" value="5"/>
                                                     </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                         </subviews>
