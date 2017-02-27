@@ -230,17 +230,17 @@
     <key>dimension2_text</key>
     <dict>
         <key>value</key>
-        <string>Motives</string>
+        <string>Social talents</string>
     </dict>
     <key>dimension3_text</key>
     <dict>
         <key>value</key>
-        <string>Social talents</string>
+        <string>Influential talents</string>
     </dict>
     <key>dimension4_text</key>
     <dict>
         <key>value</key>
-        <string>Influential talents</string>
+        <string>Motives</string>
     </dict>
     <key>dimension5_text</key>
     <dict>
@@ -251,8 +251,7 @@
     <dict>
         <key>value</key>
         <string>Organizational talents</string>
-    </dict>
-    <key>launching_app_name</key>
+    </dict>    <key>launching_app_name</key>
     <dict>
         <key>value</key>
         <string>Talent Game</string>

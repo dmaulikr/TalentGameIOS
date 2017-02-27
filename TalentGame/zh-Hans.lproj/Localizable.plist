@@ -242,17 +242,17 @@
     <key>dimension2_text</key>
     <dict>
         <key>value</key>
-        <string>动力</string>
+        <string>社会人才</string>
     </dict>
     <key>dimension3_text</key>
     <dict>
         <key>value</key>
-        <string>社会人才</string>
+        <string>有影响力的人才</string>
     </dict>
     <key>dimension4_text</key>
     <dict>
         <key>value</key>
-        <string>有影响力的人才</string>
+        <string>动力</string>
     </dict>
     <key>dimension5_text</key>
     <dict>
@@ -263,8 +263,7 @@
     <dict>
         <key>value</key>
         <string>组织人才</string>
-    </dict>
-    <key>launching_app_name</key>
+    </dict>    <key>launching_app_name</key>
     <dict>
         <key>value</key>
         <string>人才游戏</string>
