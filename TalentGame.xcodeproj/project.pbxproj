@@ -27,8 +27,11 @@
 		9160577A1E29FA7800CB16E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916057781E29FA7800CB16E9 /* LaunchScreen.storyboard */; };
 		91AD62101E4C516A00FCE341 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD620F1E4C516A00FCE341 /* FacebookViewController.swift */; };
 		91AD62121E4C5BB500FCE341 /* LinkedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD62111E4C5BB500FCE341 /* LinkedInViewController.swift */; };
+		E654AC981E5D41A1004048EA /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E654AC971E5D41A1004048EA /* InfoViewController.swift */; };
+		E68946441E5D69C90024F390 /* GameInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68946431E5D69C90024F390 /* GameInfoController.swift */; };
 		E694FB8C1E5544B400F52537 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = E694FB8E1E5544B400F52537 /* Localizable.plist */; };
 		E694FB901E5545DB00F52537 /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E694FB8F1E5545DB00F52537 /* LocalizableStrings.swift */; };
+		E6B0045D1E5BEDBC00D17F43 /* ButtonControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0045C1E5BEDBC00D17F43 /* ButtonControl.swift */; };
 		E6FC75401E536780006D34AB /* localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 915D2CD91E43618E00A28DD5 /* localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +114,8 @@
 		91DF67491E5C1C9000D0AC8C /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/localizable.strings"; sourceTree = "<group>"; };
 		91DF674A1E5C1C9000D0AC8C /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ru-RU"; path = "ru-RU.lproj/Localizable.plist"; sourceTree = "<group>"; };
 		E60C4A6C1E55417F007A9B85 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/localizable.strings; sourceTree = "<group>"; };
+		E654AC971E5D41A1004048EA /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		E68946431E5D69C90024F390 /* GameInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameInfoController.swift; sourceTree = "<group>"; };
 		E694FB8D1E5544B400F52537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Localizable.plist; sourceTree = "<group>"; };
 		E694FB8F1E5545DB00F52537 /* LocalizableStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
 		E694FB951E554F7200F52537 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Localizable.plist; sourceTree = "<group>"; };
@@ -122,6 +127,7 @@
 		E694FB9B1E554F7E00F52537 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ar-SA"; path = "ar-SA.lproj/Localizable.plist"; sourceTree = "<group>"; };
 		E694FB9C1E554F7F00F52537 /* pl-PL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pl-PL"; path = "pl-PL.lproj/Localizable.plist"; sourceTree = "<group>"; };
 		E694FB9D1E55572200F52537 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/localizable.strings; sourceTree = "<group>"; };
+		E6B0045C1E5BEDBC00D17F43 /* ButtonControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +200,7 @@
 		9160576B1E29FA7800CB16E9 /* TalentGame */ = {
 			isa = PBXGroup;
 			children = (
+				E6B0045B1E5BED9F00D17F43 /* Controls */,
 				91AD620E1E4C510200FCE341 /* ViewControllers */,
 				9103294E1E33685700B413E5 /* Resources */,
 				915072EA1E32250E00F08C0A /* services */,
@@ -218,8 +225,18 @@
 				9157B5901E40741F001AAE3D /* TalentListTableViewCell.swift */,
 				91AD620F1E4C516A00FCE341 /* FacebookViewController.swift */,
 				91AD62111E4C5BB500FCE341 /* LinkedInViewController.swift */,
+				E654AC971E5D41A1004048EA /* InfoViewController.swift */,
+				E68946431E5D69C90024F390 /* GameInfoController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E6B0045B1E5BED9F00D17F43 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				E6B0045C1E5BEDBC00D17F43 /* ButtonControl.swift */,
+			);
+			name = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +273,7 @@
 				TargetAttributes = {
 					916057681E29FA7700CB16E9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6249524F95;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -312,6 +330,7 @@
 				91AD62101E4C516A00FCE341 /* FacebookViewController.swift in Sources */,
 				9160576F1E29FA7800CB16E9 /* ViewController.swift in Sources */,
 				915072F01E3241A500F08C0A /* LanguageService.swift in Sources */,
+				E654AC981E5D41A1004048EA /* InfoViewController.swift in Sources */,
 				915072DD1E31E44200F08C0A /* Constants.swift in Sources */,
 				915072E31E320E1000F08C0A /* TalentListViewController.swift in Sources */,
 				915072E91E32249400F08C0A /* Language.swift in Sources */,
@@ -326,6 +345,8 @@
 				916057751E29FA7800CB16E9 /* TalentGame.xcdatamodeld in Sources */,
 				9160576D1E29FA7800CB16E9 /* AppDelegate.swift in Sources */,
 				915072EC1E32252400F08C0A /* DimensionService.swift in Sources */,
+				E68946441E5D69C90024F390 /* GameInfoController.swift in Sources */,
+				E6B0045D1E5BEDBC00D17F43 /* ButtonControl.swift in Sources */,
 				915072E71E3223C000F08C0A /* Talent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6249524F95;
 				INFOPLIST_FILE = TalentGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tma.app.TalentGame;
@@ -522,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6249524F95;
 				INFOPLIST_FILE = TalentGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tma.app.TalentGame;
