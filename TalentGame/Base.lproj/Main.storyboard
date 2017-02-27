@@ -23,13 +23,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="olu-Pl-Gcv">
-                                <rect key="frame" x="16" y="84" width="343" height="480"/>
+                                <rect key="frame" x="15" y="84" width="345" height="210"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-sO-WNf">
-                                        <rect key="frame" x="68" y="0.0" width="275" height="120"/>
+                                        <rect key="frame" x="218" y="0.0" width="127" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a82-QF-7lX" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -42,7 +42,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmH-kf-jWU" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                <rect key="frame" x="155" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="81" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -57,13 +57,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="NEY-jt-rAw">
-                                        <rect key="frame" x="0.0" y="180" width="343" height="120"/>
+                                        <rect key="frame" x="0.0" y="90" width="345" height="30"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="left" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="zUz-jS-H1h">
-                                                <rect key="frame" x="0.0" y="0.0" width="275" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="127" height="30"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q68-3B-R7W" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                                         <state key="normal" title="Button"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -76,7 +76,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5z1-Ub-ynf" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                        <rect key="frame" x="155" y="0.0" width="120" height="120"/>
+                                                        <rect key="frame" x="81" y="0.0" width="46" height="30"/>
                                                         <state key="normal" title="Button"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -98,10 +98,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="A2j-Ik-fMK">
-                                        <rect key="frame" x="68" y="360" width="275" height="120"/>
+                                        <rect key="frame" x="218" y="180" width="127" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7C-pm-V8I" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -114,7 +114,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okI-sz-a4J" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                <rect key="frame" x="155" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="81" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -447,13 +447,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="htb-Pq-3yC">
-                                <rect key="frame" x="16" y="84" width="343" height="480"/>
+                                <rect key="frame" x="15" y="84" width="345" height="210"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="oSc-MC-1oQ">
-                                        <rect key="frame" x="68" y="0.0" width="275" height="120"/>
+                                        <rect key="frame" x="218" y="0.0" width="127" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAm-4A-2Ks" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -463,7 +463,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4R-yL-3YN" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                <rect key="frame" x="155" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="81" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -475,13 +475,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="9jW-gY-Ehl">
-                                        <rect key="frame" x="0.0" y="180" width="343" height="120"/>
+                                        <rect key="frame" x="0.0" y="90" width="345" height="30"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="ngU-7d-UGk">
-                                                <rect key="frame" x="0.0" y="0.0" width="275" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="127" height="30"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIZ-8L-avM" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                                         <state key="normal" title="Button"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -491,7 +491,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMt-j1-apt" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                        <rect key="frame" x="155" y="0.0" width="120" height="120"/>
+                                                        <rect key="frame" x="81" y="0.0" width="46" height="30"/>
                                                         <state key="normal" title="Button"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -505,10 +505,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="afh-z5-SCK">
-                                        <rect key="frame" x="68" y="360" width="275" height="120"/>
+                                        <rect key="frame" x="218" y="180" width="127" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGD-CH-pi8" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -518,7 +518,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQv-Ta-qpG" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
-                                                <rect key="frame" x="155" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="81" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -657,6 +657,6 @@
         <image name="linkedin" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="t90-xZ-eOp"/>
+        <segue reference="o6a-14-UkO"/>
     </inferredMetricsTieBreakers>
 </document>

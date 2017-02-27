@@ -87,7 +87,7 @@ import UIKit
             self.setTitleColor(UIColor.white, for: [.highlighted, .selected, .normal])
             
             // Set the accessibility label
-            //self.accessibilityLabel = "Set \(index + 1) star rating"
+            self.accessibilityLabel = "Select \(title)"
             
         
             self.tag = index;
