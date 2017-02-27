@@ -256,17 +256,17 @@
     <key>dimension2_text</key>
     <dict>
         <key>value</key>
-        <string>Мотивы</string>
+        <string>Социальные таланты</string>
     </dict>
     <key>dimension3_text</key>
     <dict>
         <key>value</key>
-        <string>Социальные таланты</string>
+        <string>Влиятельные таланты</string>
     </dict>
     <key>dimension4_text</key>
     <dict>
         <key>value</key>
-        <string>Влиятельные таланты</string>
+        <string>Мотивы</string>
     </dict>
     <key>dimension5_text</key>
     <dict>
@@ -277,8 +277,7 @@
     <dict>
         <key>value</key>
         <string>Организационные таланты</string>
-    </dict>
-    <key>launching_app_name</key>
+    </dict>    <key>launching_app_name</key>
     <dict>
         <key>value</key>
         <string>Игра Талантов</string>

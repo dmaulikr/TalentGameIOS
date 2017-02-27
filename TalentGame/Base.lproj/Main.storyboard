@@ -84,70 +84,90 @@
             <point key="canvasLocation" x="479" y="-710"/>
         </scene>
         <!--Talent List View Controller-->
-        <scene sceneID="gMF-Z0-Dyg">
+        <scene sceneID="bEu-uR-PDe">
             <objects>
-                <tableViewController storyboardIdentifier="TalentListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6ak-G9-8Ty" customClass="TalentListViewController" customModule="TalentGame" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="X1I-nU-18K">
+                <viewController storyboardIdentifier="TalentListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pNx-2F-dZr" customClass="TalentListViewController" customModule="TalentGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ufc-fJ-7bx"/>
+                        <viewControllerLayoutGuide type="bottom" id="7nN-aO-ZWP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Wd-yx-By0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TalentListTableViewCell" id="5nW-P7-Yq6" customClass="TalentListTableViewCell" customModule="TalentGame" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5nW-P7-Yq6" id="bSZ-Yf-UV8">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="1di-d3-niv">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="24"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1Xc-JD-5fQ">
+                                <rect key="frame" x="0.0" y="59" width="375" height="608"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellIdentifier" id="wWv-JE-8R7" customClass="TalentListTableViewCell" customModule="TalentGame" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wWv-JE-8R7" id="2uk-7q-I36">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="19w-wk-hbn">
-                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="24"/>
-                                                    <accessibility key="accessibilityConfiguration">
-                                                        <bool key="isElement" value="YES"/>
-                                                    </accessibility>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="100" id="OZD-mW-9e0"/>
-                                                    </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="labelTalentName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FG3-54-jMg">
-                                                    <rect key="frame" x="100" y="0.0" width="128" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vgH-C4-Z8U">
-                                                    <rect key="frame" x="325" y="0.0" width="50" height="24"/>
-                                                    <accessibility key="accessibilityConfiguration">
-                                                        <bool key="isElement" value="YES"/>
-                                                    </accessibility>
-                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="1di-d3-niv">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="125.5"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="19w-wk-hbn">
+                                                            <rect key="frame" x="0.0" y="0.0" width="100" height="125.5"/>
+                                                            <accessibility key="accessibilityConfiguration">
+                                                                <bool key="isElement" value="YES"/>
+                                                            </accessibility>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="100" id="dMg-qL-AnD"/>
+                                                                <constraint firstAttribute="height" constant="125" id="wnh-Fn-JWy"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="labelTalentName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FG3-54-jMg">
+                                                            <rect key="frame" x="123.5" y="0.0" width="128" height="125.5"/>
+                                                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vgH-C4-Z8U">
+                                                            <rect key="frame" x="275" y="0.0" width="100" height="125.5"/>
+                                                            <accessibility key="accessibilityConfiguration">
+                                                                <bool key="isElement" value="YES"/>
+                                                            </accessibility>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="125" id="i6e-qp-pYb"/>
+                                                                <constraint firstAttribute="width" constant="100" id="ocE-58-QTw"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="FG3-54-jMg" firstAttribute="leading" secondItem="19w-wk-hbn" secondAttribute="trailing" id="asr-Bp-9Zg"/>
+                                                <constraint firstAttribute="trailing" secondItem="1di-d3-niv" secondAttribute="trailing" id="3p9-Tx-fPc"/>
+                                                <constraint firstItem="1di-d3-niv" firstAttribute="top" secondItem="2uk-7q-I36" secondAttribute="top" id="Eaw-1M-bAB"/>
+                                                <constraint firstItem="1di-d3-niv" firstAttribute="leading" secondItem="2uk-7q-I36" secondAttribute="leading" id="pgf-gp-Mej"/>
+                                                <constraint firstAttribute="bottom" secondItem="1di-d3-niv" secondAttribute="bottom" constant="20" symbolic="YES" id="snX-18-qMk"/>
                                             </constraints>
-                                        </stackView>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="1di-d3-niv" secondAttribute="bottom" constant="20" symbolic="YES" id="98d-1n-GgM"/>
-                                        <constraint firstItem="1di-d3-niv" firstAttribute="leading" secondItem="bSZ-Yf-UV8" secondAttribute="leading" id="Acc-YA-YdD"/>
-                                        <constraint firstItem="1di-d3-niv" firstAttribute="top" secondItem="bSZ-Yf-UV8" secondAttribute="top" id="dtw-fk-0Sw"/>
-                                        <constraint firstAttribute="bottom" secondItem="1di-d3-niv" secondAttribute="bottom" constant="20" symbolic="YES" id="qqZ-y4-CLk"/>
-                                        <constraint firstAttribute="trailing" secondItem="1di-d3-niv" secondAttribute="trailing" id="wkq-cm-iVE"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="6ak-G9-8Ty" id="lji-H6-Ba0"/>
-                            <outlet property="delegate" destination="6ak-G9-8Ty" id="uM4-Vs-O7C"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="e2X-TI-Ley" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="image123" destination="19w-wk-hbn" id="d4B-tY-res"/>
+                                            <outlet property="image789" destination="vgH-C4-Z8U" id="n3E-DX-8fF"/>
+                                            <outlet property="labelTalentName" destination="FG3-54-jMg" id="ty1-Xb-osG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="pNx-2F-dZr" id="gdb-hl-kIA"/>
+                                    <outlet property="delegate" destination="pNx-2F-dZr" id="wSO-Le-s1X"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="1Xc-JD-5fQ" id="6MF-GZ-RJr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E4A-9d-1C3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2535" y="-18"/>
+            <point key="canvasLocation" x="2575.1999999999998" y="34.632683658170919"/>
         </scene>
         <!--Facebook View Controller-->
         <scene sceneID="MAm-1l-JpG">
@@ -216,7 +236,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="6ak-G9-8Ty" kind="show" identifier="PushToTalentListView" id="yR5-UE-6Dd"/>
+                        <segue destination="pNx-2F-dZr" kind="show" id="Xql-87-hhw"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F0W-le-SIx" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -230,17 +230,17 @@
     <key>dimension2_text</key>
     <dict>
         <key>value</key>
-        <string>Motiver</string>
+        <string>Kommunikationsevner</string>
     </dict>
     <key>dimension3_text</key>
     <dict>
         <key>value</key>
-        <string>Kommunikationsevner</string>
+        <string>Påvirkende talenter</string>
     </dict>
     <key>dimension4_text</key>
     <dict>
         <key>value</key>
-        <string>Påvirkende talenter</string>
+        <string>Motiver</string>
     </dict>
     <key>dimension5_text</key>
     <dict>

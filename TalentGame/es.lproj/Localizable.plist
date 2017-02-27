@@ -230,17 +230,17 @@
     <key>dimension2_text</key>
     <dict>
         <key>value</key>
-        <string>Motivos</string>
+        <string>Talentos sociales</string>
     </dict>
     <key>dimension3_text</key>
     <dict>
         <key>value</key>
-        <string>Talentos sociales</string>
+        <string>Talentos de influencia</string>
     </dict>
     <key>dimension4_text</key>
     <dict>
         <key>value</key>
-        <string>Talentos de influencia</string>
+        <string>Motivos</string>
     </dict>
     <key>dimension5_text</key>
     <dict>
@@ -251,8 +251,7 @@
     <dict>
         <key>value</key>
         <string>Talentos organizativos</string>
-    </dict>
-    <key>launching_app_name</key>
+    </dict>    <key>launching_app_name</key>
     <dict>
         <key>value</key>
         <string>Juego de talentos</string>
