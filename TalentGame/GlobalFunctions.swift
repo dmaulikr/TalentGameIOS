@@ -31,6 +31,33 @@ func hexStringToUIColor (hex:String) -> UIColor {
     )
 }
 
+extension UIImage {
+    func makeImageWithColorAndSize(color: UIColor, size: CGSize) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(size, false, 0)
+        color.setFill()
+        UIRectFill(CGRect(x: 0,y: 0,width: size.width,height: size.height))
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image!
+    }
+    
+    func makeImageForTabBar(size: CGSize) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(size, false, 0)
+        let width = size.width/5;
+        for index in 0..<5
+        {
+            let x = size.width - (width * CGFloat(index + 1));
+            let uiColor = hexStringToUIColor(hex: Constants.colors[4-index])
+            uiColor.setFill()
+            UIRectFill(CGRect(x: x,y: 0,width: width,height: size.height))
+
+        }
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image!
+    }
+}
+
 //extension String {
 //    func localized() ->String {
 //        

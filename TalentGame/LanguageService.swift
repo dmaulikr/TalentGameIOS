@@ -16,9 +16,9 @@ class LanguageService
         var languages = [Language]()
         
         languages.append(Language(languageId: 1, languageName: "English", culture: "en"))
-        languages.append(Language(languageId: 1, languageName: "Dutch", culture: "nl"))
-        languages.append(Language(languageId: 1, languageName: "Danish", culture: "da"))
-        languages.append(Language(languageId: 1, languageName: "Deutsch", culture: "de"))
+        languages.append(Language(languageId: 2, languageName: "Dutch", culture: "nl"))
+        languages.append(Language(languageId: 3, languageName: "Danish", culture: "da"))
+        languages.append(Language(languageId: 4, languageName: "Deutsch", culture: "de"))
         return languages
     }
 }

@@ -20,6 +20,8 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view, typically from a nib.
     
         self.navigationItem.title = "app_name".localized
+        
+        
         //self.navigationItem.title = String.localize("app_name","App Title");
         //self.navigationItem.title = "app_name".localized(withComment: "App Title")
         
@@ -28,7 +30,7 @@ class ViewController: UIViewController
         //setButtons()
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

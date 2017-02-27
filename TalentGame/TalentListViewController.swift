@@ -24,8 +24,9 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.title = titleName
-        bindTalents()
+        navigationItem.title = titleName ?? "app_name".localized
+        
+        dimensionId != nil ? bindTalents() : bindAllTalents()
         // Register custom cell
 //        let nib = UINib(nibName: "TalentListTableViewCell", bundle: nil)
 //        self.tableView.register(nib, forCellReuseIdentifier: "cellIdentifier")
@@ -81,6 +82,11 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
     func bindTalents()
     {
         self.talents = TalentService.getTalentsByDimensionId(dimensionId: dimensionId!)
+    }
+    
+    func bindAllTalents()
+    {
+        self.talents = TalentService.getAllTalents().sorted(by: { $0.talentName < $1.talentName} );
     }
     
 }

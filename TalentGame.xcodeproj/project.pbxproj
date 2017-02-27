@@ -28,6 +28,7 @@
 		91AD62101E4C516A00FCE341 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD620F1E4C516A00FCE341 /* FacebookViewController.swift */; };
 		91AD62121E4C5BB500FCE341 /* LinkedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD62111E4C5BB500FCE341 /* LinkedInViewController.swift */; };
 		E654AC981E5D41A1004048EA /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E654AC971E5D41A1004048EA /* InfoViewController.swift */; };
+		E66BB1971E640BA800C2D3D5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66BB1961E640BA800C2D3D5 /* TabBarController.swift */; };
 		E68946441E5D69C90024F390 /* GameInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68946431E5D69C90024F390 /* GameInfoController.swift */; };
 		E694FB8C1E5544B400F52537 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = E694FB8E1E5544B400F52537 /* Localizable.plist */; };
 		E694FB901E5545DB00F52537 /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E694FB8F1E5545DB00F52537 /* LocalizableStrings.swift */; };
@@ -115,6 +116,7 @@
 		91DF674A1E5C1C9000D0AC8C /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ru-RU"; path = "ru-RU.lproj/Localizable.plist"; sourceTree = "<group>"; };
 		E60C4A6C1E55417F007A9B85 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/localizable.strings; sourceTree = "<group>"; };
 		E654AC971E5D41A1004048EA /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		E66BB1961E640BA800C2D3D5 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E68946431E5D69C90024F390 /* GameInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameInfoController.swift; sourceTree = "<group>"; };
 		E694FB8D1E5544B400F52537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Localizable.plist; sourceTree = "<group>"; };
 		E694FB8F1E5545DB00F52537 /* LocalizableStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				91AD62111E4C5BB500FCE341 /* LinkedInViewController.swift */,
 				E654AC971E5D41A1004048EA /* InfoViewController.swift */,
 				E68946431E5D69C90024F390 /* GameInfoController.swift */,
+				E66BB1961E640BA800C2D3D5 /* TabBarController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				915072E51E32226100F08C0A /* Dimension.swift in Sources */,
 				9157B5911E40741F001AAE3D /* TalentListTableViewCell.swift in Sources */,
 				915072EE1E3240D300F08C0A /* LanguageListViewController.swift in Sources */,
+				E66BB1971E640BA800C2D3D5 /* TabBarController.swift in Sources */,
 				915072F21E3289CF00F08C0A /* UserPrefencesHelper.swift in Sources */,
 				E694FB901E5545DB00F52537 /* LocalizableStrings.swift in Sources */,
 				916057751E29FA7800CB16E9 /* TalentGame.xcdatamodeld in Sources */,

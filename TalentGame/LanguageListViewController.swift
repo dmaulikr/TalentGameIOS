@@ -17,6 +17,7 @@ class LanguageListViewController: UIViewController, UIPickerViewDataSource, UIPi
         super.viewDidLoad()
         self.picker.dataSource = self;
         self.picker.delegate = self;
+        //self.picker.selectRow(3, inComponent: 0, animated: true)
         // Do any additional setup after loading the view.
     }
 
