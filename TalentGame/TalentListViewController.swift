@@ -61,11 +61,14 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
             
             let image123_pic = "artboard_123_\(talent.dimensionId)_\(talent.talentId)"
             let image789_pic = "artboard_789_\(talent.dimensionId)_\(talent.talentId)"
-            
-            
+        
             cell.image123?.image = UIImage(named: image123_pic)
+            cell.labelHeader123?.text = talent.title123
+            cell.labelFooter123?.text = talent.talentName
             cell.labelTalentName?.text = talent.talentName
             cell.image789?.image = UIImage(named: image789_pic)
+            cell.labelHeader789?.text = talent.title789
+            cell.labelFooter789?.text = talent.talentName
             return cell
     }
     

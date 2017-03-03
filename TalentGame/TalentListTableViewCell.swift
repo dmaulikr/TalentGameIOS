@@ -14,6 +14,10 @@ class TalentListTableViewCell: UITableViewCell, UITextFieldDelegate {
     @IBOutlet var labelTalentName: UILabel!
     @IBOutlet var image789: UIImageView!
     
+    @IBOutlet weak var labelHeader123: UILabel!
+    @IBOutlet weak var labelFooter123: UILabel!
+    @IBOutlet weak var labelHeader789: UILabel!
+    @IBOutlet weak var labelFooter789: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
