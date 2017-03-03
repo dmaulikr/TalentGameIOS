@@ -233,7 +233,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1di-d3-niv">
+                                                <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1di-d3-niv">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
                                                     <subviews>
                                                         <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="yvR-L5-ten">
@@ -323,6 +323,8 @@
                                             <constraints>
                                                 <constraint firstItem="1di-d3-niv" firstAttribute="leading" secondItem="2uk-7q-I36" secondAttribute="leading" id="4fO-H8-4OW"/>
                                                 <constraint firstAttribute="trailing" secondItem="1di-d3-niv" secondAttribute="trailing" id="IaA-0g-vwB"/>
+                                                <constraint firstAttribute="trailing" secondItem="1di-d3-niv" secondAttribute="trailing" id="Y0a-gb-Ib6"/>
+                                                <constraint firstItem="1di-d3-niv" firstAttribute="leading" secondItem="2uk-7q-I36" secondAttribute="leading" id="cC5-SI-GXQ"/>
                                                 <constraint firstItem="1di-d3-niv" firstAttribute="top" secondItem="2uk-7q-I36" secondAttribute="top" id="gxK-6q-Mcm"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="1di-d3-niv" secondAttribute="bottom" id="ikf-sh-ew4"/>
                                             </constraints>
