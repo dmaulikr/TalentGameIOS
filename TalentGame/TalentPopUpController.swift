@@ -1,5 +1,5 @@
 //
-//  GamePopUpController.swift
+//  TalentPopUpController.swift
 //  TalentGame
 //
 //  Created by Rohit Dabra on 09/03/17.
@@ -7,20 +7,24 @@
 //
 
 import UIKit
-import QuartzCore
 
-class GamePopUpController: UIViewController {
-    
+class TalentPopUpController: UIViewController {
     @IBOutlet weak var popUpView: UIView!
+
     @IBOutlet weak var stackView: UIStackView!
-    
-    @IBOutlet weak var GameDesc: UITextView!
-    @IBOutlet weak var GameTitle: UILabel!
-    @IBOutlet weak var GameText: UITextView!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var Close: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
+//        self.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+//        self.popUpView?.layer.cornerRadius = 5
+//        self.popUpView?.layer.shadowOpacity = 0.8
+//        self.popUpView?.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        
+        
+        
+        //self.imageView.image = UIImage(named: image123_pic);
     }
     
     override func didReceiveMemoryWarning() {
@@ -28,29 +32,31 @@ class GamePopUpController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func showInView(_ aView: UIView!,_ index: Int)
+    func showInView(_ aView: UIView!,_ image: UIImage)
     {
         self.loadView();
-        self.SetUp(index);
+        self.SetUp(image);
         aView.addSubview(self.view)
         self.showAnimate()
         
     }
     
-    func SetUp(_ index: Int) {
+    func SetUp(_ image: UIImage) {
         self.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
         self.popUpView?.layer.cornerRadius = 5
         self.popUpView?.layer.shadowOpacity = 0.8
         self.popUpView?.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        self.popUpView.backgroundColor = UIColor(patternImage: UIImage(named: "artboard_game_section_info")!)
         
-        let title = "Game\(index + 1)_Title";
-        let desc = "Game\(index + 1)_Title_Description";
-        let text = "Game\(index + 1)_Description";
         
-        self.GameTitle.text = title.localized;
-        self.GameDesc.text = desc.localized;
-        self.GameText.text = text.localized;
+        
+        self.imageView.image = image;
+//        let title = "Game\(index + 1)_Title";
+//        let desc = "Game\(index + 1)_Title_Description";
+//        let text = "Game\(index + 1)_Description";
+//        
+//        self.GameTitle.text = title.localized;
+//        self.GameDesc.text = desc.localized;
+//        self.GameText.text = text.localized;
     }
     
     func showAnimate()
@@ -80,6 +86,7 @@ class GamePopUpController: UIViewController {
     @IBAction func closePopup(_ sender: AnyObject) {
         self.removeAnimate()
     }
+    
 
     /*
     // MARK: - Navigation

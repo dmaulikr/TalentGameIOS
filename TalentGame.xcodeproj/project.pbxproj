@@ -31,6 +31,7 @@
 		E68946441E5D69C90024F390 /* GameInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68946431E5D69C90024F390 /* GameInfoController.swift */; };
 		E693706B1E71018D00244A0D /* GamePopUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E693706A1E71018D00244A0D /* GamePopUpController.swift */; };
 		E693706F1E711FEA00244A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E693706E1E711FEA00244A0D /* Main.storyboard */; };
+		E69370711E7154F400244A0D /* TalentPopUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69370701E7154F400244A0D /* TalentPopUpController.swift */; };
 		E694FB8C1E5544B400F52537 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = E694FB8E1E5544B400F52537 /* Localizable.plist */; };
 		E694FB901E5545DB00F52537 /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E694FB8F1E5545DB00F52537 /* LocalizableStrings.swift */; };
 		E6B0045D1E5BEDBC00D17F43 /* ButtonControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0045C1E5BEDBC00D17F43 /* ButtonControl.swift */; };
@@ -108,6 +109,7 @@
 		E68946431E5D69C90024F390 /* GameInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameInfoController.swift; sourceTree = "<group>"; };
 		E693706A1E71018D00244A0D /* GamePopUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePopUpController.swift; sourceTree = "<group>"; };
 		E693706E1E711FEA00244A0D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E69370701E7154F400244A0D /* TalentPopUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalentPopUpController.swift; sourceTree = "<group>"; };
 		E694FB8D1E5544B400F52537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Localizable.plist; sourceTree = "<group>"; };
 		E694FB8F1E5545DB00F52537 /* LocalizableStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
 		E694FB951E554F7200F52537 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Localizable.plist; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				E68946431E5D69C90024F390 /* GameInfoController.swift */,
 				E66BB1961E640BA800C2D3D5 /* TabBarController.swift */,
 				E693706A1E71018D00244A0D /* GamePopUpController.swift */,
+				E69370701E7154F400244A0D /* TalentPopUpController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				915072EC1E32252400F08C0A /* DimensionService.swift in Sources */,
 				E68946441E5D69C90024F390 /* GameInfoController.swift in Sources */,
 				E6B0045D1E5BEDBC00D17F43 /* ButtonControl.swift in Sources */,
+				E69370711E7154F400244A0D /* TalentPopUpController.swift in Sources */,
 				915072E71E3223C000F08C0A /* Talent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

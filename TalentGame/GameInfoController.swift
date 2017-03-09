@@ -27,14 +27,12 @@ class GameInfoController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func showPopUp(_ sender: AnyObject) {
+    @IBAction func showPopUp(_ sender: ButtonControl) {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
         self.popViewController = storyboard.instantiateViewController(withIdentifier: "GamePopUpController") as! GamePopUpController
-        
-        self.popViewController.modalPresentationStyle = .overCurrentContext
-        popViewController.showInView(self.view)
+        self.popViewController.showInView(self.view,sender.index)
         
     }
     

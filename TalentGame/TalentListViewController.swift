@@ -21,6 +21,8 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
     
     @IBOutlet weak var label_colorCode: UILabel!
     
+    var popViewController : TalentPopUpController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -54,7 +56,11 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             // Table view cells are reused and should be dequeued using a cell identifier.
             let cellIdentifier = "cellIdentifier"
-            
+        
+        let tapGestureRecognizer1 = UITapGestureRecognizer(target: self, action: #selector(showPopUp(_:)))
+        
+        let tapGestureRecognizer2 = UITapGestureRecognizer(target: self, action: #selector(showPopUp(_:)))
+        
         let cell:TalentListTableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! TalentListTableViewCell
             // Fetches the appropriate talent for the data source layout.
             let talent = self.talents[indexPath.row]
@@ -63,15 +69,28 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
             let image789_pic = "artboard_789_\(talent.dimensionId)_\(talent.talentId)"
         
             cell.image123?.image = UIImage(named: image123_pic)
+            cell.image123?.isUserInteractionEnabled = true;
+            cell.image123.addGestureRecognizer(tapGestureRecognizer1)
             cell.labelHeader123?.text = talent.title123
             cell.labelFooter123?.text = talent.talentName
             cell.labelTalentName?.text = talent.talentName
             cell.image789?.image = UIImage(named: image789_pic)
+            cell.image789?.isUserInteractionEnabled = true;
+            cell.image789.addGestureRecognizer(tapGestureRecognizer2)
             cell.labelHeader789?.text = talent.title789
             cell.labelFooter789?.text = talent.talentName
             return cell
     }
     
+    @IBAction func showPopUp(_ sender: UITapGestureRecognizer) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        self.popViewController = storyboard.instantiateViewController(withIdentifier: "TalentPopUpController") as! TalentPopUpController
+        
+        let imageView = sender.view as? UIImageView;
+        
+        self.popViewController.showInView(self.view,(imageView?.image)!)
+    }
     // 4
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Row \(indexPath.row) selected")
