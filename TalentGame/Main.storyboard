@@ -210,6 +210,61 @@
             </objects>
             <point key="canvasLocation" x="479" y="-710"/>
         </scene>
+        <!--Game Pop Up Controller-->
+        <scene sceneID="kOc-Ug-OwL">
+            <objects>
+                <viewController storyboardIdentifier="GamePopUpController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sHu-D4-rho" customClass="GamePopUpController" customModule="TalentGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eIo-EC-W0A"/>
+                        <viewControllerLayoutGuide type="bottom" id="M22-lT-11k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6B4-hZ-vm9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nK4-SS-MiL">
+                                <rect key="frame" x="46" y="100" width="283" height="467"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="a7E-uG-Wj8">
+                                        <rect key="frame" x="8" y="8" width="267" height="451"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOI-3e-YK3">
+                                                <rect key="frame" x="0.0" y="0.0" width="267" height="451"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="closePopup:" destination="sHu-D4-rho" eventType="touchUpInside" id="s96-m0-btq"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottomMargin" secondItem="a7E-uG-Wj8" secondAttribute="bottom" id="7Iu-Lp-fqj"/>
+                                    <constraint firstItem="a7E-uG-Wj8" firstAttribute="top" secondItem="nK4-SS-MiL" secondAttribute="topMargin" id="H9T-Vr-BuA"/>
+                                    <constraint firstItem="a7E-uG-Wj8" firstAttribute="leading" secondItem="nK4-SS-MiL" secondAttribute="leadingMargin" id="NQg-nG-rKg"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="a7E-uG-Wj8" secondAttribute="trailing" id="faE-O1-XTQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nK4-SS-MiL" firstAttribute="leading" secondItem="6B4-hZ-vm9" secondAttribute="leadingMargin" constant="30" id="3Gg-Bj-MiQ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="nK4-SS-MiL" secondAttribute="bottom" constant="100" id="dBX-rY-3JP"/>
+                            <constraint firstItem="nK4-SS-MiL" firstAttribute="top" secondItem="6B4-hZ-vm9" secondAttribute="topMargin" constant="100" id="hom-vo-6tK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nK4-SS-MiL" secondAttribute="trailing" constant="30" id="nbx-LG-jIZ"/>
+                            <constraint firstItem="nK4-SS-MiL" firstAttribute="centerY" secondItem="6B4-hZ-vm9" secondAttribute="centerY" id="qaa-Vv-c9H"/>
+                            <constraint firstItem="nK4-SS-MiL" firstAttribute="centerX" secondItem="6B4-hZ-vm9" secondAttribute="centerX" id="rqW-1r-zdm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="popUpView" destination="nK4-SS-MiL" id="gFq-3J-hQR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="prS-xN-QaS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3284" y="1665"/>
+        </scene>
         <!--Talent List View Controller-->
         <scene sceneID="bEu-uR-PDe">
             <objects>
@@ -550,6 +605,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="showPopUp:" destination="0wD-HD-KHJ" eventType="touchUpInside" id="6vu-o1-koS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4R-yL-3YN" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
                                                 <rect key="frame" x="81" y="0.0" width="46" height="30"/>
@@ -560,6 +618,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="showPopUp:" destination="0wD-HD-KHJ" eventType="touchUpInside" id="piz-uK-D6h"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -578,6 +639,9 @@
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="showPopUp:" destination="0wD-HD-KHJ" eventType="touchUpInside" id="lS6-ca-8jN"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMt-j1-apt" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
                                                         <rect key="frame" x="81" y="0.0" width="46" height="30"/>
@@ -588,6 +652,9 @@
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="showPopUp:" destination="0wD-HD-KHJ" eventType="touchUpInside" id="aGW-j5-0lb"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -605,6 +672,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="showPopUp:" destination="0wD-HD-KHJ" eventType="touchUpInside" id="V6f-ZN-2xu"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQv-Ta-qpG" customClass="ButtonControl" customModule="TalentGame" customModuleProvider="target">
                                                 <rect key="frame" x="81" y="0.0" width="46" height="30"/>
@@ -615,6 +685,9 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isGame" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="showPopUp:" destination="0wD-HD-KHJ" eventType="touchUpInside" id="PB0-Od-KuR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

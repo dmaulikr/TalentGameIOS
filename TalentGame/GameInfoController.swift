@@ -10,6 +10,7 @@ import UIKit
 
 class GameInfoController: UIViewController {
 
+    var popViewController : GamePopUpController!
     var dimensions: [Dimension] = DimensionService.getAllDimensions()
     
     var constX:NSLayoutConstraint?
@@ -26,6 +27,16 @@ class GameInfoController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func showPopUp(_ sender: AnyObject) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        self.popViewController = storyboard.instantiateViewController(withIdentifier: "GamePopUpController") as! GamePopUpController
+        
+        self.popViewController.modalPresentationStyle = .overCurrentContext
+        popViewController.showInView(self.view)
+        
+    }
     
     func setButtons(){
         
