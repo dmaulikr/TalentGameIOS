@@ -52,21 +52,6 @@ class LanguageListViewController: UIViewController, UIPickerViewDataSource, UIPi
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "TabBarController")
         self.present(controller, animated: false, completion: nil)
-        
-//        let appDelegate = UIApplication.shared.delegate! as! AppDelegate
-//        
-//        let initialViewController = self.storyboard!.instantiateViewController(withIdentifier: "NavHomeViewController")
-//        appDelegate.window?.rootViewController = initialViewController
-//        appDelegate.window?.makeKeyAndVisible()
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }

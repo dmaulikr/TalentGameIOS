@@ -57,29 +57,3 @@ extension UIImage {
         return image!
     }
 }
-
-//extension String {
-//    func localized() ->String {
-//        
-//        let lang = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
-//        
-//        let path = Bundle.main.path(forResource: lang, ofType: "lproj")
-//        let bundle = Bundle(path: path!)
-//        
-//        let str = NSLocalizedString(self, tableName: nil, bundle: bundle!, value: "", comment: "")
-//        
-//        return str;
-//}}
-//
-//extension String {
-//    func localized(withComment:String) -> String {
-//        return NSLocalizedString(self, tableName: nil, bundle: Bundle.main, value: "", comment: withComment)
-//    }
-//}
-//
-//extension String {
-//    public static func localize(_ key: String,_ comment: String) -> String {
-//        let str = NSLocalizedString(key, comment: comment)
-//        return str;
-//    }
-//}

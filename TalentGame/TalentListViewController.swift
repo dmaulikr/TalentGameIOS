@@ -29,12 +29,6 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
         navigationItem.title = titleName ?? "app_name".localized
         
         dimensionId != nil ? bindTalents() : bindAllTalents()
-        // Register custom cell
-//        let nib = UINib(nibName: "TalentListTableViewCell", bundle: nil)
-//        self.tableView.register(nib, forCellReuseIdentifier: "cellIdentifier")
-    
-        //tableView.reloadData()
-        // Do any additional setup after loading the view.
     }
     
     override func didReceiveMemoryWarning() {
