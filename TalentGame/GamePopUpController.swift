@@ -42,7 +42,7 @@ class GamePopUpController: UIViewController {
         self.popUpView?.layer.cornerRadius = 5
         self.popUpView?.layer.shadowOpacity = 0.8
         self.popUpView?.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
-        self.popUpView.backgroundColor = UIColor(patternImage: UIImage(named: "artboard_game_section_info")!)
+        //self.popUpView.backgroundColor = UIColor(patternImage: UIImage(named: "artboard_game_section_info")!)
         
         let title = "Game\(index + 1)_Title";
         let desc = "Game\(index + 1)_Title_Description";
