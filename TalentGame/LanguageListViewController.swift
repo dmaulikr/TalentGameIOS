@@ -17,7 +17,13 @@ class LanguageListViewController: UIViewController, UIPickerViewDataSource, UIPi
         super.viewDidLoad()
         self.picker.dataSource = self;
         self.picker.delegate = self;
-        //self.picker.selectRow(3, inComponent: 0, animated: true)
+        let lang = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
+        
+        //let language = pickerDataSoruce.first { $0.culture == lang }
+        let index = pickerDataSoruce.index(where: { $0.culture == lang})
+        
+        self.picker.showsSelectionIndicator = true;
+        self.picker.selectRow(index!, inComponent: 0, animated: true)
         // Do any additional setup after loading the view.
     }
 
