@@ -14,6 +14,8 @@ class TalentPopUpController: UIViewController {
     @IBOutlet weak var stackView: UIStackView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var Close: UIButton!
+    @IBOutlet weak var lblHeader: UILabel!
+    @IBOutlet weak var lblFooter: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -43,7 +45,7 @@ class TalentPopUpController: UIViewController {
     
     func SetUp(_ image: UIImage) {
         self.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
-        self.popUpView?.layer.cornerRadius = 5
+        //self.popUpView?.layer.cornerRadius = 5
         self.popUpView?.layer.shadowOpacity = 0.8
         self.popUpView?.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
         
