@@ -514,19 +514,6 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L18-7r-IJn">
-                                                        <rect key="frame" x="239" y="-7" width="36" height="35"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="35" id="A8e-UO-wpb"/>
-                                                            <constraint firstAttribute="width" constant="36" id="uPQ-up-SjK"/>
-                                                        </constraints>
-                                                        <state key="normal" backgroundImage="btn_close">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="closePopup:" destination="n0g-eZ-pGa" eventType="touchUpInside" id="1Rl-7D-joq"/>
-                                                        </connections>
-                                                    </button>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="xCo-xL-M7T" firstAttribute="leading" secondItem="ePZ-ld-FlM" secondAttribute="leading" id="UJn-WV-dgK"/>
@@ -537,10 +524,25 @@
                                             </view>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L18-7r-IJn">
+                                        <rect key="frame" x="252" y="-9" width="36" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="A8e-UO-wpb"/>
+                                            <constraint firstAttribute="width" constant="36" id="uPQ-up-SjK"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="btn_close">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="closePopup:" destination="n0g-eZ-pGa" eventType="touchUpInside" id="1Rl-7D-joq"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="L18-7r-IJn" firstAttribute="top" secondItem="tlO-2w-Sc8" secondAttribute="top" constant="-9" id="2Yn-bG-hhU"/>
                                     <constraint firstItem="bTq-6B-YqR" firstAttribute="leading" secondItem="tlO-2w-Sc8" secondAttribute="leading" constant="40" id="EC6-1M-OPP"/>
                                     <constraint firstAttribute="bottom" secondItem="5oB-Df-hIm" secondAttribute="bottom" id="F8z-i4-LJe"/>
+                                    <constraint firstAttribute="trailing" secondItem="L18-7r-IJn" secondAttribute="trailing" constant="-5" id="H5r-Sh-GHg"/>
                                     <constraint firstItem="5oB-Df-hIm" firstAttribute="top" secondItem="tlO-2w-Sc8" secondAttribute="top" constant="25" id="Pl2-Q0-jGa"/>
                                     <constraint firstItem="5oB-Df-hIm" firstAttribute="leading" secondItem="tlO-2w-Sc8" secondAttribute="leadingMargin" id="dar-EO-euW"/>
                                     <constraint firstItem="5oB-Df-hIm" firstAttribute="trailing" secondItem="tlO-2w-Sc8" secondAttribute="trailingMargin" id="e9k-el-D4q"/>
