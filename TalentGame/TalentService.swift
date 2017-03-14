@@ -71,4 +71,16 @@ class TalentService
         return selectedTalents
     }
     
+    static func getTalentByTalentId(talentId: Int) -> Talent
+    {
+        let talents = getAllTalents()
+        var returnedTalent: Talent!
+        for talent in talents
+        {
+            if(talent.talentId == talentId){
+                 returnedTalent = talent
+            }
+        }
+        return returnedTalent
+    }
 }

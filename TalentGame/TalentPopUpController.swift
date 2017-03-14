@@ -16,6 +16,9 @@ class TalentPopUpController: UIViewController {
     @IBOutlet weak var Close: UIButton!
     @IBOutlet weak var lblHeader: UILabel!
     @IBOutlet weak var lblFooter: UILabel!
+    
+    public var data: Talent!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,10 +37,21 @@ class TalentPopUpController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func showInView(_ aView: UIView!,_ image: UIImage)
+    func showInView(_ aView: UIView!,_ image: UIImage, _ talentId: Int, _ score: Int)
     {
         self.loadView();
         self.SetUp(image);
+        
+        let talentData = TalentService.getTalentByTalentId(talentId: talentId)
+        if(score == 123){
+            lblHeader.text = talentData.title123
+        }
+        else if(score == 789){
+            lblHeader.text = talentData.title789
+        }
+        lblFooter.text = talentData.talentName
+
+        
         aView.addSubview(self.view)
         self.showAnimate()
         
