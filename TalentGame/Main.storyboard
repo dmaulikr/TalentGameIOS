@@ -487,15 +487,15 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblHeader" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTq-6B-YqR">
-                                                        <rect key="frame" x="32" y="15" width="74" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <rect key="frame" x="32" y="15" width="66.5" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lblFooter" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txk-M9-Ehw">
                                                         <rect key="frame" x="155" y="267" width="87" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -512,8 +512,6 @@
                                                     </button>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstItem="L18-7r-IJn" firstAttribute="leading" secondItem="xCo-xL-M7T" secondAttribute="trailing" constant="-32" id="61F-zI-46z"/>
-                                                    <constraint firstItem="L18-7r-IJn" firstAttribute="top" secondItem="ePZ-ld-FlM" secondAttribute="top" constant="-11" id="R0b-Pq-H0H"/>
                                                     <constraint firstItem="xCo-xL-M7T" firstAttribute="leading" secondItem="ePZ-ld-FlM" secondAttribute="leading" id="UJn-WV-dgK"/>
                                                     <constraint firstItem="bTq-6B-YqR" firstAttribute="top" secondItem="ePZ-ld-FlM" secondAttribute="top" constant="15" id="UUG-1W-Afs"/>
                                                     <constraint firstItem="xCo-xL-M7T" firstAttribute="top" secondItem="ePZ-ld-FlM" secondAttribute="topMargin" id="jfD-Og-DjB"/>
@@ -522,12 +520,25 @@
                                             </view>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L18-7r-IJn">
+                                        <rect key="frame" x="252" y="-9" width="36" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="A8e-UO-wpb"/>
+                                            <constraint firstAttribute="width" constant="36" id="uPQ-up-SjK"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="btn_close">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="closePopup:" destination="n0g-eZ-pGa" eventType="touchUpInside" id="1Rl-7D-joq"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="L18-7r-IJn" firstAttribute="top" secondItem="tlO-2w-Sc8" secondAttribute="top" constant="-9" id="2Yn-bG-hhU"/>
                                     <constraint firstItem="bTq-6B-YqR" firstAttribute="leading" secondItem="tlO-2w-Sc8" secondAttribute="leading" constant="40" id="EC6-1M-OPP"/>
                                     <constraint firstAttribute="bottom" secondItem="5oB-Df-hIm" secondAttribute="bottom" id="F8z-i4-LJe"/>
-                                    <constraint firstItem="L18-7r-IJn" firstAttribute="top" secondItem="tlO-2w-Sc8" secondAttribute="top" constant="14" id="KeN-Fz-Hma"/>
-                                    <constraint firstAttribute="trailing" secondItem="L18-7r-IJn" secondAttribute="trailing" constant="-7" id="KpQ-It-0lh"/>
+                                    <constraint firstAttribute="trailing" secondItem="L18-7r-IJn" secondAttribute="trailing" constant="-5" id="H5r-Sh-GHg"/>
                                     <constraint firstItem="5oB-Df-hIm" firstAttribute="top" secondItem="tlO-2w-Sc8" secondAttribute="top" constant="25" id="Pl2-Q0-jGa"/>
                                     <constraint firstItem="5oB-Df-hIm" firstAttribute="leading" secondItem="tlO-2w-Sc8" secondAttribute="leadingMargin" id="dar-EO-euW"/>
                                     <constraint firstItem="5oB-Df-hIm" firstAttribute="trailing" secondItem="tlO-2w-Sc8" secondAttribute="trailingMargin" id="e9k-el-D4q"/>
@@ -544,7 +555,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Close" destination="L18-7r-IJn" id="q6l-L9-kLr"/>
                         <outlet property="imageView" destination="xCo-xL-M7T" id="LD9-Zm-ZBB"/>
                         <outlet property="lblFooter" destination="Txk-M9-Ehw" id="Xvz-qa-QWg"/>
                         <outlet property="lblHeader" destination="bTq-6B-YqR" id="h7m-Td-EWe"/>

@@ -51,9 +51,9 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
             // Table view cells are reused and should be dequeued using a cell identifier.
             let cellIdentifier = "cellIdentifier"
         
-        let tapGestureRecognizer1 = UITapGestureRecognizer(target: self, action: #selector(showPopUp(_:)))
+        let tapGestureRecognizer1 = UITapGestureRecognizer(target: self, action: #selector(showPopUp123(_:)))
         
-        let tapGestureRecognizer2 = UITapGestureRecognizer(target: self, action: #selector(showPopUp(_:)))
+        let tapGestureRecognizer2 = UITapGestureRecognizer(target: self, action: #selector(showPopUp789(_:)))
         
         let cell:TalentListTableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! TalentListTableViewCell
             // Fetches the appropriate talent for the data source layout.
@@ -76,15 +76,44 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
             return cell
     }
     
-    @IBAction func showPopUp(_ sender: UITapGestureRecognizer) {
+    @IBAction func showPopUp123(_ sender: UITapGestureRecognizer) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
         self.popViewController = storyboard.instantiateViewController(withIdentifier: "TalentPopUpController") as! TalentPopUpController
         
         let imageView = sender.view as? UIImageView;
         
-        self.popViewController.showInView(self.view,(imageView?.image)!)
+        //using sender, we can get the point in respect to the table view
+        let tapLocation = sender.location(in: self.tableView)
+        
+        //using the tapLocation, we retrieve the corresponding indexPath
+        let indexPath = self.tableView.indexPathForRow(at: tapLocation)
+        
+        let talentId = self.talents[(indexPath?.row)!].talentId
+                
+        self.popViewController.showInView(self.view,(imageView?.image)!, talentId, 123)
     }
+    @IBAction func showPopUp789(_ sender: UITapGestureRecognizer) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        self.popViewController = storyboard.instantiateViewController(withIdentifier: "TalentPopUpController") as! TalentPopUpController
+        
+        let imageView = sender.view as? UIImageView;
+        
+        //using sender, we can get the point in respect to the table view
+        let tapLocation = sender.location(in: self.tableView)
+        
+        //using the tapLocation, we retrieve the corresponding indexPath
+        let indexPath = self.tableView.indexPathForRow(at: tapLocation)
+        
+        //finally, we print out the value
+        print(indexPath!)
+        
+        let talentId = self.talents[(indexPath?.row)!].talentId
+        
+        self.popViewController.showInView(self.view,(imageView?.image)!, talentId, 789)
+    }
+
     // 4
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Row \(indexPath.row) selected")
