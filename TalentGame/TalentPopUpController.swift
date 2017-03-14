@@ -22,10 +22,10 @@ class TalentPopUpController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        self.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
-//        self.popUpView?.layer.cornerRadius = 5
-//        self.popUpView?.layer.shadowOpacity = 0.8
-//        self.popUpView?.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
+        self.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        self.popUpView?.layer.cornerRadius = 5
+        self.popUpView?.layer.shadowOpacity = 0.8
+        self.popUpView?.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
         
         
         
@@ -39,7 +39,7 @@ class TalentPopUpController: UIViewController {
     
     func showInView(_ aView: UIView!,_ image: UIImage, _ talentId: Int, _ score: Int)
     {
-        self.loadView();
+        //self.loadView();
         self.SetUp(image);
         
         let talentData = TalentService.getTalentByTalentId(talentId: talentId)
@@ -59,7 +59,7 @@ class TalentPopUpController: UIViewController {
     
     func SetUp(_ image: UIImage) {
         self.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
-        //self.popUpView?.layer.cornerRadius = 5
+        self.popUpView?.layer.cornerRadius = 5
         self.popUpView?.layer.shadowOpacity = 0.8
         self.popUpView?.layer.shadowOffset = CGSize(width: 0.0, height: 0.0)
         
