@@ -228,51 +228,36 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="a7E-uG-Wj8">
                                         <rect key="frame" x="8" y="8" width="267" height="451"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4G-a9-S7c">
-                                                <rect key="frame" x="0.0" y="0.0" width="267" height="451"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Description" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvf-ae-Af8">
-                                                        <rect key="frame" x="0.0" y="78" width="267" height="45"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="45" id="m5f-3V-xxj"/>
-                                                        </constraints>
-                                                        <color key="textColor" red="0.6762373096446701" green="0.6762373096446701" blue="0.6762373096446701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Text Description" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-dK-rt7">
-                                                        <rect key="frame" x="0.0" y="131" width="267" height="227"/>
-                                                        <color key="backgroundColor" red="0.8205504441624365" green="0.8205504441624365" blue="0.8205504441624365" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <color key="textColor" red="0.47660215736040612" green="0.47660215736040612" blue="0.47660215736040612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1n-SI-86u">
-                                                        <rect key="frame" x="0.0" y="58" width="267" height="12"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="12" id="sXU-Aw-gyT"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                        <color key="textColor" red="0.2373691307106599" green="0.2373691307106599" blue="0.2373691307106599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1n-SI-86u">
+                                                <rect key="frame" x="0.0" y="0.0" width="267" height="12"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="uvf-ae-Af8" firstAttribute="top" secondItem="X4G-a9-S7c" secondAttribute="top" constant="78" id="1Gn-it-0dM"/>
-                                                    <constraint firstItem="nWW-dK-rt7" firstAttribute="top" secondItem="uvf-ae-Af8" secondAttribute="bottom" constant="8" symbolic="YES" id="BaY-z2-cvt"/>
-                                                    <constraint firstAttribute="trailing" secondItem="uvf-ae-Af8" secondAttribute="trailing" id="BzS-wM-Nzw"/>
-                                                    <constraint firstItem="uvf-ae-Af8" firstAttribute="trailing" secondItem="U1n-SI-86u" secondAttribute="trailing" id="Dws-1c-fDt"/>
-                                                    <constraint firstAttribute="bottom" secondItem="nWW-dK-rt7" secondAttribute="bottom" constant="93" id="LKE-Yy-9n4"/>
-                                                    <constraint firstItem="uvf-ae-Af8" firstAttribute="leading" secondItem="nWW-dK-rt7" secondAttribute="leading" id="TOw-Fi-ohF"/>
-                                                    <constraint firstItem="uvf-ae-Af8" firstAttribute="trailing" secondItem="nWW-dK-rt7" secondAttribute="trailing" id="cuf-NS-QMc"/>
-                                                    <constraint firstItem="uvf-ae-Af8" firstAttribute="top" secondItem="U1n-SI-86u" secondAttribute="bottom" constant="8" symbolic="YES" id="dLX-So-eGa"/>
-                                                    <constraint firstItem="uvf-ae-Af8" firstAttribute="leading" secondItem="X4G-a9-S7c" secondAttribute="leading" id="hpd-WW-Tyu"/>
-                                                    <constraint firstItem="uvf-ae-Af8" firstAttribute="leading" secondItem="U1n-SI-86u" secondAttribute="leading" id="uhY-Vl-ZEB"/>
+                                                    <constraint firstAttribute="height" constant="12" id="sXU-Aw-gyT"/>
                                                 </constraints>
-                                            </view>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="0.2373691307106599" green="0.2373691307106599" blue="0.2373691307106599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Description" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvf-ae-Af8">
+                                                <rect key="frame" x="0.0" y="13" width="267" height="45"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="m5f-3V-xxj"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.6762373096446701" green="0.6762373096446701" blue="0.6762373096446701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Text Description" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-dK-rt7">
+                                                <rect key="frame" x="0.0" y="59" width="267" height="357"/>
+                                                <color key="backgroundColor" red="0.8205504441624365" green="0.8205504441624365" blue="0.8205504441624365" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.47660215736040612" green="0.47660215736040612" blue="0.47660215736040612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamefooter" translatesAutoresizingMaskIntoConstraints="NO" id="5yT-Vb-Vwk">
+                                                <rect key="frame" x="0.0" y="417" width="267" height="34"/>
+                                            </imageView>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOI-3e-YK3">
@@ -964,6 +949,7 @@
     <resources>
         <image name="btn_close" width="25" height="25"/>
         <image name="facebook_icon" width="25" height="25"/>
+        <image name="gamefooter" width="241" height="34"/>
         <image name="home" width="25" height="25"/>
         <image name="icon_settings" width="25" height="25"/>
         <image name="img_btn_games" width="25" height="25"/>
