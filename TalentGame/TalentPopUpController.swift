@@ -84,9 +84,8 @@ class TalentPopUpController: UIViewController {
             }
         });
     }
-    
     @IBAction func closePopup(_ sender: AnyObject) {
         self.removeAnimate()
     }
-
+    
 }
