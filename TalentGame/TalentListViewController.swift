@@ -106,9 +106,6 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
         //using the tapLocation, we retrieve the corresponding indexPath
         let indexPath = self.tableView.indexPathForRow(at: tapLocation)
         
-        //finally, we print out the value
-        print(indexPath!)
-        
         let talentId = self.talents[(indexPath?.row)!].talentId
         
         self.popViewController.showInView(self.view,(imageView?.image)!, talentId, 789)
