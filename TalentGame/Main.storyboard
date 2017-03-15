@@ -643,7 +643,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FMO-MJ-jwm">
                                 <rect key="frame" x="16" y="64" width="343" height="554"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Q2-84-WnR">
+                                    <imageView userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TMA Icon" translatesAutoresizingMaskIntoConstraints="NO" id="5Q2-84-WnR">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Unn-sc-f1A"/>
@@ -946,6 +946,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="TMA Icon" width="76" height="76"/>
         <image name="btn_close" width="25" height="25"/>
         <image name="facebook_icon" width="25" height="25"/>
         <image name="gamefooter" width="241" height="34"/>
