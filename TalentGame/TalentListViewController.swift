@@ -123,7 +123,7 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
     
     func bindTalents()
     {
-        self.talents = TalentService.getTalentsByDimensionId(dimensionId: dimensionId!)
+        self.talents = TalentService.getTalentsByDimensionId(dimensionId: dimensionId!).sorted(by: { $0.talentName < $1.talentName} );
     }
     
     func bindAllTalents()

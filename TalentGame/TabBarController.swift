@@ -31,7 +31,11 @@ class TabBarController: UITabBarController {
         //Selected Icon Color To be Changed
         //self.tabBar.tintColor = UIColor.blue;
         
-        self.tabBar.unselectedItemTintColor = UIColor.white;
+        if #available(iOS 10.0, *) {
+            self.tabBar.unselectedItemTintColor = UIColor.white
+        } else {
+            // Fallback on earlier versions
+        };
 
     }
 }

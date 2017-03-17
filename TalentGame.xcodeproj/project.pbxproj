@@ -270,7 +270,7 @@
 				TargetAttributes = {
 					916057681E29FA7700CB16E9 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6249524F95;
+						DevelopmentTeam = 2GY9FUHC65;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -511,8 +511,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6249524F95;
+				DEVELOPMENT_TEAM = 2GY9FUHC65;
 				INFOPLIST_FILE = TalentGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tma.app.TalentGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,8 +525,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6249524F95;
+				DEVELOPMENT_TEAM = 2GY9FUHC65;
 				INFOPLIST_FILE = TalentGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tma.app.TalentGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
