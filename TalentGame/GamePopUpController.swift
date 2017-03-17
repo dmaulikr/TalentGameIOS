@@ -50,7 +50,7 @@ class GamePopUpController: UIViewController {
         
         self.GameTitle.text = title.localized;
         self.GameDesc.text = desc.localized;
-        self.GameText.text = text.localized;
+        self.GameText.text = text.localized.replacingOccurrences(of: "1.", with: "\n 1.").replacingOccurrences(of: "2.", with: "\n 2.").replacingOccurrences(of: "3.", with: "\n 3.").replacingOccurrences(of: "4.", with: "\n 4.").replacingOccurrences(of: "5.", with: "\n 5.").replacingOccurrences(of: "6.", with: "\n 6.");
     }
     
     func showAnimate()
