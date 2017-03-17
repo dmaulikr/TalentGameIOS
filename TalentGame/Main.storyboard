@@ -318,7 +318,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1Xc-JD-5fQ">
-                                <rect key="frame" x="0.0" y="5" width="375" height="613"/>
+                                <rect key="frame" x="0.0" y="5" width="375" height="662"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellIdentifier" id="wWv-JE-8R7" customClass="TalentListTableViewCell" customModule="TalentGame" customModuleProvider="target">
@@ -343,7 +343,7 @@
                                                                     <gestureRecognizers/>
                                                                 </imageView>
                                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="labelFooter123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isd-yn-aT5">
-                                                                    <rect key="frame" x="74.5" y="27" width="30.5" height="5"/>
+                                                                    <rect key="frame" x="74" y="27" width="31" height="5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="4"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -958,7 +958,7 @@
         <image name="linkedin" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="t90-xZ-eOp"/>
+        <segue reference="o6a-14-UkO"/>
         <segue reference="YoQ-fb-s64"/>
     </inferredMetricsTieBreakers>
 </document>
