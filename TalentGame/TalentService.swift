@@ -45,13 +45,27 @@ class TalentService
         {
             talent.dimension = dimensions[talent.dimensionId - 1]
             
-            let str_TalentTitle123:String = talent.title123.capitalized.replacingOccurrences(of: ", ", with: "\n")
+            //let str_TalentTitle123:String = talent.title123
+                //.capitalizingFirstLetter().replacingOccurrences(of: ", ", with: "\n")
+            let str_TalentTitle123 = talent.title123.components(separatedBy: ", ")
             
+            var title123:String = ""
+            var title789:String = ""
             
-            let str_TalentTitle789:String = talent.title789.capitalized.replacingOccurrences(of: ", ", with: "\n")
-                        
-            talent.title123 = str_TalentTitle123
-            talent.title789 = str_TalentTitle789
+            for title:String in str_TalentTitle123{
+                title123 += title.capitalizingFirstLetter()+"\n"
+            }
+            
+            let str_TalentTitle789 = talent.title789.components(separatedBy: ", ")
+                //.capitalizingFirstLetter().replacingOccurrences(of: ", ", with: "\n")
+            
+            for title:String in str_TalentTitle789{
+                title789 += title.capitalizingFirstLetter()+"\n"
+            }
+
+            
+            talent.title123 = title123
+            talent.title789 = title789
 
         }
         return talents
