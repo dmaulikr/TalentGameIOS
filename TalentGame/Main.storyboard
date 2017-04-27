@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4ea-co-tsA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4ea-co-tsA">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -343,7 +343,7 @@
                                                                     <gestureRecognizers/>
                                                                 </imageView>
                                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="labelFooter123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isd-yn-aT5">
-                                                                    <rect key="frame" x="74" y="27" width="31" height="5"/>
+                                                                    <rect key="frame" x="74.5" y="27" width="30.5" height="5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="4"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -570,6 +570,10 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="590"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="7kY-e2-HaN">
+                                <rect key="frame" x="177" y="313" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -582,6 +586,7 @@
                     <tabBarItem key="tabBarItem" title="" image="facebook_icon" selectedImage="facebook_icon" id="HpR-lC-BhL"/>
                     <navigationItem key="navigationItem" id="dI6-pb-hb4"/>
                     <connections>
+                        <outlet property="Activity" destination="7kY-e2-HaN" id="x7s-fR-aYs"/>
                         <outlet property="webViewInstance" destination="1ZL-XH-s3B" id="KXF-r3-SVI"/>
                     </connections>
                 </viewController>
@@ -864,6 +869,10 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="590"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="2VZ-lW-TEK">
+                                <rect key="frame" x="177" y="313" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -876,6 +885,7 @@
                     <tabBarItem key="tabBarItem" title="" image="linkedin" selectedImage="linkedin" id="MT6-3Q-H9n"/>
                     <navigationItem key="navigationItem" id="ofH-RP-8su"/>
                     <connections>
+                        <outlet property="Activity" destination="2VZ-lW-TEK" id="6cS-sw-IPw"/>
                         <outlet property="webViewInstance" destination="Csp-r7-Ybk" id="3U4-ZC-uNt"/>
                     </connections>
                 </viewController>
