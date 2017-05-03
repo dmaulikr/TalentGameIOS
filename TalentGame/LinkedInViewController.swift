@@ -8,13 +8,15 @@
 
 import UIKit
 
-class LinkedInViewController: UIViewController {
+class LinkedInViewController: UIViewController, UIWebViewDelegate {
 
     @IBOutlet weak var Activity: UIActivityIndicatorView!
     @IBOutlet weak var webViewInstance: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        webViewInstance.delegate = self
+        
         // Do any additional setup after loading the view.
         webViewInstance.loadRequest(NSURLRequest(url: NSURL(string: "https://www.linkedin.com/groups?mostPopular=&gid=112628")! as URL) as URLRequest)
     }

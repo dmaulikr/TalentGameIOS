@@ -8,13 +8,15 @@
 
 import UIKit
 
-class FacebookViewController: UIViewController {
+class FacebookViewController: UIViewController, UIWebViewDelegate {
 
     @IBOutlet weak var webViewInstance: UIWebView!
     
     @IBOutlet weak var Activity: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        webViewInstance.delegate = self
 
         // Do any additional setup after loading the view.
         webViewInstance.loadRequest(NSURLRequest(url: NSURL(string: "https://www.facebook.com/pg/tmamethode/events/")! as URL) as URLRequest)
