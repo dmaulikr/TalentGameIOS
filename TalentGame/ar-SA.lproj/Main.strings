@@ -1,0 +1,84 @@
+
+/* Class = "UITextView"; text = "http://www.tmamethod.com"; ObjectID = "0b1-ni-u8K"; */
+"0b1-ni-u8K.text" = "http://www.tmamethod.com";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5z1-Ub-ynf"; */
+"5z1-Ub-ynf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "C7C-pm-V8I"; */
+"C7C-pm-V8I.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "CAu-ft-TLC"; */
+"CAu-ft-TLC.title" = "Item";
+
+/* Class = "UILabel"; text = "labelHeader789"; ObjectID = "Ept-5G-rWS"; */
+"Ept-5G-rWS.text" = "labelHeader789";
+
+/* Class = "UILabel"; text = "labelTalentName"; ObjectID = "FG3-54-jMg"; */
+"FG3-54-jMg.text" = "labelTalentName";
+
+/* Class = "UILabel"; text = "labelFooter123"; ObjectID = "Isd-yn-aT5"; */
+"Isd-yn-aT5.text" = "labelFooter123";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KAm-4A-2Ks"; */
+"KAm-4A-2Ks.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "select language"; ObjectID = "P5a-Xh-Ocm"; */
+"P5a-Xh-Ocm.title" = "select language";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PQv-Ta-qpG"; */
+"PQv-Ta-qpG.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "TMA Talent Game"; ObjectID = "Pnw-L8-P11"; */
+"Pnw-L8-P11.text" = "TMA Talent Game";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QIZ-8L-avM"; */
+"QIZ-8L-avM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "labelHeader123"; ObjectID = "TM5-4Y-PXc"; */
+"TM5-4Y-PXc.text" = "labelHeader123";
+
+/* Class = "UILabel"; text = "lblFooter"; ObjectID = "Txk-M9-Ehw"; */
+"Txk-M9-Ehw.text" = "lblFooter";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "U1n-SI-86u"; */
+"U1n-SI-86u.text" = "Label";
+
+/* Class = "UIViewController"; title = "Select Language"; ObjectID = "XaJ-sO-AWC"; */
+"XaJ-sO-AWC.title" = "Select Language";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y4R-yL-3YN"; */
+"Y4R-yL-3YN.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YMt-j1-apt"; */
+"YMt-j1-apt.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "a82-QF-7lX"; */
+"a82-QF-7lX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "labelFooter789"; ObjectID = "arl-qh-5IK"; */
+"arl-qh-5IK.text" = "labelFooter789";
+
+/* Class = "UILabel"; text = "lblHeader"; ObjectID = "bTq-6B-YqR"; */
+"bTq-6B-YqR.text" = "lblHeader";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dGD-CH-pi8"; */
+"dGD-CH-pi8.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "Text Description"; ObjectID = "nWW-dK-rt7"; */
+"nWW-dK-rt7.text" = "Text Description";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "okI-sz-a4J"; */
+"okI-sz-a4J.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "q68-3B-R7W"; */
+"q68-3B-R7W.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "info@tmamethod.com"; ObjectID = "qpx-65-xv6"; */
+"qpx-65-xv6.text" = "info@tmamethod.com";
+
+/* Class = "UITextView"; text = "Description"; ObjectID = "uvf-ae-Af8"; */
+"uvf-ae-Af8.text" = "Description";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zmH-kf-jWU"; */
+"zmH-kf-jWU.normalTitle" = "Button";
