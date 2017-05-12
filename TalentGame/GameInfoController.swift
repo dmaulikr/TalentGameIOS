@@ -18,7 +18,7 @@ class GameInfoController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationItem.title = "Games"        
+        self.navigationItem.title = "title_activity_Games".localized        
         //setButtons()
     }
 

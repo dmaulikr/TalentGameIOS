@@ -22,7 +22,7 @@ class LanguageService
         languages.append(Language(languageId: 5, languageName: "Français", culture: "fr"))
         languages.append(Language(languageId: 6, languageName: "Español", culture: "es"))
         languages.append(Language(languageId: 7, languageName: "Português", culture: "pt-PT"))
-        //languages.append(Language(languageId: 8, languageName: "العربية", culture: "ar-SA"))
+        languages.append(Language(languageId: 8, languageName: "العربية", culture: "ar-SA"))
         languages.append(Language(languageId: 9, languageName: "Polish", culture: "pl-PL"))
         languages.append(Language(languageId: 9, languageName: "Русский", culture: "ru-RU"))
         languages.append(Language(languageId: 9, languageName: "Chinese (Simplified)", culture: "zh-Hans"))

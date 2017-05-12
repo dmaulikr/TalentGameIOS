@@ -2,150 +2,129 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>app_name</key>
-	<dict>
-		<key>value</key>
-		<string>Talent Game AR</string>
-	</dict>
-	<key>dimension1_text</key>
-	<dict>
-		<key>value</key>
-		<string>Emotional balance</string>
-	</dict>
-	<key>dimension2_text</key>
-	<dict>
-		<key>value</key>
-		<string>Motives</string>
-	</dict>
-	<key>dimension3_text</key>
-	<dict>
-		<key>value</key>
-		<string>Social talents</string>
-	</dict>
-	<key>dimension4_text</key>
-	<dict>
-		<key>value</key>
-		<string>Influential talents</string>
-	</dict>
-	<key>dimension5_text</key>
-	<dict>
-		<key>value</key>
-		<string>Leadership talents</string>
-	</dict>
-	<key>dimension6_text</key>
-	<dict>
-		<key>value</key>
-		<string>Organizational talents</string>
-	</dict>
-    <key>Talent1</key>
-    <dict>
-        <key>value</key>
-        <string>الطموح والتحديات</string>
-    </dict>
-    <key>Talent2</key>
-    <dict>
-        <key>value</key>
-        <string>الاحترام</string>
-    </dict>
-    <key>Talent3</key>
-    <dict>
-        <key>value</key>
-        <string>الترتيب والبنية</string>
-    </dict>
-    <key>Talent4</key>
-    <dict>
-        <key>value</key>
-        <string>الانفتاح</string>
-    </dict>
-    <key>Talent5</key>
-    <dict>
-        <key>value</key>
-        <string>التفكير والعمل المستقل</string>
-    </dict>
-    <key>Talent6</key>
-    <dict>
-        <key>value</key>
-        <string>المخالطة الاجتماعية والتواصل</string>
-    </dict>
-    <key>Talent7</key>
-    <dict>
-        <key>value</key>
-        <string>لتعاطف الاجتماعي</string>
-    </dict>
-    <key>Talent8</key>
-    <dict>
-        <key>value</key>
-        <string>الحاجة للدعم</string>
-    </dict>
-    <key>Talent9</key>
-    <dict>
-        <key>value</key>
-        <string>الهيمنة</string>
-    </dict>
-    <key>Talent10</key>
-    <dict>
-        <key>value</key>
-        <string>تقدير الذات</string>
-    </dict>
-    <key>Talent11</key>
-    <dict>
-        <key>value</key>
-        <string>الاستعداد للمساعدة</string>
-    </dict>
-    <key>Talent12</key>
-    <dict>
-        <key>value</key>
-        <string>التنوع</string>
-    </dict>
-    <key>Talent13</key>
-    <dict>
-        <key>value</key>
-        <string>المثابرة</string>
-    </dict>
-    <key>Talent14</key>
-    <dict>
-        <key>value</key>
-        <string>الطاقة والعمل</string>
-    </dict>
-    <key>Talent15</key>
-    <dict>
-        <key>value</key>
-        <string>المواجهة</string>
-    </dict>
-    <key>Talent17</key>
-    <dict>
-        <key>value</key>
-        <string>المطابقة</string>
-    </dict>
-    <key>Talent18</key>
-    <dict>
-        <key>value</key>
-        <string>الحاجة للمكانة</string>
-    </dict>
-    <key>Talent21</key>
-    <dict>
-        <key>value</key>
-        <string>المسؤولية والقيادة</string>
-    </dict>
-    <key>Talent22</key>
-    <dict>
-        <key>value</key>
-        <string>البراغماتية</string>
-    </dict>
-    <key>Talent25</key>
-    <dict>
-        <key>value</key>
-        <string>الحسم</string>
-    </dict>
-    <key>Talent27</key>
-    <dict>
-        <key>value</key>
-        <string>وضوح الهدف</string>
-    </dict>
-    <key>Talent29</key>
-    <dict>
-        <key>value</key>
-        <string>إدارة التوتر والضغط النفسي</string>
-    </dict>
-</dict>
+    <key>Address</key><dict><key>value</key><string>العنوان</string></dict>
+    <key>AppInfo</key><dict><key>value</key><string>الأفراد الأفضبل تحفيزا هم الأكثر فعالية ونجاحا في الأعمال الأقرب إلى مواهبهم. تستخدم هذه الرؤية في لعبة المواهب TMA. ويمكنك من خلال هذه اللعبة الحصول على أجوبة شاملة على العديد من الأسئلة مثل: ما المواهب التي امتلكها؟ ما المواهب التي يمكن أن أكون على دراية بها؟ أين موقعنا بصفتنا فريق واحد؟ كيف يمكننا الاستفادة بشكل أفضل من قدرات أعضاء الفريق؟ تحتوي لعبة المواهب TMA على 44 بطاقة موهبة وأربع بطاقات للاختلافات وشرح للعبة. اللعبة عبارة عن أداة عملية للجميع ممن يرغبون في التعامل مواهبهم. ويمكنك أن تلعب بشكل فردي وفي مجموعات. وبالإضافة إلى ذلك، فأن هذه اللعبة مخصصة للمحترفين والمدربين من TMA الذين يستخدمون اللعبة في التدريب الفردي والجماعي. وأخيرا، فإن لعبة المواهب TMA تساعد أيضا على اكتساب الخبرة في شكل لعبة مع المفاهيم الأساسية لإدارة المواهب. وهذا يجعلها مناسبة أيضا للأشخاص الذين يشاركون في التدريب الاحترافي TMA. هل ترغب في أن تكون احترافي معتمد في TMA وتستخدم أدوات TMA العلمية الصحيحة وعلى شبكة الإنترنت؟ هل تريد استخدام أفضل مواهب الأفراد والمنظمات بطريقة إيجابية؟ يرجى الاتصال بنا على info@tmamethod.com أو الاتصال على تليفون رقم 2670444 30 31 +</string></dict>
+    <key>Email</key><dict><key>value</key><string>البريد الإليكتروني</string></dict>
+    <key>FollowUsOn</key><dict><key>value</key><string>متابعتنا على</string></dict>
+    <key>Game1</key><dict><key>value</key><string>اللعبة 1</string></dict>
+    <key>Game1_Description</key><dict><key>value</key><string>1.ضع كافة بطاقات الموهبة على الطاولة . \n2.الإختيار من بطاقات المواهبة عدد ثماني مواهب ممن تعرفها  \n3. التفكير بكيفية استخدام هذه المواهب في حالات العمل لديك.</string></dict>
+    <key>Game1_Title</key><dict><key>value</key><string>اللعبة 1: اكتشاف المواهب التي لديك</string></dict>
+    <key>Game1_Title_Description</key><dict><key>value</key><string>وبهذا النوع من اللعبة، يمكنك أن تصبح على بينة من المواهب التي لديك</string></dict>
+    <key>Game2</key><dict><key>value</key><string>اللعبة 2</string></dict>
+    <key>Game2_Description</key><dict><key>value</key><string>1. أولا اختيار ما كنت ترغب في تطوير. على سبيل المثال، مهارة أو كفاءة مثل التفاوض، مساعدة العملاء، التعاون، الخ  \n2. وضع جميع بطاقات المواهب في مجموعة ثم اختيار بطاقة واحدة.  \n3. بالنسبة لكل بطاقة تختارها، يجب أن تقرر ما إذا كانت لديك هذه الموهبة أم لا. \n4. إذا لم يكن لديك هذه الموهبة، ضع البطاقة بعيدا والتقط بطاقة أخرى من المجموعة  \n5. إذا أخذت بطاقة المواهب التي تنطبق عليك، فأن عليك التفكير فيما إذا كانت تساعدك هذه الموهبة وكيف في تطوير مهارة أو كفاءة معينة  \n6. الاستمرار في سحب البطاقات حتى يكون لديك ما يكفي من المواهب التي يمكن أن تساعدك في التطوير.</string></dict>
+    <key>Game2_Title</key><dict><key>value</key><string>اللعبة 2: التطوير الشخصي</string></dict>
+    <key>Game2_Title_Description</key><dict><key>value</key><string>في هذا النوع من الالعاب، يمكنك فهم ما المواهب التي يمكنك استخدامها في تطويرك الشخصي.</string></dict>
+    <key>Game3</key><dict><key>value</key><string>اللعبة3</string></dict>
+    <key>Game3_Description</key><dict><key>value</key><string>1. وضع جميع بطاقات المواهب على الطاولة. \n2. اختيار شخص رئيسي يحصل على التغذية الراجعة للموهبة من المشاركين الآخرين. \n3. يقوم الأشخاص الاخرون بدورهم باختيار بطاقة الموهبة التي يعتقدون بأنها تنطبق على الشخص الرئيسي وإعطائها له  \n4. عند إعطاء جميع المشاركين بطاقة الموهبة للشخص الرئيسي، عندها يجيء دور الشخص الرئيسي. يعيد جميع المشاركين بطاقة المواهب إلى هذا الشخص.  \n5. وتستمر اللعبة حتى يصبح كل مشارك ولمرة واحدة شخصا رئيسيا.</string></dict>
+    <key>Game3_Title</key><dict><key>value</key><string>اللعبة 3: التغذية الراجعى للموهبة</string></dict>
+    <key>Game3_Title_Description</key><dict><key>value</key><string>يجب لعب هذا النوع من الالعاب مع 3 أشخاص على الأقل. وتهدف اللعبة إلى معرفة مواهب واسماء بعضهم البعض.</string></dict>
+    <key>Game4</key><dict><key>value</key><string>اللعبة 4</string></dict>
+    <key>Game4_Description</key><dict><key>value</key><string>1. وضع جميع بطاقات المواهب على الطاولة.  \n2. اختيار شخص ليبدأ اللعب بحيث يقوم باختيار بطاقة الموهبة التي يعتقد بأنها الموهبة الحقيقية التي يتمتع بها الفريق ويشرح سبب الاختيار \n3. عندئذ يمكن للشخص الآخر معرفة ما إذا كان يشعر بهذه الموهبة لدى الفريق. وإذا وافق (تقريبا) الجميع على أن هذه الموهبة يتميز بها الفريق، فعليك ذكرها على أنها أول موهبة للفريق. أما إذا كان هناك اختلاف كبير في الآراء، فأنه ينبغي إقصاء بطاقة الموهبة بعيدا.  \n4. ثم يقوم الشخص التالي باختيار بطاقة الموهبة التي يعتقد بأنها الموهبة التي يتمتع بها الفريق ويشرح سبب الاختيار. بعدها يمكن للآخرين أيضا إبداء الرأي حول ذلك  \n5. عليك الاستمرار حتى يكون لديك 3-5 مواهب يتمتع بها الفريق والتي يتفق عليها (تقريبا) الجميع 6. بعد تكوين المواهب التي يتمتع بها الفريق، يمكنكم المناقشة مع بعضكم البعض كيفية استخدام هذه المواهب في عمل الفريق.</string></dict>
+    <key>Game4_Title</key><dict><key>value</key><string>اللعبة 4: مواهب الفريق</string></dict>
+    <key>Game4_Title_Description</key><dict><key>value</key><string>يجب لعب هذا النوع من الالعاب مع 3 أشخاص على الأقل. تهدف اللعبة إلى تحديد مواهب الفريق (ككل).</string></dict>
+    <key>Game5</key><dict><key>value</key><string>اللعبة 5</string></dict>
+    <key>Game5_Description</key><dict><key>value</key><string>1. وضع جميع بطاقات المواهب بشكل مبعثر ومقلوبة على الطاولة  \n2. اختيار شخص ليبدأ اللعب بحيث يقوم بفتح بطاقتين عشوائيا. فإذا كانتا يحملان نفس الدوافع (بالنص أسفل الجانب الأيمن) فأنه يجب على الشخص الاحتفاظ بهذه المجموعة من البطاقات ويذكر أسماء اسم الدوافع التي وجدها وأي المواهب (بالنص أعلى الجانب الأيسر) على كل جانبي البطاقات. يجوز لهذا اللاعب بطاقتين إضافيتين مرة أخرى. ويستمر ذلك حتى يفتح الشخص بطاقتين مختلفتين \n3. ثم يأتي دور اللاعب التالي ليقوم بفتح بطاقتين وتكرار هذه الإجراءات كما هو موضح في الخطوة 2. \n4. تنتهي اللعبة عندما يتم العثور على كافة الأزواج من الدوافع. واللاعب الفائز هو الحاصل على أكثر الأزواج من الدوافع.</string></dict>
+    <key>Game5_Title</key><dict><key>value</key><string>اللعبة 5: الموهبة وذاكرة التحفيز</string></dict>
+    <key>Game5_Title_Description</key><dict><key>value</key><string>عليك لعب هذه اللعبة بمشاركة اثنين إلى اربعة اشخاص. والهدف من اللعبة هو معرفة أي المهارات تنتمي إى أي دوافع</string></dict>
+    <key>Game6</key><dict><key>value</key><string>اللعبة 6</string></dict>
+    <key>Game6_Description</key><dict><key>value</key><string>هناك 5متغيرات للعبة متضمنة في لعبة المواهب TMA. ندعوكم للتفكير في متغيرات اللعبة بأنفسكم. وإذا كنت ترغب في تبادل النسخة الخاصة بك مع مجموعة TMA، فعليك إرسالها إلى TMA على العنوان الاليكتروني (info@tmamethod.com) أو نشرها في مجموعة TMA على LinkedIn فربما سيتم تضمين اللعبة في تطبيق لعبة المواهب لفريق TMA</string></dict>
+    <key>Game6_Title</key><dict><key>value</key><string>اللعبة 6: تصميم متغيرات اللعبة الخاصة بك</string></dict>
+    <key>Game6_Title_Description</key><dict><key>value</key><string></string></dict>
+    <key>Linkedin</key><dict><key>value</key><string>لينكد إن</string></dict>
+    <key>Phone</key><dict><key>value</key><string>تليفون</string></dict>
+    <key>TMAMethode</key><dict><key>value</key><string>منهج TMA</string></dict>
+    <key>Twitter</key><dict><key>value</key><string>تويتر</string></dict>
+    <key>TwitterId</key><dict><key>value</key><string>منهج TMA</string></dict>
+    <key>Website</key><dict><key>value</key><string>الموقع</string></dict>
+    <key>app_name</key><dict><key>value</key><string>لعبة مواهب TMA</string></dict>
+    <key>btn_Games</key><dict><key>value</key><string>الالعاب</string></dict>
+    <key>btn_contact</key><dict><key>value</key><string>الاتصال</string></dict>
+    <key>btn_facebook</key><dict><key>value</key><string>الفيسبوك</string></dict>
+    <key>btn_info</key><dict><key>value</key><string>المعلومات</string></dict>
+    <key>btn_linkedin</key><dict><key>value</key><string>لينكد إن</string></dict>
+    <key>btn_media</key><dict><key>value</key><string>وسائل الاتصال</string></dict>
+    <key>changeLanguage</key><dict><key>value</key><string>تغيير اللغة</string></dict>
+    <key>contactText</key><dict><key>value</key><string>منهج TMA عبارة عن نظام متكامل لاختيار وتطوير الموظفين على أساس المواهب والمهارات. وويُقدم منهج TMA كخدمة على الانترنت ويستخدم لإدارة الكفاءات والمواهب، التغذية الراجعة 360 درجة، تحديد المراكز المهنية، التقييمات، تقييم المواهب TMA، مسارات MD، قضايا التنقل والحركة، والمناقشات، المقابلات الوظيفية والمهنية.</string></dict>
+    <key>dimension1_text</key><dict><key>value</key><string>التوازن العاطفي</string></dict>
+    <key>dimension3_text</key><dict><key>value</key><string>المواهب الاجتماعية</string></dict>
+    <key>dimension4_text</key><dict><key>value</key><string>المواهب المؤثرة</string></dict>
+    <key>dimension2_text</key><dict><key>value</key><string>المحفزات</string></dict>
+    <key>dimension5_text</key><dict><key>value</key><string>المواهب القيادية</string></dict>
+    <key>dimension6_text</key><dict><key>value</key><string>المواهب التنظيمية</string></dict>
+    <key>launching_app_name</key><dict><key>value</key><string>لعبة المواهب</string></dict>
+    <key>locale_lang</key><dict><key>value</key><string>اللغة _ الثقافة</string></dict>
+    <key>title_activity_Games</key><dict><key>value</key><string>الالعاب</string></dict>
+    <key>title_activity_app_info</key><dict><key>value</key><string>المعلومات</string></dict>
+    <key>title_activity_contact</key><dict><key>value</key><string>الاتصال</string></dict>
+    <key>title_activity_media</key><dict><key>value</key><string>وسائل الاتصال والتواصل</string></dict>
+    <key>title_drives_alphabetical</key><dict><key>value</key><string>الدوافع حسب بالترتيب الأبجدي</string></dict>
+    <key>Talent1</key><dict><key>value</key><string>الطموح والتحديات</string></dict>
+    <key>Talent2</key><dict><key>value</key><string>الاحترام</string></dict>
+    <key>Talent3</key><dict><key>value</key><string>الترتيب والبنية</string></dict>
+    <key>Talent4</key><dict><key>value</key><string>الانفتاح</string></dict>
+    <key>Talent5</key><dict><key>value</key><string>التفكير والعمل المستقل</string></dict>
+    <key>Talent6</key><dict><key>value</key><string>المخالطة الاجتماعية والتواصل</string></dict>
+    <key>Talent7</key><dict><key>value</key><string>لتعاطف الاجتماعي</string></dict>
+    <key>Talent8</key><dict><key>value</key><string>الحاجة للدعم</string></dict>
+    <key>Talent9</key><dict><key>value</key><string>الهيمنة</string></dict>
+    <key>Talent10</key><dict><key>value</key><string>تقدير الذات</string></dict>
+    <key>Talent11</key><dict><key>value</key><string>الاستعداد للمساعدة</string></dict>
+    <key>Talent12</key><dict><key>value</key><string>التنوع</string></dict>
+    <key>Talent13</key><dict><key>value</key><string>المثابرة</string></dict>
+    <key>Talent14</key><dict><key>value</key><string>الطاقة والعمل</string></dict>
+    <key>Talent15</key><dict><key>value</key><string>المواجهة</string></dict>
+    <key>Talent17</key><dict><key>value</key><string>المطابقة</string></dict>
+    <key>Talent18</key><dict><key>value</key><string>الحاجة للمكانة</string></dict>
+    <key>Talent21</key><dict><key>value</key><string>المسؤولية والقيادة</string></dict>
+    <key>Talent22</key><dict><key>value</key><string>البراغماتية</string></dict>
+    <key>Talent25</key><dict><key>value</key><string>الحسم</string></dict>
+    <key>Talent27</key><dict><key>value</key><string>وضوح الهدف</string></dict>
+    <key>Talent29</key><dict><key>value</key><string>إدارة التوتر والضغط النفسي</string></dict>
+    <key>TalentImageTitle_1_789</key><dict><key>value</key><string>تنافسي، يركز على التحديات</string></dict>
+    <key>TalentImageTitle_1_123</key><dict><key>value</key><string>راض، وسطي</string></dict>
+    <key>TalentImageTitle_2_789</key><dict><key>value</key><string>يحترمالآخرين، مقدر</string></dict>
+    <key>TalentImageTitle_2_123</key><dict><key>value</key><string>مساوي، مواجه</string></dict>
+    <key>TalentImageTitle_3_789</key><dict><key>value</key><string>دقيق، منهجي</string></dict>
+    <key>TalentImageTitle_3_123</key><dict><key>value</key><string>فعال، مرن</string></dict>
+    <key>TalentImageTitle_4_789</key><dict><key>value</key><string>بارز، ذو حضور</string></dict>
+    <key>TalentImageTitle_4_123</key><dict><key>value</key><string>غير بارز، يفسح المجال للاخرين</string></dict>
+    <key>TalentImageTitle_5_789</key><dict><key>value</key><string>مستقل، ذو أفكار</string></dict>
+    <key>TalentImageTitle_5_123</key><dict><key>value</key><string>موجه نحو الفريق، شفاف</string></dict>
+    <key>TalentImageTitle_6_789</key><dict><key>value</key><string>ودود، صريح</string></dict>
+    <key>TalentImageTitle_6_123</key><dict><key>value</key><string>يركز على الحقائق، عملي</string></dict>
+    <key>TalentImageTitle_7_789</key><dict><key>value</key><string>عاطفي فطري، دبلوماسي</string></dict>
+    <key>TalentImageTitle_7_123</key><dict><key>value</key><string>صريح، عملي</string></dict>
+    <key>TalentImageTitle_8_789</key><dict><key>value</key><string>يشكر، يطلب الدعم</string></dict>
+    <key>TalentImageTitle_8_123</key><dict><key>value</key><string>مستقل، يحتاج قليلاً من الدعم</string></dict>
+    <key>TalentImageTitle_9_789</key><dict><key>value</key><string>قيادي، مقنع</string></dict>
+    <key>TalentImageTitle_9_123</key><dict><key>value</key><string>يؤثر على الآخرين كثيرا،
+        لين</string></dict>
+    <key>TalentImageTitle_10_789</key><dict><key>value</key><string>واثق،
+        متفائل</string></dict>
+    <key>TalentImageTitle_10_123</key><dict><key>value</key><string>يتجنب الأخطاء،
+        ذاتي النقد</string></dict>
+    <key>TalentImageTitle_11_789</key><dict><key>value</key><string>مجامل، يركز على مسئولياته الخاصه</string></dict>
+    <key>TalentImageTitle_11_123</key><dict><key>value</key><string>ذو موقفا عمليا، يفوض</string></dict>
+    <key>TalentImageTitle_12_789</key><dict><key>value</key><string>متنوع، متوجه نحو المناطق المحيطة</string></dict>
+    <key>TalentImageTitle_12_123</key><dict><key>value</key><string>ذو تركيز شديد، مركز</string></dict>
+    <key>TalentImageTitle_13_789</key><dict><key>value</key><string>متابع للعمل،متغلب على العقبات</string></dict>
+    <key>TalentImageTitle_13_123</key><dict><key>value</key><string>يتحرر بسهولة، يميل لتغير الأولويات</string></dict>
+    <key>TalentImageTitle_14_789</key><dict><key>value</key><string>قليل الصبر، نشط جدا</string></dict>
+    <key>TalentImageTitle_14_123</key><dict><key>value</key><string>هادئ، صبورر</string></dict>
+    <key>TalentImageTitle_15_789</key><dict><key>value</key><string>حازم، صريح</string></dict>
+    <key>TalentImageTitle_15_123</key><dict><key>value</key><string>متسامح، متساهل</string></dict>
+    <key>TalentImageTitle_17_789</key><dict><key>value</key><string>رسمي، نزيه</string></dict>
+    <key>TalentImageTitle_17_123</key><dict><key>value</key><string>غير رسمي، تجديدي</string></dict>
+    <key>TalentImageTitle_18_789</key><dict><key>value</key><string>انيق، فخور</string></dict>
+    <key>TalentImageTitle_18_123</key><dict><key>value</key><string>متواضع، معتدل</string></dict>
+    <key>TalentImageTitle_21_789</key><dict><key>value</key><string>يتحمل المسئولية، كثير التوجيهات</string></dict>
+    <key>TalentImageTitle_21_123</key><dict><key>value</key><string>مطيع، يقبل</string></dict>
+    <key>TalentImageTitle_22_789</key><dict><key>value</key><string>عملي، فعال</string></dict>
+    <key>TalentImageTitle_22_123</key><dict><key>value</key><string>نظري، تجريدي</string></dict>
+    <key>TalentImageTitle_25_789</key><dict><key>value</key><string>مقدام، يحل المشكلات</string></dict>
+    <key>TalentImageTitle_25_123</key><dict><key>value</key><string>متميز، يشاور</string></dict>
+    <key>TalentImageTitle_27_789</key><dict><key>value</key><string>موجه، محدد</string></dict>
+    <key>TalentImageTitle_27_123</key><dict><key>value</key><string>موجه نحو العمليات، مرتجل</string></dict>
+    <key>TalentImageTitle_29_789</key><dict><key>value</key><string>مستقر، حصين على التوتر</string></dict>
+    <key>TalentImageTitle_29_123</key><dict><key>value</key><string>ملتزم، مهتم</string></dict></dict>
 </plist>
