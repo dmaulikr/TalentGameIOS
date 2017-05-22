@@ -398,225 +398,49 @@
         <key>value</key>
         <string>Radzenie sobie ze stresem</string>
     </dict>
-    <key>TalentImageTitle_18_789</key>
-    <dict>
-        <key>value</key>
-        <string>Prezentujący się bez zarzutu, dumny</string>
-    </dict>
-    <key>TalentImageTitle_18_123</key>
-    <dict>
-        <key>value</key>
-        <string>Skromny, trzeźwy</string>
-    </dict>
-    <key>TalentImageTitle_12_789</key>
-    <dict>
-        <key>value</key>
-        <string>Różnorodny, zorientowany na środowisko </string>
-    </dict>
-    <key>TalentImageTitle_12_123</key>
-    <dict>
-        <key>value</key>
-        <string>Sfokusowany, skoncentrowany</string>
-    </dict>
-    <key>TalentImageTitle_1_789</key>
-    <dict>
-        <key>value</key>
-        <string>Kompetytywny, odnoszenie rezultatów otrzymanie</string>
-    </dict>
-    <key>TalentImageTitle_1_123</key>
-    <dict>
-        <key>value</key>
-        <string>Zadowolony, zrelatywowany perspektywa</string>
-    </dict>
-    <key>TalentImageTitle_25_789</key>
-    <dict>
-        <key>value</key>
-        <string>Otwarty na przedsięwzięcia, zorientowany na rozwiązanie</string>
-    </dict>
-    <key>TalentImageTitle_25_123</key>
-    <dict>
-        <key>value</key>
-        <string>Wyczulony, rozważny</string>
-    </dict>
-    <key>TalentImageTitle_17_789</key>
-    <dict>
-        <key>value</key>
-        <string>Formalny, niezepsuty moralnie</string>
-    </dict>
-    <key>TalentImageTitle_17_123</key>
-    <dict>
-        <key>value</key>
-        <string>Nieformalny, przekraczający granice</string>
-    </dict>
-    <key>TalentImageTitle_15_789</key>
-    <dict>
-        <key>value</key>
-        <string>Decydujący, wyrażający się jasno, wyraźnie</string>
-    </dict>
-    <key>TalentImageTitle_15_123</key>
-    <dict>
-        <key>value</key>
-        <string>Ugodowy, tolerancyjny</string>
-    </dict>
-    <key>TalentImageTitle_27_789</key>
-    <dict>
-        <key>value</key>
-        <string>Zorientowany na cel, konkretny</string>
-    </dict>
-    <key>TalentImageTitle_27_123</key>
-    <dict>
-        <key>value</key>
-        <string>Orientacja na process, improwizuje</string>
-    </dict>
-    <key>TalentImageTitle_9_789</key>
-    <dict>
-        <key>value</key>
-        <string>Decydujący, przekonywający</string>
-    </dict>
-    <key>TalentImageTitle_9_123</key>
-    <dict>
-        <key>value</key>
-        <string>Wpływa w subtelny sposób, ustępliwy</string>
-    </dict>
-    <key>TalentImageTitle_10_789</key>
-    <dict>
-        <key>value</key>
-        <string>Zaufanie do samego siebie, odporny</string>
-    </dict>
-    <key>TalentImageTitle_10_123</key>
-    <dict>
-        <key>value</key>
-        <string>Omijanie błędów, samokrytyczny</string>
-    </dict>
-    <key>TalentImageTitle_14_789</key>
-    <dict>
-        <key>value</key>
-        <string>Otwarty na przedsięwzięcia, energiczny</string>
-    </dict>
-    <key>TalentImageTitle_14_123</key>
-    <dict>
-        <key>value</key>
-        <string>Spokojny, cierpliwy</string>
-    </dict>
-    <key>TalentImageTitle_4_789</key>
-    <dict>
-        <key>value</key>
-        <string>Rzucający się w oczy, obecny</string>
-    </dict>
-    <key>TalentImageTitle_4_123</key>
-    <dict>
-        <key>value</key>
-        <string>Nierzucający sie w oczy, daje innym pole do popisu</string>
-    </dict>
-    <key>TalentImageTitle_2_789</key>
-    <dict>
-        <key>value</key>
-        <string>Pełen respektu, podziwia</string>
-    </dict>
-    <key>TalentImageTitle_2_123</key>
-    <dict>
-        <key>value</key>
-        <string>Jedność, adekwatne podejście</string>
-    </dict>
-    <key>TalentImageTitle_8_789</key>
-    <dict>
-        <key>value</key>
-        <string>Wdzięczny, prosi o wsparcie</string>
-    </dict>
-    <key>TalentImageTitle_8_123</key>
-    <dict>
-        <key>value</key>
-        <string>Samodzielnośc, potrzebuje mało pomocy</string>
-    </dict>
-    <key>TalentImageTitle_29_789</key>
-    <dict>
-        <key>value</key>
-        <string>Stabilny, odporny na stres</string>
-    </dict>
-    <key>TalentImageTitle_29_123</key>
-    <dict>
-        <key>value</key>
-        <string>Zaangażowany, zatroskany</string>
-    </dict>
-    <key>TalentImageTitle_11_789</key>
-    <dict>
-        <key>value</key>
-        <string>Pomocność, zorientowanie na serwis</string>
-    </dict>
-    <key>TalentImageTitle_11_123</key>
-    <dict>
-        <key>value</key>
-        <string>Biznesowe podejście, delegujący</string>
-    </dict>
-    <key>TalentImageTitle_7_789</key>
-    <dict>
-        <key>value</key>
-        <string>Empatyczny/a, dyplomatyczny/a</string>
-    </dict>
-    <key>TalentImageTitle_7_123</key>
-    <dict>
-        <key>value</key>
-        <string>Prosty, Funkcjonalny</string>
-    </dict>
-    <key>TalentImageTitle_6_789</key>
-    <dict>
-        <key>value</key>
-        <string>Przyjacielski, komunikatywny</string>
-    </dict>
-    <key>TalentImageTitle_6_123</key>
-    <dict>
-        <key>value</key>
-        <string>Zorientowany na fakty, funkcjonalny</string>
-    </dict>
-    <key>TalentImageTitle_13_789</key>
-    <dict>
-        <key>value</key>
-        <string>Zamiłowanie do pracy, kończy to, co zaczął</string>
-    </dict>
-    <key>TalentImageTitle_13_123</key>
-    <dict>
-        <key>value</key>
-        <string>Odpuszcza z łatwością, zmienia priorytety</string>
-    </dict>
-    <key>TalentImageTitle_5_789</key>
-    <dict>
-        <key>value</key>
-        <string>Autonomiczny, własne zdanie</string>
-    </dict>
-    <key>TalentImageTitle_5_123</key>
-    <dict>
-        <key>value</key>
-        <string>Zorientowanie na grupę, przejrzysty</string>
-    </dict>
-    <key>TalentImageTitle_21_789</key>
-    <dict>
-        <key>value</key>
-        <string>Odpowiedzialny, kierowniczy</string>
-    </dict>
-    <key>TalentImageTitle_21_123</key>
-    <dict>
-        <key>value</key>
-        <string>Posłuszny, akceptujący</string>
-    </dict>
-    <key>TalentImageTitle_3_789</key>
-    <dict>
-        <key>value</key>
-        <string>Dokładny, metodyczny</string>
-    </dict>
-    <key>TalentImageTitle_3_123</key>
-    <dict>
-        <key>value</key>
-        <string>Kreatywny, fleksybilny</string>
-    </dict>
-    <key>TalentImageTitle_22_789</key>
-    <dict>
-        <key>value</key>
-        <string>Praktyczny, produktywny</string>
-    </dict>
-    <key>TalentImageTitle_22_123</key>
-    <dict>
-        <key>value</key>
-        <string>Teoretyczny, abstrakcyjny</string>
-    </dict>
+    <key>TalentImageTitle_1_789</key><dict><key>value</key><string>Kompetytywny, odnoszenie rezultatów otrzymanie</string></dict>
+    <key>TalentImageTitle_1_123</key><dict><key>value</key><string>Zadowolony, zrelatywowany perspektywa</string></dict>
+    <key>TalentImageTitle_2_789</key><dict><key>value</key><string>Pełen respektu, podziwia</string></dict>
+    <key>TalentImageTitle_2_123</key><dict><key>value</key><string>Jedność, adekwatne podejście</string></dict>
+    <key>TalentImageTitle_3_789</key><dict><key>value</key><string>Dokładny, metodyczny</string></dict>
+    <key>TalentImageTitle_3_123</key><dict><key>value</key><string>Kreatywny, fleksybilny</string></dict>
+    <key>TalentImageTitle_4_789</key><dict><key>value</key><string>Rzucający się w oczy, obecny</string></dict>
+    <key>TalentImageTitle_4_123</key><dict><key>value</key><string>Nierzucający sie w oczy, daje innym pole do popisu</string></dict>
+    <key>TalentImageTitle_5_789</key><dict><key>value</key><string>Autonomiczny, własne zdanie</string></dict>
+    <key>TalentImageTitle_5_123</key><dict><key>value</key><string>Zorientowanie na grupę, przejrzysty</string></dict>
+    <key>TalentImageTitle_6_789</key><dict><key>value</key><string>Przyjacielski, komunikatywny</string></dict>
+    <key>TalentImageTitle_6_123</key><dict><key>value</key><string>Zorientowany na fakty, funkcjonalny</string></dict>
+    <key>TalentImageTitle_7_789</key><dict><key>value</key><string>Empatyczny/a, dyplomatyczny/a</string></dict>
+    <key>TalentImageTitle_7_123</key><dict><key>value</key><string>Prosty, Funkcjonalny</string></dict>
+    <key>TalentImageTitle_8_789</key><dict><key>value</key><string>Wdzięczny, prosi o wsparcie</string></dict>
+    <key>TalentImageTitle_8_123</key><dict><key>value</key><string>Samodzielnośc, potrzebuje mało pomocy</string></dict>
+    <key>TalentImageTitle_9_789</key><dict><key>value</key><string>Decydujący, przekonywający</string></dict>
+    <key>TalentImageTitle_9_123</key><dict><key>value</key><string>Wpływa w subtelny sposób, ustępliwy</string></dict>
+    <key>TalentImageTitle_10_789</key><dict><key>value</key><string>Zaufanie do samego siebie, odporny</string></dict>
+    <key>TalentImageTitle_10_123</key><dict><key>value</key><string>Omijanie błędów, samokrytyczny</string></dict>
+    <key>TalentImageTitle_11_789</key><dict><key>value</key><string>Pomocność, zorientowanie na serwis</string></dict>
+    <key>TalentImageTitle_11_123</key><dict><key>value</key><string>Biznesowe podejście, delegujący</string></dict>
+    <key>TalentImageTitle_12_789</key><dict><key>value</key><string>Różnorodny, zorientowany na środowisko </string></dict>
+    <key>TalentImageTitle_12_123</key><dict><key>value</key><string>Sfokusowany, skoncentrowany</string></dict>
+    <key>TalentImageTitle_13_789</key><dict><key>value</key><string>Zamiłowanie do pracy, kończy to, co zaczął</string></dict>
+    <key>TalentImageTitle_13_123</key><dict><key>value</key><string>Odpuszcza z łatwością, zmienia priorytety</string></dict>
+    <key>TalentImageTitle_14_789</key><dict><key>value</key><string>Otwarty na przedsięwzięcia, energiczny</string></dict>
+    <key>TalentImageTitle_14_123</key><dict><key>value</key><string>Spokojny, cierpliwy</string></dict>
+    <key>TalentImageTitle_15_789</key><dict><key>value</key><string>Decydujący, wyrażający się jasno, wyraźnie</string></dict>
+    <key>TalentImageTitle_15_123</key><dict><key>value</key><string>Ugodowy, tolerancyjny</string></dict>
+    <key>TalentImageTitle_17_789</key><dict><key>value</key><string>Formalny, niezepsuty moralnie</string></dict>
+    <key>TalentImageTitle_17_123</key><dict><key>value</key><string>Nieformalny, przekraczający granice</string></dict>
+    <key>TalentImageTitle_18_789</key><dict><key>value</key><string>Prezentujący się bez zarzutu, dumny</string></dict>
+    <key>TalentImageTitle_18_123</key><dict><key>value</key><string>Skromny, trzeźwy</string></dict>
+    <key>TalentImageTitle_21_789</key><dict><key>value</key><string>Odpowiedzialny, kierowniczy</string></dict>
+    <key>TalentImageTitle_21_123</key><dict><key>value</key><string>Posłuszny, akceptujący</string></dict>
+    <key>TalentImageTitle_22_789</key><dict><key>value</key><string>Praktyczny, produktywny</string></dict>
+    <key>TalentImageTitle_22_123</key><dict><key>value</key><string>Teoretyczny, abstrakcyjny</string></dict>
+    <key>TalentImageTitle_25_789</key><dict><key>value</key><string>Otwarty na przedsięwzięcia, zorientowany na rozwiązanie</string></dict>
+    <key>TalentImageTitle_25_123</key><dict><key>value</key><string>Wyczulony, rozważny</string></dict>
+    <key>TalentImageTitle_27_789</key><dict><key>value</key><string>Zorientowany na cel, konkretny</string></dict>
+    <key>TalentImageTitle_27_123</key><dict><key>value</key><string>Orientacja na process, improwizuje</string></dict>
+    <key>TalentImageTitle_29_789</key><dict><key>value</key><string>Stabilny, odporny na stres</string></dict>
+    <key>TalentImageTitle_29_123</key><dict><key>value</key><string>Zaangażowany, zatroskany</string></dict>
 </dict>
 </plist>
