@@ -570,14 +570,15 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="590"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="7kY-e2-HaN">
-                                <rect key="frame" x="177" y="313" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="7kY-e2-HaN">
+                                <rect key="frame" x="177" y="323.5" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="1ZL-XH-s3B" firstAttribute="top" secondItem="f75-XB-oJY" secondAttribute="bottom" constant="8" symbolic="YES" id="PiZ-08-S62"/>
+                            <constraint firstItem="7kY-e2-HaN" firstAttribute="centerY" secondItem="9Bg-de-Dem" secondAttribute="centerY" id="VQd-9i-RTR"/>
+                            <constraint firstItem="7kY-e2-HaN" firstAttribute="centerX" secondItem="9Bg-de-Dem" secondAttribute="centerX" id="bHW-Oh-SCQ"/>
                             <constraint firstAttribute="trailing" secondItem="1ZL-XH-s3B" secondAttribute="trailing" id="gV9-GL-jhF"/>
                             <constraint firstItem="1ZL-XH-s3B" firstAttribute="leading" secondItem="9Bg-de-Dem" secondAttribute="leading" id="gWc-iL-O3Q"/>
                             <constraint firstItem="1ZL-XH-s3B" firstAttribute="bottom" secondItem="G8R-lG-z1U" secondAttribute="top" id="pAT-Pd-JcL"/>
@@ -586,7 +587,7 @@
                     <tabBarItem key="tabBarItem" title="" image="facebook_icon" selectedImage="facebook_icon" id="HpR-lC-BhL"/>
                     <navigationItem key="navigationItem" id="dI6-pb-hb4"/>
                     <connections>
-                        <outlet property="Activity" destination="7kY-e2-HaN" id="x7s-fR-aYs"/>
+                        <outlet property="Activity" destination="7kY-e2-HaN" id="F6Y-UW-JJ9"/>
                         <outlet property="webViewInstance" destination="1ZL-XH-s3B" id="KXF-r3-SVI"/>
                     </connections>
                 </viewController>
@@ -869,14 +870,15 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="590"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="2VZ-lW-TEK">
-                                <rect key="frame" x="177" y="313" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="F4W-17-hlv">
+                                <rect key="frame" x="177.5" y="323" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Csp-r7-Ybk" firstAttribute="bottom" secondItem="Bpg-Ss-1Ix" secondAttribute="top" id="5Wc-Bx-GuL"/>
+                            <constraint firstItem="F4W-17-hlv" firstAttribute="centerY" secondItem="v7f-yW-RSU" secondAttribute="centerY" id="XaN-hd-4nW"/>
+                            <constraint firstItem="F4W-17-hlv" firstAttribute="centerX" secondItem="v7f-yW-RSU" secondAttribute="centerX" id="eER-QJ-lpZ"/>
                             <constraint firstAttribute="trailing" secondItem="Csp-r7-Ybk" secondAttribute="trailing" id="nsd-MD-pc9"/>
                             <constraint firstItem="Csp-r7-Ybk" firstAttribute="leading" secondItem="v7f-yW-RSU" secondAttribute="leading" id="vEQ-ZP-7yE"/>
                             <constraint firstItem="Csp-r7-Ybk" firstAttribute="top" secondItem="yKe-3A-zxE" secondAttribute="bottom" constant="8" symbolic="YES" id="yn4-VB-RgG"/>
@@ -885,7 +887,7 @@
                     <tabBarItem key="tabBarItem" title="" image="linkedin" selectedImage="linkedin" id="MT6-3Q-H9n"/>
                     <navigationItem key="navigationItem" id="ofH-RP-8su"/>
                     <connections>
-                        <outlet property="Activity" destination="2VZ-lW-TEK" id="6cS-sw-IPw"/>
+                        <outlet property="Activity" destination="F4W-17-hlv" id="Epz-vk-Od9"/>
                         <outlet property="webViewInstance" destination="Csp-r7-Ybk" id="3U4-ZC-uNt"/>
                     </connections>
                 </viewController>

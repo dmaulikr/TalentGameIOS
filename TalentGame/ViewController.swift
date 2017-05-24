@@ -25,6 +25,13 @@ class ViewController: UIViewController
         
         //setButtons()
         
+//        let locale_lang:String = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
+//
+//        if(locale_lang == "ar-SA")
+//        {
+//            self.view.makeTextWritingDirectionRightToLeft(self.navigationItem)
+//        }
+        
     }
     
     override func didReceiveMemoryWarning() {

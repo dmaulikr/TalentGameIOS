@@ -17,9 +17,12 @@ class FacebookViewController: UIViewController, UIWebViewDelegate {
         super.viewDidLoad()
         
         webViewInstance.delegate = self
+      
 
         // Do any additional setup after loading the view.
         webViewInstance.loadRequest(NSURLRequest(url: NSURL(string: "https://www.facebook.com/pg/tmamethode/events/")! as URL) as URLRequest)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,14 +33,14 @@ class FacebookViewController: UIViewController, UIWebViewDelegate {
     func webViewDidStartLoad(_ webView: UIWebView)
     {
         // here show your indicator
-        Activity.startAnimating()
-        Activity.isHidden = false;
+        Activity?.startAnimating()
+        Activity?.isHidden = false;
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView) {
         // here hide it
-        Activity.stopAnimating()
-        Activity.isHidden = true;
+        Activity?.stopAnimating()
+        Activity?.isHidden = true;
     }
 
 

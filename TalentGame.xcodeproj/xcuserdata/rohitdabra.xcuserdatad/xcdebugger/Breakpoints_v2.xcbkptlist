@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TalentGame/ViewController.swift"
-            timestampString = "509873425.494616"
+            timestampString = "516261363.554916"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "buttonClicked(sender:)"
             landmarkType = "7">
          </BreakpointContent>

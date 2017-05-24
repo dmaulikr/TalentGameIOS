@@ -10,15 +10,18 @@ import UIKit
 
 class LinkedInViewController: UIViewController, UIWebViewDelegate {
 
+    
     @IBOutlet weak var Activity: UIActivityIndicatorView!
     @IBOutlet weak var webViewInstance: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        webViewInstance.delegate = self
+       
         
         // Do any additional setup after loading the view.
         webViewInstance.loadRequest(NSURLRequest(url: NSURL(string: "https://www.linkedin.com/groups?mostPopular=&gid=112628")! as URL) as URLRequest)
+        
+         webViewInstance.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,14 +33,14 @@ class LinkedInViewController: UIViewController, UIWebViewDelegate {
     func webViewDidStartLoad(_ webView: UIWebView)
     {
         // here show your indicator
-        Activity.startAnimating()
-        Activity.isHidden = false;
+        Activity?.startAnimating()
+        Activity?.isHidden = false;
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView) {
         // here hide it
-        Activity.stopAnimating()
-        Activity.isHidden = true;
+        Activity?.stopAnimating()
+        Activity?.isHidden = true;
     }
 
 }
