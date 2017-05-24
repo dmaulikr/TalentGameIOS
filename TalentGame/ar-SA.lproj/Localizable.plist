@@ -46,10 +46,10 @@
     <key>changeLanguage</key><dict><key>value</key><string>تغيير اللغة</string></dict>
     <key>contactText</key><dict><key>value</key><string>منهج TMA عبارة عن نظام متكامل لاختيار وتطوير الموظفين على أساس المواهب والمهارات. وويُقدم منهج TMA كخدمة على الانترنت ويستخدم لإدارة الكفاءات والمواهب، التغذية الراجعة 360 درجة، تحديد المراكز المهنية، التقييمات، تقييم المواهب TMA، مسارات MD، قضايا التنقل والحركة، والمناقشات، المقابلات الوظيفية والمهنية.</string></dict>
     <key>dimension1_text</key><dict><key>value</key><string>التوازن العاطفي</string></dict>
+    <key>dimension2_text</key><dict><key>value</key><string>الدوافع التحفيزية</string></dict>
     <key>dimension3_text</key><dict><key>value</key><string>المواهب الاجتماعية</string></dict>
     <key>dimension4_text</key><dict><key>value</key><string>المواهب المؤثرة</string></dict>
-    <key>dimension2_text</key><dict><key>value</key><string>المحفزات</string></dict>
-    <key>dimension5_text</key><dict><key>value</key><string>المواهب القيادية</string></dict>
+    <key>dimension5_text</key><dict><key>value</key><string>مواهب القيادة</string></dict>
     <key>dimension6_text</key><dict><key>value</key><string>المواهب التنظيمية</string></dict>
     <key>launching_app_name</key><dict><key>value</key><string>لعبة المواهب</string></dict>
     <key>locale_lang</key><dict><key>value</key><string>اللغة _ الثقافة</string></dict>
@@ -127,4 +127,5 @@
     <key>TalentImageTitle_27_123</key><dict><key>value</key><string>موجه نحو العمليات، مرتجل</string></dict>
     <key>TalentImageTitle_29_789</key><dict><key>value</key><string>مستقر، حصين على التوتر</string></dict>
     <key>TalentImageTitle_29_123</key><dict><key>value</key><string>ملتزم، مهتم</string></dict>
+    </dict>
 </plist>
