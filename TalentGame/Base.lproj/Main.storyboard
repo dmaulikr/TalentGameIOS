@@ -335,15 +335,15 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="125" height="36"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19w-wk-hbn">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="36"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="105" height="36"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                     <accessibility key="accessibilityConfiguration">
                                                                         <bool key="isElement" value="YES"/>
                                                                     </accessibility>
                                                                     <gestureRecognizers/>
                                                                 </imageView>
-                                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="labelFooter123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isd-yn-aT5">
-                                                                    <rect key="frame" x="59.5" y="24.5" width="45.5" height="7.5"/>
+                                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="labelFooter123" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isd-yn-aT5">
+                                                                    <rect key="frame" x="30" y="24.5" width="45.5" height="7.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="6"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -363,14 +363,14 @@
                                                                 <constraint firstItem="TM5-4Y-PXc" firstAttribute="leading" secondItem="yvR-L5-ten" secondAttribute="leading" constant="22" id="2lb-Tt-EeN"/>
                                                                 <constraint firstAttribute="bottom" secondItem="Isd-yn-aT5" secondAttribute="bottom" constant="4" id="Eg0-Qa-Gkj"/>
                                                                 <constraint firstItem="TM5-4Y-PXc" firstAttribute="top" secondItem="yvR-L5-ten" secondAttribute="top" constant="5" id="U4h-fV-zmc"/>
-                                                                <constraint firstAttribute="trailing" secondItem="Isd-yn-aT5" secondAttribute="trailing" constant="20" id="j3J-p4-jGA"/>
+                                                                <constraint firstItem="Isd-yn-aT5" firstAttribute="leading" secondItem="yvR-L5-ten" secondAttribute="leading" constant="30" id="nAu-Yg-XWy"/>
                                                             </constraints>
                                                         </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Twy-x6-Cdb">
+                                                        <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Twy-x6-Cdb">
                                                             <rect key="frame" x="125" y="0.0" width="125" height="36"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="labelTalentName" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FG3-54-jMg">
-                                                                    <rect key="frame" x="-1" y="0.0" width="125" height="36"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="124" height="36"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                     <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                                                     <nil key="textColor"/>
@@ -379,12 +379,12 @@
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DW3-uo-iIL">
+                                                        <view contentMode="scaleToFill" horizontalHuggingPriority="105" translatesAutoresizingMaskIntoConstraints="NO" id="DW3-uo-iIL">
                                                             <rect key="frame" x="250" y="0.0" width="125" height="36"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vgH-C4-Z8U">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="36"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="105" height="36"/>
+                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <accessibility key="accessibilityConfiguration">
                                                                         <bool key="isElement" value="YES"/>
                                                                     </accessibility>
@@ -407,6 +407,9 @@
                                                                 </label>
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <accessibility key="accessibilityConfiguration">
+                                                                <bool key="isElement" value="YES"/>
+                                                            </accessibility>
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="arl-qh-5IK" secondAttribute="trailing" constant="20" id="8iV-xl-XAc"/>
                                                                 <constraint firstItem="Ept-5G-rWS" firstAttribute="leading" secondItem="DW3-uo-iIL" secondAttribute="leading" constant="22" id="SMa-T7-IVf"/>
