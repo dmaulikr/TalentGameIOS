@@ -422,225 +422,50 @@
 		<key>value</key>
 		<string>Управление стрессом и давлением</string>
 	</dict>
-	<key>TalentImageTitle_18_789</key>
-	<dict>
-		<key>value</key>
-		<string>Презентабельный, гордый</string>
-	</dict>
-	<key>TalentImageTitle_18_123</key>
-	<dict>
-		<key>value</key>
-		<string>Скромный, выдержанный</string>
-	</dict>
-	<key>TalentImageTitle_12_789</key>
-	<dict>
-		<key>value</key>
-		<string>Очень разнообразный, ориентированный на окружение</string>
-	</dict>
-	<key>TalentImageTitle_12_123</key>
-	<dict>
-		<key>value</key>
-		<string>Четкий фокус, сосредоточенный</string>
-	</dict>
-	<key>TalentImageTitle_1_789</key>
-	<dict>
-		<key>value</key>
-		<string>Соперничающий, фокус на достижения</string>
-	</dict>
-	<key>TalentImageTitle_1_123</key>
-	<dict>
-		<key>value</key>
-		<string>Довольный, чувство перспективы</string>
-	</dict>
-	<key>TalentImageTitle_25_789</key>
-	<dict>
-		<key>value</key>
-		<string>Предпреимчивый, решающий проблемы</string>
-	</dict>
-	<key>TalentImageTitle_25_123</key>
-	<dict>
-		<key>value</key>
-		<string>Детальный, обдумывает</string>
-	</dict>
-	<key>TalentImageTitle_17_789</key>
-	<dict>
-		<key>value</key>
-		<string>Формальный, целостный</string>
-	</dict>
-	<key>TalentImageTitle_17_123</key>
-	<dict>
-		<key>value</key>
-		<string>Неформальный, прогрессивный</string>
-	</dict>
-	<key>TalentImageTitle_15_789</key>
-	<dict>
-		<key>value</key>
-		<string>Настойчивый, точный</string>
-	</dict>
-	<key>TalentImageTitle_15_123</key>
-	<dict>
-		<key>value</key>
-		<string>Незлопамятный, толерантный</string>
-	</dict>
-	<key>TalentImageTitle_27_789</key>
-	<dict>
-		<key>value</key>
-		<string>Ориентирован на цель, точный</string>
-	</dict>
-	<key>TalentImageTitle_27_123</key>
-	<dict>
-		<key>value</key>
-		<string>Ориентированный на процесс, импровизирует</string>
-	</dict>
-	<key>TalentImageTitle_9_789</key>
-	<dict>
-		<key>value</key>
-		<string>Лидирующий, убедительный</string>
-	</dict>
-	<key>TalentImageTitle_9_123</key>
-	<dict>
-		<key>value</key>
-		<string>Влияет на других мягко, уступчивый</string>
-	</dict>
-	<key>TalentImageTitle_10_789</key>
-	<dict>
-		<key>value</key>
-		<string>Уверенный, неунывающий</string>
-	</dict>
-	<key>TalentImageTitle_10_123</key>
-	<dict>
-		<key>value</key>
-		<string>Избегает ошибок, самокритичный</string>
-	</dict>
-	<key>TalentImageTitle_14_789</key>
-	<dict>
-		<key>value</key>
-		<string>Предприимчивый, очень энергичный</string>
-	</dict>
-	<key>TalentImageTitle_14_123</key>
-	<dict>
-		<key>value</key>
-		<string>Спокойный, терпеливый</string>
-	</dict>
-	<key>TalentImageTitle_4_789</key>
-	<dict>
-		<key>value</key>
-		<string>Заметный, присутствующий</string>
-	</dict>
-	<key>TalentImageTitle_4_123</key>
-	<dict>
-		<key>value</key>
-		<string>Незаметный, дает место другим</string>
-	</dict>
-	<key>TalentImageTitle_2_789</key>
-	<dict>
-		<key>value</key>
-		<string>Почтительный, восхищается</string>
-	</dict>
-	<key>TalentImageTitle_2_123</key>
-	<dict>
-		<key>value</key>
-		<string>Равенство, обращается</string>
-	</dict>
-	<key>TalentImageTitle_8_789</key>
-	<dict>
-		<key>value</key>
-		<string>Благодарный, просит поддержки</string>
-	</dict>
-	<key>TalentImageTitle_8_123</key>
-	<dict>
-		<key>value</key>
-		<string>Независимый, особо не нуждается в поддержке</string>
-	</dict>
-	<key>TalentImageTitle_29_789</key>
-	<dict>
-		<key>value</key>
-		<string>Стабильный, стрессоустойчивый</string>
-	</dict>
-	<key>TalentImageTitle_29_123</key>
-	<dict>
-		<key>value</key>
-		<string>Преданный идее, обеспокоенный</string>
-	</dict>
-	<key>TalentImageTitle_11_789</key>
-	<dict>
-		<key>value</key>
-		<string>Приспосабливающийся, ориентирован на сервис</string>
-	</dict>
-	<key>TalentImageTitle_11_123</key>
-	<dict>
-		<key>value</key>
-		<string>Деловое отношение, делегирует</string>
-	</dict>
-	<key>TalentImageTitle_7_789</key>
-	<dict>
-		<key>value</key>
-		<string>Участливый, дипломатичный</string>
-	</dict>
-	<key>TalentImageTitle_7_123</key>
-	<dict>
-		<key>value</key>
-		<string>Прямолинейный, функциональный</string>
-	</dict>
-	<key>TalentImageTitle_6_789</key>
-	<dict>
-		<key>value</key>
-		<string>Дружелюбный, общительный</string>
-	</dict>
-	<key>TalentImageTitle_6_123</key>
-	<dict>
-		<key>value</key>
-		<string>Сосредоточен на фактах, функциональный</string>
-	</dict>
-	<key>TalentImageTitle_13_789</key>
-	<dict>
-		<key>value</key>
-		<string>Любит усердствовать, доводит задачи до конца</string>
-	</dict>
-	<key>TalentImageTitle_13_123</key>
-	<dict>
-		<key>value</key>
-		<string>Легко отпускает ситуацию, меняет приоритеты</string>
-	</dict>
-	<key>TalentImageTitle_5_789</key>
-	<dict>
-		<key>value</key>
-		<string>Самостоятельный, собственное мнение</string>
-	</dict>
-	<key>TalentImageTitle_5_123</key>
-	<dict>
-		<key>value</key>
-		<string>Ориентирован на команду, откровенный</string>
-	</dict>
-	<key>TalentImageTitle_21_789</key>
-	<dict>
-		<key>value</key>
-		<string>Ответственный, направляющий</string>
-	</dict>
-	<key>TalentImageTitle_21_123</key>
-	<dict>
-		<key>value</key>
-		<string>Уступчивый, покладистый</string>
-	</dict>
-	<key>TalentImageTitle_3_789</key>
-	<dict>
-		<key>value</key>
-		<string>Точный, методичный</string>
-	</dict>
-	<key>TalentImageTitle_3_123</key>
-	<dict>
-		<key>value</key>
-		<string>Креативный, гибкий</string>
-	</dict>
-	<key>TalentImageTitle_22_789</key>
-	<dict>
-		<key>value</key>
-		<string>Практичный, продуктивный</string>
-	</dict>
-	<key>TalentImageTitle_22_123</key>
-	<dict>
-		<key>value</key>
-		<string>Теоретический, абстрактный</string>
-	</dict>
+    <key>TalentImageTitle_1_789</key><dict><key>value</key><string>Соперничающий, фокус на достижения</string></dict>
+    <key>TalentImageTitle_1_123</key><dict><key>value</key><string>Довольный, чувство перспективы</string></dict>
+    <key>TalentImageTitle_2_789</key><dict><key>value</key><string>Почтительный, восхищается</string></dict>
+    <key>TalentImageTitle_2_123</key><dict><key>value</key><string>Равенство, обращается</string></dict>
+    <key>TalentImageTitle_3_789</key><dict><key>value</key><string>Точный, методичный</string></dict>
+    <key>TalentImageTitle_3_123</key><dict><key>value</key><string>Креативный, гибкий</string></dict>
+    <key>TalentImageTitle_4_789</key><dict><key>value</key><string>Заметный, присутствующий</string></dict>
+    <key>TalentImageTitle_4_123</key><dict><key>value</key><string>Незаметный, дает место другим</string></dict>
+    <key>TalentImageTitle_5_789</key><dict><key>value</key><string>Самостоятельный, собственное мнение</string></dict>
+    <key>TalentImageTitle_5_123</key><dict><key>value</key><string>Ориентирован на команду, откровенный</string></dict>
+    <key>TalentImageTitle_6_789</key><dict><key>value</key><string>Дружелюбный, общительный</string></dict>
+    <key>TalentImageTitle_6_123</key><dict><key>value</key><string>Сосредоточен на фактах, функциональный</string></dict>
+    <key>TalentImageTitle_7_789</key><dict><key>value</key><string>Участливый, дипломатичный</string></dict>
+    <key>TalentImageTitle_7_123</key><dict><key>value</key><string>Прямолинейный, функциональный</string></dict>
+    <key>TalentImageTitle_8_789</key><dict><key>value</key><string>Благодарный, просит поддержки</string></dict>
+    <key>TalentImageTitle_8_123</key><dict><key>value</key><string>Независимый, особо не нуждается в поддержке</string></dict>
+    <key>TalentImageTitle_9_789</key><dict><key>value</key><string>Лидирующий, убедительный</string></dict>
+    <key>TalentImageTitle_9_123</key><dict><key>value</key><string>Влияет на других мягко, уступчивый</string></dict>
+    <key>TalentImageTitle_10_789</key><dict><key>value</key><string>Уверенный, неунывающий</string></dict>
+    <key>TalentImageTitle_10_123</key><dict><key>value</key><string>Избегает ошибок, самокритичный</string></dict>
+    <key>TalentImageTitle_11_789</key><dict><key>value</key><string>Приспосабливающийся, ориентирован на сервис</string></dict>
+    <key>TalentImageTitle_11_123</key><dict><key>value</key><string>Деловое отношение, делегирует</string></dict>
+    <key>TalentImageTitle_12_789</key><dict><key>value</key><string>Очень разнообразный, ориентированный на окружение</string></dict>
+    <key>TalentImageTitle_12_123</key><dict><key>value</key><string>Четкий фокус, сосредоточенный</string></dict>
+    <key>TalentImageTitle_13_789</key><dict><key>value</key><string>Любит усердствовать, доводит задачи до конца</string></dict>
+    <key>TalentImageTitle_13_123</key><dict><key>value</key><string>Легко отпускает ситуацию, меняет приоритеты</string></dict>
+    <key>TalentImageTitle_14_789</key><dict><key>value</key><string>Предприимчивый, очень энергичный</string></dict>
+    <key>TalentImageTitle_14_123</key><dict><key>value</key><string>Спокойный, терпеливый</string></dict>
+    <key>TalentImageTitle_15_789</key><dict><key>value</key><string>Настойчивый, точный</string></dict>
+    <key>TalentImageTitle_15_123</key><dict><key>value</key><string>Незлопамятный, толерантный</string></dict>
+    <key>TalentImageTitle_17_789</key><dict><key>value</key><string>Формальный, целостный</string></dict>
+    <key>TalentImageTitle_17_123</key><dict><key>value</key><string>Неформальный, прогрессивный</string></dict>
+    <key>TalentImageTitle_18_789</key><dict><key>value</key><string>Презентабельный, гордый</string></dict>
+    <key>TalentImageTitle_18_123</key><dict><key>value</key><string>Скромный, выдержанный</string></dict>
+    <key>TalentImageTitle_21_789</key><dict><key>value</key><string>Ответственный, направляющий</string></dict>
+    <key>TalentImageTitle_21_123</key><dict><key>value</key><string>Уступчивый, покладистый</string></dict>
+    <key>TalentImageTitle_22_789</key><dict><key>value</key><string>Практичный, продуктивный</string></dict>
+    <key>TalentImageTitle_22_123</key><dict><key>value</key><string>Теоретический, абстрактный</string></dict>
+    <key>TalentImageTitle_25_789</key><dict><key>value</key><string>Предпреимчивый, решающий проблемы</string></dict>
+    <key>TalentImageTitle_25_123</key><dict><key>value</key><string>Детальный, обдумывает</string></dict>
+    <key>TalentImageTitle_27_789</key><dict><key>value</key><string>Ориентирован на цель, точный</string></dict>
+    <key>TalentImageTitle_27_123</key><dict><key>value</key><string>Ориентированный на процесс, импровизирует</string></dict>
+    <key>TalentImageTitle_29_789</key><dict><key>value</key><string>Стабильный, стрессоустойчивый</string></dict>
+    <key>TalentImageTitle_29_123</key><dict><key>value</key><string>Преданный идее, обеспокоенный</string></dict>
+    
 </dict>
 </plist>
