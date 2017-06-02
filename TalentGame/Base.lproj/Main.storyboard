@@ -422,6 +422,9 @@
                                                                 </label>
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <accessibility key="accessibilityConfiguration">
+                                                                <bool key="isElement" value="YES"/>
+                                                            </accessibility>
                                                             <constraints>
                                                                 <constraint firstItem="arl-qh-5IK" firstAttribute="trailing" secondItem="vgH-C4-Z8U" secondAttribute="trailing" id="6Ru-FT-EEB"/>
                                                                 <constraint firstItem="arl-qh-5IK" firstAttribute="leading" secondItem="Ept-5G-rWS" secondAttribute="leading" id="C2g-Mf-iN3"/>
