@@ -37,7 +37,7 @@ class TalentPopUpController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func showInView(_ aView: UIView!,_ image: UIImage, _ talentId: Int, _ score: Int)
+    func showInView(_ aView: UIView!,_ image: UIImage, _ talentId: Int, _ score: Int,_ color: String)
     {
         //self.loadView();
         self.SetUp(image);
@@ -50,6 +50,7 @@ class TalentPopUpController: UIViewController {
             lblHeader.text = talentData.title789
         }
         lblFooter.text = talentData.talentName
+        lblFooter.textColor = hexStringToUIColor(hex: color)
 
         
         aView.addSubview(self.view)

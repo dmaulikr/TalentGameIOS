@@ -1,3 +1,4 @@
+
 //
 //  TalentListViewController.swift
 //  TalentGame
@@ -67,12 +68,14 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
             cell.image123.addGestureRecognizer(tapGestureRecognizer1)
             cell.labelHeader123?.text = talent.title123
             cell.labelFooter123?.text = talent.talentName
+        cell.labelFooter123.textColor = hexStringToUIColor(hex: (talent.dimension?.colorCode)!);
             cell.labelTalentName?.text = talent.talentName
             cell.image789?.image = UIImage(named: image789_pic)
             cell.image789?.isUserInteractionEnabled = true;
             cell.image789.addGestureRecognizer(tapGestureRecognizer2)
             cell.labelHeader789?.text = talent.title789
             cell.labelFooter789?.text = talent.talentName
+        cell.labelFooter789.textColor = hexStringToUIColor(hex: (talent.dimension?.colorCode)!);
             return cell
     }
     
@@ -89,9 +92,9 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
         //using the tapLocation, we retrieve the corresponding indexPath
         let indexPath = self.tableView.indexPathForRow(at: tapLocation)
         
-        let talentId = self.talents[(indexPath?.row)!].talentId
+        let talent = self.talents[(indexPath?.row)!]
                 
-        self.popViewController.showInView(self.view,(imageView?.image)!, talentId, 123)
+        self.popViewController.showInView(self.view,(imageView?.image)!, talent.talentId, 123,(talent.dimension?.colorCode)!)
     }
     @IBAction func showPopUp789(_ sender: UITapGestureRecognizer) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -106,9 +109,9 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
         //using the tapLocation, we retrieve the corresponding indexPath
         let indexPath = self.tableView.indexPathForRow(at: tapLocation)
         
-        let talentId = self.talents[(indexPath?.row)!].talentId
+        let talent = self.talents[(indexPath?.row)!]
         
-        self.popViewController.showInView(self.view,(imageView?.image)!, talentId, 789)
+        self.popViewController.showInView(self.view,(imageView?.image)!, talent.talentId, 789,(talent.dimension?.colorCode)!)
     }
 
     // 4
@@ -118,7 +121,7 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
     
     // 5
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 125
+        return 170
     }
     
     func bindTalents()
