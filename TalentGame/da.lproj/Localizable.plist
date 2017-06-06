@@ -396,49 +396,49 @@
         <key>value</key>
         <string>Stressbestandig og travlhed</string>
     </dict>
-    <key>TalentImageTitle_1_789</key><dict><key>value</key><string>Konkurrerende, præstere</string></dict>
-    <key>TalentImageTitle_1_123</key><dict><key>value</key><string>Tilfreds, relativerende </string></dict>
-    <key>TalentImageTitle_2_789</key><dict><key>value</key><string>Respektfuld, beundrer</string></dict>
-    <key>TalentImageTitle_2_123</key><dict><key>value</key><string>Ligeværdig, henvender </string></dict>
-    <key>TalentImageTitle_3_789</key><dict><key>value</key><string>Præcis, systematisk</string></dict>
-    <key>TalentImageTitle_3_123</key><dict><key>value</key><string>Kreativ, fleksibel </string></dict>
-    <key>TalentImageTitle_4_789</key><dict><key>value</key><string>Skiller sig ud, til stede</string></dict>
-    <key>TalentImageTitle_4_123</key><dict><key>value</key><string>Skiller sig ikke ud, giver andre plads</string></dict>
-    <key>TalentImageTitle_5_789</key><dict><key>value</key><string>Autonom, egen mening</string></dict>
-    <key>TalentImageTitle_5_123</key><dict><key>value</key><string>Gruppeorienteret, transparent</string></dict>
-    <key>TalentImageTitle_6_789</key><dict><key>value</key><string>Venskabelig, kommunikativ</string></dict>
-    <key>TalentImageTitle_6_123</key><dict><key>value</key><string>Individuel, reserveret</string></dict>
-    <key>TalentImageTitle_7_789</key><dict><key>value</key><string>Indlevelse, diplomatisk</string></dict>
-    <key>TalentImageTitle_7_123</key><dict><key>value</key><string>Faktuel, funktionel</string></dict>
-    <key>TalentImageTitle_8_789</key><dict><key>value</key><string>Taknemmelig, beder let om støtte</string></dict>
-    <key>TalentImageTitle_8_123</key><dict><key>value</key><string>Selvstændig, meget lidt brug for hjælp</string></dict>
-    <key>TalentImageTitle_9_789</key><dict><key>value</key><string>Styrende, overbevisende</string></dict>
-    <key>TalentImageTitle_9_123</key><dict><key>value</key><string>Subtilt, kompromissøgende</string></dict>
-    <key>TalentImageTitle_10_789</key><dict><key>value</key><string>Selvtillid, modstandsdygtig</string></dict>
-    <key>TalentImageTitle_10_123</key><dict><key>value</key><string>Undgår fejl, selvkritisk</string></dict>
-    <key>TalentImageTitle_11_789</key><dict><key>value</key><string>Hjælpsom, serviceorienteret </string></dict>
-    <key>TalentImageTitle_11_123</key><dict><key>value</key><string>Forretningsorienteret, uddelegerende</string></dict>
-    <key>TalentImageTitle_12_789</key><dict><key>value</key><string>Varieret, omgivelsesfokuseret </string></dict>
-    <key>TalentImageTitle_12_123</key><dict><key>value</key><string>Fokus, koncentreret</string></dict>
-    <key>TalentImageTitle_13_789</key><dict><key>value</key><string>Arbejde igennem, færdiggør </string></dict>
-    <key>TalentImageTitle_13_123</key><dict><key>value</key><string>Slipper, ændrer hurtigere kurs</string></dict>
-    <key>TalentImageTitle_14_789</key><dict><key>value</key><string>Iværksættende, energisk</string></dict>
-    <key>TalentImageTitle_14_123</key><dict><key>value</key><string>Rolig, tålmodig</string></dict>
-    <key>TalentImageTitle_15_789</key><dict><key>value</key><string>Assertiv, tydeligt</string></dict>
-    <key>TalentImageTitle_15_123</key><dict><key>value</key><string>Tilgivende, tolerant</string></dict>
-    <key>TalentImageTitle_17_789</key><dict><key>value</key><string>Formel, reel</string></dict>
-    <key>TalentImageTitle_17_123</key><dict><key>value</key><string>Uformel, banebrydende</string></dict>
-    <key>TalentImageTitle_18_789</key><dict><key>value</key><string>Repræsentativ, stolt</string></dict>
-    <key>TalentImageTitle_18_123</key><dict><key>value</key><string>Beskeden, nøgtern</string></dict>
-    <key>TalentImageTitle_21_789</key><dict><key>value</key><string>Ansvarlig, ledende</string></dict>
-    <key>TalentImageTitle_21_123</key><dict><key>value</key><string>Følgende, accepterer </string></dict>
-    <key>TalentImageTitle_22_789</key><dict><key>value</key><string>Praktisk, effektiv</string></dict>
-    <key>TalentImageTitle_22_123</key><dict><key>value</key><string>Teoretisk, abstrakt </string></dict>
-    <key>TalentImageTitle_25_789</key><dict><key>value</key><string>Initiativrig, problemløsende</string></dict>
-    <key>TalentImageTitle_25_123</key><dict><key>value</key><string>Nuanceret, overvejende</string></dict>
-    <key>TalentImageTitle_27_789</key><dict><key>value</key><string>Målrettet, konkret</string></dict>
-    <key>TalentImageTitle_27_123</key><dict><key>value</key><string>Procesfokuseret, ændre kurs</string></dict>
-    <key>TalentImageTitle_29_789</key><dict><key>value</key><string>Stabil, stressbestandig</string></dict>
-    <key>TalentImageTitle_29_123</key><dict><key>value</key><string>Involveret, bekymret</string></dict>
+    <key>TalentImageTitle_1_789</key><dict><key>value</key><string>Præstationsorienteret</string></dict>
+    <key>TalentImageTitle_1_123</key><dict><key>value</key><string>Tilfreds</string></dict>
+    <key>TalentImageTitle_2_789</key><dict><key>value</key><string>Respektfuld</string></dict>
+    <key>TalentImageTitle_2_123</key><dict><key>value</key><string>Ligeværdig</string></dict>
+    <key>TalentImageTitle_3_789</key><dict><key>value</key><string>Præcis</string></dict>
+    <key>TalentImageTitle_3_123</key><dict><key>value</key><string>Kreativ</string></dict>
+    <key>TalentImageTitle_4_789</key><dict><key>value</key><string>Skiller sig ud</string></dict>
+    <key>TalentImageTitle_4_123</key><dict><key>value</key><string>Giver plads til andre</string></dict>
+    <key>TalentImageTitle_5_789</key><dict><key>value</key><string>Autonom</string></dict>
+    <key>TalentImageTitle_5_123</key><dict><key>value</key><string>Teamorienteret</string></dict>
+    <key>TalentImageTitle_6_789</key><dict><key>value</key><string>Forener andre</string></dict>
+    <key>TalentImageTitle_6_123</key><dict><key>value</key><string>Individualistisk</string></dict>
+    <key>TalentImageTitle_7_789</key><dict><key>value</key><string>Empatisk</string></dict>
+    <key>TalentImageTitle_7_123</key><dict><key>value</key><string>Bruger fakta</string></dict>
+    <key>TalentImageTitle_8_789</key><dict><key>value</key><string>Sætter pris på støtte</string></dict>
+    <key>TalentImageTitle_8_123</key><dict><key>value</key><string>Selvstændig</string></dict>
+    <key>TalentImageTitle_9_789</key><dict><key>value</key><string>Førende</string></dict>
+    <key>TalentImageTitle_9_123</key><dict><key>value</key><string>Samarbejdsvillig</string></dict>
+    <key>TalentImageTitle_10_789</key><dict><key>value</key><string>Selvsikker</string></dict>
+    <key>TalentImageTitle_10_123</key><dict><key>value</key><string>Reflekterende</string></dict>
+    <key>TalentImageTitle_11_789</key><dict><key>value</key><string>Serviceorienteret</string></dict>
+    <key>TalentImageTitle_11_123</key><dict><key>value</key><string>Nøgtern</string></dict>
+    <key>TalentImageTitle_12_789</key><dict><key>value</key><string>Alsidig</string></dict>
+    <key>TalentImageTitle_12_123</key><dict><key>value</key><string>Koncentreret</string></dict>
+    <key>TalentImageTitle_13_789</key><dict><key>value</key><string>Hårdnakket</string></dict>
+    <key>TalentImageTitle_13_123</key><dict><key>value</key><string>Skifter prioriteter</string></dict>
+    <key>TalentImageTitle_14_789</key><dict><key>value</key><string>Iværksættende</string></dict>
+    <key>TalentImageTitle_14_123</key><dict><key>value</key><string>Tålmodig</string></dict>
+    <key>TalentImageTitle_15_789</key><dict><key>value</key><string>Assertiv</string></dict>
+    <key>TalentImageTitle_15_123</key><dict><key>value</key><string>Tolerant</string></dict>
+    <key>TalentImageTitle_17_789</key><dict><key>value</key><string>Pligtopfyldende</string></dict>
+    <key>TalentImageTitle_17_123</key><dict><key>value</key><string>Banebrydende</string></dict>
+    <key>TalentImageTitle_18_789</key><dict><key>value</key><string>Repræsentativ</string></dict>
+    <key>TalentImageTitle_18_123</key><dict><key>value</key><string>Beskeden</string></dict>
+    <key>TalentImageTitle_21_789</key><dict><key>value</key><string>Styrende</string></dict>
+    <key>TalentImageTitle_21_123</key><dict><key>value</key><string>Kompromissøgende</string></dict>
+    <key>TalentImageTitle_22_789</key><dict><key>value</key><string>Praktisk</string></dict>
+    <key>TalentImageTitle_22_123</key><dict><key>value</key><string>Tænker abstrakt</string></dict>
+    <key>TalentImageTitle_25_789</key><dict><key>value</key><string>Problemløser</string></dict>
+    <key>TalentImageTitle_25_123</key><dict><key>value</key><string>Overvejende</string></dict>
+    <key>TalentImageTitle_27_789</key><dict><key>value</key><string>Målrettet</string></dict>
+    <key>TalentImageTitle_27_123</key><dict><key>value</key><string>Procesorienteret</string></dict>
+    <key>TalentImageTitle_29_789</key><dict><key>value</key><string>Stabil</string></dict>
+    <key>TalentImageTitle_29_123</key><dict><key>value</key><string>Engageret</string></dict>
 </dict>
 </plist>

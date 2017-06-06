@@ -80,52 +80,49 @@
     <key>Talent25</key><dict><key>value</key><string>الحسم</string></dict>
     <key>Talent27</key><dict><key>value</key><string>وضوح الهدف</string></dict>
     <key>Talent29</key><dict><key>value</key><string>إدارة التوتر والضغط النفسي</string></dict>
-    <key>TalentImageTitle_1_789</key><dict><key>value</key><string>تنافسي، يركز على التحديات</string></dict>
-    <key>TalentImageTitle_1_123</key><dict><key>value</key><string>راض، وسطي</string></dict>
-    <key>TalentImageTitle_2_789</key><dict><key>value</key><string>يحترمالآخرين، مقدر</string></dict>
-    <key>TalentImageTitle_2_123</key><dict><key>value</key><string>مساوي، مواجه</string></dict>
-    <key>TalentImageTitle_3_789</key><dict><key>value</key><string>دقيق، منهجي</string></dict>
-    <key>TalentImageTitle_3_123</key><dict><key>value</key><string>فعال، مرن</string></dict>
-    <key>TalentImageTitle_4_789</key><dict><key>value</key><string>بارز، ذو حضور</string></dict>
-    <key>TalentImageTitle_4_123</key><dict><key>value</key><string>غير بارز، يفسح المجال للاخرين</string></dict>
-    <key>TalentImageTitle_5_789</key><dict><key>value</key><string>مستقل، ذو أفكار</string></dict>
-    <key>TalentImageTitle_5_123</key><dict><key>value</key><string>موجه نحو الفريق، شفاف</string></dict>
-    <key>TalentImageTitle_6_789</key><dict><key>value</key><string>ودود، صريح</string></dict>
-    <key>TalentImageTitle_6_123</key><dict><key>value</key><string>يركز على الحقائق، عملي</string></dict>
-    <key>TalentImageTitle_7_789</key><dict><key>value</key><string>عاطفي فطري، دبلوماسي</string></dict>
-    <key>TalentImageTitle_7_123</key><dict><key>value</key><string>صريح، عملي</string></dict>
-    <key>TalentImageTitle_8_789</key><dict><key>value</key><string>يشكر، يطلب الدعم</string></dict>
-    <key>TalentImageTitle_8_123</key><dict><key>value</key><string>مستقل، يحتاج قليلاً من الدعم</string></dict>
-    <key>TalentImageTitle_9_789</key><dict><key>value</key><string>قيادي، مقنع</string></dict>
-    <key>TalentImageTitle_9_123</key><dict><key>value</key><string>يؤثر على الآخرين كثيرا،
-        لين</string></dict>
-    <key>TalentImageTitle_10_789</key><dict><key>value</key><string>واثق،
-        متفائل</string></dict>
-    <key>TalentImageTitle_10_123</key><dict><key>value</key><string>يتجنب الأخطاء،
-        ذاتي النقد</string></dict>
-    <key>TalentImageTitle_11_789</key><dict><key>value</key><string>مجامل، يركز على مسئولياته الخاصه</string></dict>
-    <key>TalentImageTitle_11_123</key><dict><key>value</key><string>ذو موقفا عمليا، يفوض</string></dict>
-    <key>TalentImageTitle_12_789</key><dict><key>value</key><string>متنوع، متوجه نحو المناطق المحيطة</string></dict>
-    <key>TalentImageTitle_12_123</key><dict><key>value</key><string>ذو تركيز شديد، مركز</string></dict>
-    <key>TalentImageTitle_13_789</key><dict><key>value</key><string>متابع للعمل،متغلب على العقبات</string></dict>
-    <key>TalentImageTitle_13_123</key><dict><key>value</key><string>يتحرر بسهولة، يميل لتغير الأولويات</string></dict>
-    <key>TalentImageTitle_14_789</key><dict><key>value</key><string>قليل الصبر، نشط جدا</string></dict>
-    <key>TalentImageTitle_14_123</key><dict><key>value</key><string>هادئ، صبورر</string></dict>
-    <key>TalentImageTitle_15_789</key><dict><key>value</key><string>حازم، صريح</string></dict>
-    <key>TalentImageTitle_15_123</key><dict><key>value</key><string>متسامح، متساهل</string></dict>
-    <key>TalentImageTitle_17_789</key><dict><key>value</key><string>رسمي، نزيه</string></dict>
-    <key>TalentImageTitle_17_123</key><dict><key>value</key><string>غير رسمي، تجديدي</string></dict>
-    <key>TalentImageTitle_18_789</key><dict><key>value</key><string>انيق، فخور</string></dict>
-    <key>TalentImageTitle_18_123</key><dict><key>value</key><string>متواضع، معتدل</string></dict>
-    <key>TalentImageTitle_21_789</key><dict><key>value</key><string>يتحمل المسئولية، كثير التوجيهات</string></dict>
-    <key>TalentImageTitle_21_123</key><dict><key>value</key><string>مطيع، يقبل</string></dict>
-    <key>TalentImageTitle_22_789</key><dict><key>value</key><string>عملي، فعال</string></dict>
-    <key>TalentImageTitle_22_123</key><dict><key>value</key><string>نظري، تجريدي</string></dict>
-    <key>TalentImageTitle_25_789</key><dict><key>value</key><string>مقدام، يحل المشكلات</string></dict>
-    <key>TalentImageTitle_25_123</key><dict><key>value</key><string>متميز، يشاور</string></dict>
-    <key>TalentImageTitle_27_789</key><dict><key>value</key><string>موجه، محدد</string></dict>
-    <key>TalentImageTitle_27_123</key><dict><key>value</key><string>موجه نحو العمليات، مرتجل</string></dict>
-    <key>TalentImageTitle_29_789</key><dict><key>value</key><string>مستقر، حصين على التوتر</string></dict>
-    <key>TalentImageTitle_29_123</key><dict><key>value</key><string>ملتزم، مهتم</string></dict>
-    </dict>
+    <key>TalentImageTitle_1_789</key><dict><key>value</key><string>منجز</string></dict>
+    <key>TalentImageTitle_1_123</key><dict><key>value</key><string>قنوع</string></dict>
+    <key>TalentImageTitle_2_789</key><dict><key>value</key><string>محترم</string></dict>
+    <key>TalentImageTitle_2_123</key><dict><key>value</key><string>المساواة</string></dict>
+    <key>TalentImageTitle_3_789</key><dict><key>value</key><string>دقيق</string></dict>
+    <key>TalentImageTitle_3_123</key><dict><key>value</key><string>مبدع</string></dict>
+    <key>TalentImageTitle_4_789</key><dict><key>value</key><string>يقاوم</string></dict>
+    <key>TalentImageTitle_4_123</key><dict><key>value</key><string>يدع</string></dict>
+    <key>TalentImageTitle_5_789</key><dict><key>value</key><string>مستقل</string></dict>
+    <key>TalentImageTitle_5_123</key><dict><key>value</key><string>جماعي</string></dict>
+    <key>TalentImageTitle_6_789</key><dict><key>value</key><string>اندماجي</string></dict>
+    <key>TalentImageTitle_6_123</key><dict><key>value</key><string>فردي</string></dict>
+    <key>TalentImageTitle_7_789</key><dict><key>value</key><string>عاطفي</string></dict>
+    <key>TalentImageTitle_7_123</key><dict><key>value</key><string>واقعي</string></dict>
+    <key>TalentImageTitle_8_789</key><dict><key>value</key><string>شكور</string></dict>
+    <key>TalentImageTitle_8_123</key><dict><key>value</key><string>مقتدر</string></dict>
+    <key>TalentImageTitle_9_789</key><dict><key>value</key><string>قيادي</string></dict>
+    <key>TalentImageTitle_9_123</key><dict><key>value</key><string>متعاون</string></dict>
+    <key>TalentImageTitle_10_789</key><dict><key>value</key><string>واثق</string></dict>
+    <key>TalentImageTitle_10_123</key><dict><key>value</key><string>متأمل</string></dict>
+    <key>TalentImageTitle_11_789</key><dict><key>value</key><string>خدماتي</string></dict>
+    <key>TalentImageTitle_11_123</key><dict><key>value</key><string>متزن</string></dict>
+    <key>TalentImageTitle_12_789</key><dict><key>value</key><string>متنوع</string></dict>
+    <key>TalentImageTitle_12_123</key><dict><key>value</key><string>يركز</string></dict>
+    <key>TalentImageTitle_13_789</key><dict><key>value</key><string>مثابر</string></dict>
+    <key>TalentImageTitle_13_123</key><dict><key>value</key><string>مرن</string></dict>
+    <key>TalentImageTitle_14_789</key><dict><key>value</key><string>مغامر</string></dict>
+    <key>TalentImageTitle_14_123</key><dict><key>value</key><string>صبور</string></dict>
+    <key>TalentImageTitle_15_789</key><dict><key>value</key><string>حازم</string></dict>
+    <key>TalentImageTitle_15_123</key><dict><key>value</key><string>متسامح</string></dict>
+    <key>TalentImageTitle_17_789</key><dict><key>value</key><string>مطيع</string></dict>
+    <key>TalentImageTitle_17_123</key><dict><key>value</key><string>سبّاق</string></dict>
+    <key>TalentImageTitle_18_789</key><dict><key>value</key><string>أنيق</string></dict>
+    <key>TalentImageTitle_18_123</key><dict><key>value</key><string>متواضع</string></dict>
+    <key>TalentImageTitle_21_789</key><dict><key>value</key><string>قيادي</string></dict>
+    <key>TalentImageTitle_21_123</key><dict><key>value</key><string>مذعن</string></dict>
+    <key>TalentImageTitle_22_789</key><dict><key>value</key><string>عملي</string></dict>
+    <key>TalentImageTitle_22_123</key><dict><key>value</key><string>تجريدي</string></dict>
+    <key>TalentImageTitle_25_789</key><dict><key>value</key><string>حكيم</string></dict>
+    <key>TalentImageTitle_25_123</key><dict><key>value</key><string>متزن</string></dict>
+    <key>TalentImageTitle_27_789</key><dict><key>value</key><string>هادف</string></dict>
+    <key>TalentImageTitle_27_123</key><dict><key>value</key><string>اجرائي</string></dict>
+    <key>TalentImageTitle_29_789</key><dict><key>value</key><string>متوازن</string></dict>
+    <key>TalentImageTitle_29_123</key><dict><key>value</key><string>مشارك</string></dict>
+</dict>
 </plist>
