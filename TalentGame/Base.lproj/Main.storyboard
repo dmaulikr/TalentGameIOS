@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4ea-co-tsA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4ea-co-tsA">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -177,16 +177,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView alpha="0.59999999999999998" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JLE-HI-YC9">
-                                <rect key="frame" x="87" y="169" width="201" height="328"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <pickerView alpha="0.59999999999999998" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="JLE-HI-YC9">
+                                <rect key="frame" x="27" y="225" width="320" height="216"/>
                                 <connections>
                                     <outlet property="dataSource" destination="iEO-PT-2ju" id="X9N-I2-DrZ"/>
                                     <outlet property="delegate" destination="iEO-PT-2ju" id="RRO-FY-j68"/>
                                 </connections>
                             </pickerView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cKD-B3-lL8">
+                                <rect key="frame" x="0.0" y="65" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Done" id="h6J-dp-Ha7">
+                                        <connections>
+                                            <action selector="donePicker" destination="XaJ-sO-AWC" id="sjU-1A-q7k"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="gSM-Dq-qZG"/>
+                                    <barButtonItem title="Cancel" id="Rpb-LR-sVt">
+                                        <connections>
+                                            <action selector="cancelPicker" destination="XaJ-sO-AWC" id="kuL-dS-lHj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JLE-HI-YC9" firstAttribute="centerX" secondItem="iEO-PT-2ju" secondAttribute="centerX" id="ON1-2i-LWb"/>
+                            <constraint firstItem="JLE-HI-YC9" firstAttribute="centerY" secondItem="iEO-PT-2ju" secondAttribute="centerY" id="dbN-0O-111"/>
+                        </constraints>
                     </view>
                     <toolbarItems>
                         <barButtonItem title="Item" id="CAu-ft-TLC"/>
