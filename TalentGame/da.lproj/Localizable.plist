@@ -2,226 +2,58 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>app_name</key>
-	<dict>
-		<key>value</key>
-		<string>Talent Game DA</string>
-	</dict>
-    <key>Address</key>
-    <dict>
-        <key>value</key>
-        <string>Adresse</string>
-    </dict>
-    <key>AppInfo</key>
-    <dict>
-        <key>value</key>
-        <string>Folk fremviser mest motivation, effektivitet og succes i det arbejde der ligger tættest på deres talenter. Det er den vision TMA-Talentspil bygger på. Ved hjælp af spillet kan du få sammenfattende svar på mange spørgsmål, såsom: Hvilke talenter behersker jeg? Hvilke talenter skal jeg blive opmærksom på? Hvor står vi som team? Hvordan kan vi øge brug af teammedlemmernes færdigheder? TMA Talentspil indeholder 44 talentkort og 4 kort med spilvariationer og forklaring. Spillet er et praktisk værktøj for alle som vil arbejde med deres talenter. Du kan spille enten alene eller i gruppe. Spillet er desuden rettet mod TMA-eksperter og trænere som bruger det i individuel eller team-coaching. Sidst men ikke mindst hjælper TMA Talentspil dig med at få erfaring gennem et spil med underliggende koncepter af talentmanagement. Det gør det også brugbart for dem der deltager i TMA-eksperttræning. Er du interesseret i at blive en certificeret TMA-ekspert og bruge videnskabeligt begrundede og online TMA-værktøjer? Vil du gøre det bedste ud af menneskellige og erhvervsmæssige talenter på en positiv måde? Så kontakt os via info@tmamethod.com eller ring på +31 30 2670444.</string>
-    </dict>
-    <key>Email</key>
-    <dict>
-        <key>value</key>
-        <string>E-mail</string>
-    </dict>
-    <key>FollowUsOn</key>
-    <dict>
-        <key>value</key>
-        <string>Følg os på</string>
-    </dict>
-    <key>Game1</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 1</string>
-    </dict>
-    <key>Game1_Description</key>
-    <dict>
-        <key>value</key>
-        <string>1. Læg alle talentkortene på bordet. 2. Vælg otte talenter som du kan genkende. 3. Overvej hvordan du kan bruge disse talenter i din arbejdsgang.</string>
-    </dict>
-    <key>Game1_Title</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 1: Udforsk dine egne talenter</string>
-    </dict>
-    <key>Game1_Title_Description</key>
-    <dict>
-        <key>value</key>
-        <string>Dette spil gør dig opmærksom på dine talenter.</string>
-    </dict>
-    <key>Game2</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 2</string>
-    </dict>
-    <key>Game2_Description</key>
-    <dict>
-        <key>value</key>
-        <string>1. Først skal du bestemme hvad det er du vil udvikle. F.eks. en evne eller en kompetence såsom forhandlingsevne, orientering mod kunder, samarbejde osv. 2. Læg alle talentkortene i en bunke og tag et kort. 3. For hvert kort du tager skal du bestemme om du har det talent eller ej. 4. Hvis du ikke har dette talent, læg kortet fra dig og tag et nyt ét fra bunken. 5. Hvis du tager et kort som passer til dig, overvej om og hvordan talentet kan hjælpe dig med at udvikle en vis evne eller kompetence. 6. Bliv ved med at tage kort indtil du har nok talenter som kan hjælpe dig i din udvikling.</string>
-    </dict>
-    <key>Game2_Title</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 2: Personlig udvikling</string>
-    </dict>
-    <key>Game2_Title_Description</key>
-    <dict>
-        <key>value</key>
-        <string>Dette spil hjælper dig med at finde ud af hvilke talenter du kan bruge til din personlige udvikling.</string>
-    </dict>
-    <key>Game3</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 3</string>
-    </dict>
-    <key>Game3_Description</key>
-    <dict>
-        <key>value</key>
-        <string>1. Læg alle talentkortene på bordet. 2. Vælg en centralperson der bliver den første at modtage feedback fra de andre deltagere. 3. De andre skal efter tur vælge et talentkort som de synes passer til centralpersonen og give det videre til personen. 4. Når alle deltagere har givet kort til centralpersonen, er det den næste centralpersons tur. Alle deltagere går i gang med at give et talentkort til denne person. 5. Spillet fortsætter indtil alle har været centralpersoner.</string>
-    </dict>
-    <key>Game3_Title</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 3: Feedback om talent</string>
-    </dict>
-    <key>Game3_Title_Description</key>
-    <dict>
-        <key>value</key>
-        <string>Man spiller det her spil med mindst 3 andre mennesker. Spillet går ud på at genkende hinandens talenter.</string>
-    </dict>
-    <key>Game4</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 4</string>
-    </dict>
-    <key>Game4_Description</key>
-    <dict>
-        <key>value</key>
-        <string>1. Læg alle talentkortene på bordet. 2. Vælg en person der starter. Personen tager et talentkort som han/ hun synes er teamets virkelige talent og forklarer hvorfor. 3. Bagefter kan de andre sige om de også synes det er teamets talent. Hvis (næsten) alle er enige om det er teamets talent, nævner man det teamets første talent. Hvis meninger er meget forskellige, læg kortet fra dig. 4. Bagefter tager den næste person et talentkort som han/ hun synes er teamets talent og forklarer hvorfor han/ hun synes det. De andre giver også deres syn på det. 5. I fortsætter intil I har 3 til 5 teamets talenter som (næsten) alle er enige om. 6. Efter at I har et sæt af teamets talenter, kan I diskutere hvordan I kan bruge disse talenter i jeres fælles arbejde.</string>
-    </dict>
-    <key>Game4_Title</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 4: Teamets talenter</string>
-    </dict>
-    <key>Game4_Title_Description</key>
-    <dict>
-        <key>value</key>
-        <string>Man spiller det her spil med mindst 3 andre mennesker. Spillet går ud på at genkende talenter i teamet (som en helhed).</string>
-    </dict>
-    <key>Game5</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 5</string>
-    </dict>
-    <key>Game5_Description</key>
-    <dict>
-        <key>value</key>
-        <string>1. Spred alle kortene på bordet med bagsiden op. 2. Vælg en person der starter. Personen vender to tilfældige kort om. Hvis kortene har de samme drivkræfter (teksten under den højre del), beholder personen kortene og siger hvilke drivkræfter han/ hun har fundet og hvad talenter (teksten over den venstre del) på begge kort siger. Den samme person får lov til at vende om to kort mere. Det fortsætter indtil personen vender om to kort som er forskellige. 3. Så er det den næste persons tur til at vende to kort om og gentage alt som er beskrivet i trin 2. 4. Spillet slutter når alle par af drivkræfter er blevet fundet. Den der har flest par vinder.</string>
-    </dict>
-    <key>Game5_Title</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 5: Talent- og motivationshukommelse</string>
-    </dict>
-    <key>Game5_Title_Description</key>
-    <dict>
-        <key>value</key>
-        <string>Man spiller det her spil med 2 til 4 mennesker. Formålet er at finde ud af hvilke evner hører til hvilke drivkræfter.</string>
-    </dict>
-    <key>Game6</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 6</string>
-    </dict>
-    <key>Game6_Description</key>
-    <dict>
-        <key>value</key>
-        <string>TMA Talentspil indeholder 5 spilvariationer. Vi opfordrer dig til at finde på dine egne spilvariationer. Hvis du vil dele din version med TMA-gruppen, send den til TMA (info@tmamethod.com) eller læg det ud i TMA’s gruppe på LinkedIn. Det kan godt være din version bliver en del af Talentspil App. TMA-teamet</string>
-    </dict>
-    <key>Game6_Title</key>
-    <dict>
-        <key>value</key>
-        <string>Spil 6: Lav din egen spilvariation</string>
-    </dict>
-    <key>Game6_Title_Description</key>
-    <dict>
-        <key>value</key>
-        <string></string>
-    </dict>
-    <key>Linkedin</key>
-    <dict>
-        <key>value</key>
-        <string>Linkedin</string>
-    </dict>
-    <key>Phone</key>
-    <dict>
-        <key>value</key>
-        <string>Telefon</string>
-    </dict>
-    <key>TMAMethode</key>
-    <dict>
-        <key>value</key>
-        <string>TMA Methode</string>
-    </dict>
-    <key>Twitter</key>
-    <dict>
-        <key>value</key>
-        <string>Twitter</string>
-    </dict>
-    <key>TwitterId</key>
-    <dict>
-        <key>value</key>
-        <string>tmamethode</string>
-    </dict>
-    <key>Website</key>
-    <dict>
-        <key>value</key>
-        <string>Hjemmeside</string>
-    </dict>
-    <key>app_name</key>
-    <dict>
-        <key>value</key>
-        <string>TMA Talentspil</string>
-    </dict>
-    <key>btn_Games</key>
-    <dict>
-        <key>value</key>
-        <string>Spil</string>
-    </dict>
-    <key>btn_contact</key>
-    <dict>
-        <key>value</key>
-        <string>Kontakt</string>
-    </dict>
-    <key>btn_facebook</key>
-    <dict>
-        <key>value</key>
-        <string>Facebook</string>
-    </dict>
-    <key>btn_info</key>
-    <dict>
-        <key>value</key>
-        <string>Info</string>
-    </dict>
-    <key>btn_linkedin</key>
-    <dict>
-        <key>value</key>
-        <string>Linkedin</string>
-    </dict>
-    <key>btn_media</key>
-    <dict>
-        <key>value</key>
-        <string>Medier</string>
-    </dict>
-    <key>changeLanguage</key>
-    <dict>
-        <key>value</key>
-        <string>Skift sprog</string>
-    </dict>
-    <key>contactText</key>
-    <dict>
-        <key>value</key>
-        <string>TMA-metode er et integreret system for udvælgelse og udvikling af medarbejdere hvor talenter og færdigheder er nøglebegreber. TMA-metode tilbydes som online service og bruges til kompetence- og talentmanagement, 360 graders feedback, oprettelse af karrierecentre, evalueringer, TMA-talentanalyser, MD baner, mobilitet, diskussioner, karriere- og jobsamtaler.</string>
-    </dict>
+    <key>Address</key><dict><key>value</key><string>Adresse</string></dict>
+    <key>AppInfo</key><dict><key>value</key><string>Folk fremviser mest motivation, effektivitet og succes i det arbejde der ligger tættest på deres talenter. Det er den vision TMA-Talentspil bygger på. Ved hjælp af spillet kan du få sammenfattende svar på mange spørgsmål, såsom: Hvilke talenter behersker jeg? Hvilke talenter skal jeg blive opmærksom på? Hvor står vi som team? Hvordan kan vi øge brug af teammedlemmernes færdigheder? TMA Talentspil indeholder 44 talentkort og 4 kort med spilvariationer og forklaring. Spillet er et praktisk værktøj for alle som vil arbejde med deres talenter. Du kan spille enten alene eller i gruppe. Spillet er desuden rettet mod TMA-eksperter og trænere som bruger det i individuel eller team-coaching. Sidst men ikke mindst hjælper TMA Talentspil dig med at få erfaring gennem et spil med underliggende koncepter af talentmanagement. Det gør det også brugbart for dem der deltager i TMA-eksperttræning. Er du interesseret i at blive en certificeret TMA-ekspert og bruge videnskabeligt begrundede og online TMA-værktøjer? Vil du gøre det bedste ud af menneskellige og erhvervsmæssige talenter på en positiv måde? Så kontakt os via info@tmamethod.com eller ring på +31 30 2670444.</string></dict>
+    <key>Email</key><dict><key>value</key><string>E-mail</string></dict>
+    <key>FollowUsOn</key><dict><key>value</key><string>Følg os på</string></dict>
+    <key>Game1</key><dict><key>value</key><string>Spil 1</string></dict>
+    <key>Game1_Description</key><dict><key>value</key><string>1. Læg alle talentkortene på bordet. \n2. Vælg otte talenter som du kan genkende. \n3. Overvej hvordan du kan bruge disse talenter i din arbejdsgang.</string></dict>
+    <key>Game1_Title</key><dict><key>value</key><string>Spil 1: Udforsk dine egne talenter</string></dict>
+    <key>Game1_Title_Description</key><dict><key>value</key><string>Dette spil gør dig opmærksom på dine talenter.</string></dict>
+    <key>Game2</key><dict><key>value</key><string>Spil 2</string></dict>
+    <key>Game2_Description</key><dict><key>value</key><string>1. Først skal du bestemme hvad det er du vil udvikle. F.eks. en evne eller en kompetence såsom forhandlingsevne, orientering mod kunder, samarbejde osv. \n2. Læg alle talentkortene i en bunke og tag et kort. \n3. For hvert kort du tager skal du bestemme om du har det talent eller ej. \n4. Hvis du ikke har dette talent, læg kortet fra dig og tag et nyt ét fra bunken. \n5. Hvis du tager et kort som passer til dig, overvej om og hvordan talentet kan hjælpe dig med at udvikle en vis evne eller kompetence. \n6. Bliv ved med at tage kort indtil du har nok talenter som kan hjælpe dig i din udvikling.</string></dict>
+    <key>Game2_Title</key><dict><key>value</key><string>Spil 2: Personlig udvikling</string></dict>
+    <key>Game2_Title_Description</key><dict><key>value</key><string>Dette spil hjælper dig med at finde ud af hvilke talenter du kan bruge til din personlige udvikling.</string></dict>
+    <key>Game3</key><dict><key>value</key><string>Spil 3</string></dict>
+    <key>Game3_Description</key><dict><key>value</key><string>1. Læg alle talentkortene på bordet. \n2. Vælg en centralperson der bliver den første at modtage feedback fra de andre deltagere. \n3. De andre skal efter tur vælge et talentkort som de synes passer til centralpersonen og give det videre til personen. \n4. Når alle deltagere har givet kort til centralpersonen, er det den næste centralpersons tur. Alle deltagere går i gang med at give et talentkort til denne person. \n5. Spillet fortsætter indtil alle har været centralpersoner.</string></dict>
+    <key>Game3_Title</key><dict><key>value</key><string>Spil 3: Feedback om talent</string></dict>
+    <key>Game3_Title_Description</key><dict><key>value</key><string>Man spiller det her spil med mindst 3 andre mennesker. Spillet går ud på at genkende hinandens talenter.</string></dict>
+    <key>Game4</key><dict><key>value</key><string>Spil 4</string></dict>
+    <key>Game4_Description</key><dict><key>value</key><string>1. Læg alle talentkortene på bordet. \n2. Vælg en person der starter. Personen tager et talentkort som han/ hun synes er teamets virkelige talent og forklarer hvorfor. \n3. Bagefter kan de andre sige om de også synes det er teamets talent. Hvis (næsten) alle er enige om det er teamets talent, nævner man det teamets første talent. Hvis meninger er meget forskellige, læg kortet fra dig. \n4. Bagefter tager den næste person et talentkort som han/ hun synes er teamets talent og forklarer hvorfor han/ hun synes det. De andre giver også deres syn på det. \n5. I fortsætter intil I har 3 til 5 teamets talenter som (næsten) alle er enige om. \n6. Efter at I har et sæt af teamets talenter, kan I diskutere hvordan I kan bruge disse talenter i jeres fælles arbejde.</string></dict>
+    <key>Game4_Title</key><dict><key>value</key><string>Spil 4: Teamets talenter</string></dict>
+    <key>Game4_Title_Description</key><dict><key>value</key><string>Man spiller det her spil med mindst 3 andre mennesker. Spillet går ud på at genkende talenter i teamet (som en helhed).</string></dict>
+    <key>Game5</key><dict><key>value</key><string>Spil 5</string></dict>
+    <key>Game5_Description</key><dict><key>value</key><string>1. Spred alle kortene på bordet med bagsiden op. 2. Vælg en person der starter. Personen vender to tilfældige kort om. Hvis kortene har de samme drivkræfter (teksten under den højre del), beholder personen kortene og siger hvilke drivkræfter han/ hun har fundet og hvad talenter (teksten over den venstre del) på begge kort siger. Den samme person får lov til at vende om to kort mere. Det fortsætter indtil personen vender om to kort som er forskellige. 3. Så er det den næste persons tur til at vende to kort om og gentage alt som er beskrivet i trin 2. 4. Spillet slutter når alle par af drivkræfter er blevet fundet. Den der har flest par vinder.</string></dict>
+    <key>Game5_Title</key><dict><key>value</key><string>Spil 5: Talenter og drivkræfter</string></dict>
+    <key>Game5_Title_Description</key><dict><key>value</key><string>Man spiller det her spil med 2 til 4 mennesker. Formålet er at finde ud af hvilke evner hører til hvilke drivkræfter.</string></dict>
+    <key>Game6</key><dict><key>value</key><string>Spil 6</string></dict>
+    <key>Game6_Description</key><dict><key>value</key><string>TMA Talentspil indeholder 5 spilvariationer. Vi opfordrer dig til at finde på dine egne spilvariationer. Hvis du vil dele din version med TMA-gruppen, send den til TMA (info@tmamethod.com) eller læg det ud i TMA’s gruppe på LinkedIn. Det kan godt være din version bliver en del af Talentspil App. TMA-teamet</string></dict>
+    <key>Game6_Title</key><dict><key>value</key><string>Spil 6: Lav din egen spilvariation</string></dict>
+    <key>Game6_Title_Description</key><dict><key>value</key><string></string></dict>
+    <key>Linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+    <key>Phone</key><dict><key>value</key><string>Telefon</string></dict>
+    <key>TMAMethode</key><dict><key>value</key><string>TMA-metode</string></dict>
+    <key>Twitter</key><dict><key>value</key><string>Twitter</string></dict>
+    <key>TwitterId</key><dict><key>value</key><string>tmamethode</string></dict>
+    <key>Website</key><dict><key>value</key><string>Hjemmeside</string></dict>
+    <key>app_name</key><dict><key>value</key><string>TMA Talentspil</string></dict>
+    <key>btn_Games</key><dict><key>value</key><string>Spil</string></dict>
+    <key>btn_contact</key><dict><key>value</key><string>Kontakt</string></dict>
+    <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+    <key>btn_info</key><dict><key>value</key><string>Info</string></dict>
+    <key>btn_linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+    <key>btn_media</key><dict><key>value</key><string>Medier</string></dict>
+    <key>changeLanguage</key><dict><key>value</key><string>Skift sprog</string></dict>
+    <key>contactText</key><dict><key>value</key><string>TMA-metode er et integreret system for udvælgelse og udvikling af medarbejdere hvor talenter og færdigheder er nøglebegreber. TMA-metode tilbydes som online service og bruges til kompetence- og talentmanagement, 360 graders feedback, oprettelse af karrierecentre, evalueringer, TMA-talentanalyser, MD baner, mobilitet, diskussioner, karriere- og jobsamtaler.</string></dict>
+    <key>launching_app_name</key><dict><key>value</key><string>Talentspil</string></dict>
+    <key>locale_lang</key><dict><key>value</key><string>lang_culture</string></dict>
+    <key>title_activity_Games</key><dict><key>value</key><string>Spil</string></dict>
+    <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
+    <key>title_activity_contact</key><dict><key>value</key><string>Kontakt</string></dict>
+    <key>title_activity_media</key><dict><key>value</key><string>Medier</string></dict>
+    <key>title_drives_alphabetical</key><dict><key>value</key><string>Drivkræfter alfabetisk</string></dict>
+    <key>Done</key><dict><key>value</key><string>Gjort</string></dict>
+    <key>Cancel</key><dict><key>value</key><string>Fortryd</string></dict>
     <key>dimension1_text</key>
     <dict>
         <key>value</key>
@@ -230,7 +62,7 @@
     <key>dimension2_text</key>
     <dict>
         <key>value</key>
-        <string>Kommunikationsevner</string>
+        <string>Kommunikation</string>
     </dict>
     <key>dimension3_text</key>
     <dict>
@@ -245,48 +77,15 @@
     <key>dimension5_text</key>
     <dict>
         <key>value</key>
-        <string>ledelsesevner</string>
+        <string>Ledelsesevner</string>
     </dict>
     <key>dimension6_text</key>
     <dict>
         <key>value</key>
         <string>Organisationstalent</string>
     </dict>
-    <key>launching_app_name</key>
-    <dict>
-        <key>value</key>
-        <string>Talentspil</string>
-    </dict>
-    <key>locale_lang</key>
-    <dict>
-        <key>value</key>
-        <string>lang_culture</string>
-    </dict>
-    <key>title_activity_Games</key>
-    <dict>
-        <key>value</key>
-        <string>Spil</string>
-    </dict>
-    <key>title_activity_app_info</key>
-    <dict>
-        <key>value</key>
-        <string>Info</string>
-    </dict>
-    <key>title_activity_contact</key>
-    <dict>
-        <key>value</key>
-        <string>Kontakt</string>
-    </dict>
-    <key>title_activity_media</key>
-    <dict>
-        <key>value</key>
-        <string>Medier</string>
-    </dict>
-    <key>title_drives_alphabetical</key>
-    <dict>
-        <key>value</key>
-        <string>Drivkræfter alfabetisk</string>
-    </dict>    <key>Talent1</key>
+    
+    <key>Talent1</key>
     <dict>
         <key>value</key>
         <string>Ambition og udfordring</string>

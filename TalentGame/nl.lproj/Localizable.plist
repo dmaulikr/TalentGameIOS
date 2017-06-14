@@ -400,25 +400,25 @@
     <key>TalentImageTitle_1_123</key><dict><key>value</key><string>Tevreden</string></dict>
     <key>TalentImageTitle_2_789</key><dict><key>value</key><string>Respectvol</string></dict>
     <key>TalentImageTitle_2_123</key><dict><key>value</key><string>Gelijkwaardig</string></dict>
-    <key>TalentImageTitle_3_789</key><dict><key>value</key><string>Nauwkeurig</string></dict>
+    <key>TalentImageTitle_3_789</key><dict><key>value</key><string>Accuraat</string></dict>
     <key>TalentImageTitle_3_123</key><dict><key>value</key><string>Creatief</string></dict>
     <key>TalentImageTitle_4_789</key><dict><key>value</key><string>Opvallend</string></dict>
-    <key>TalentImageTitle_4_123</key><dict><key>value</key><string>Geeft anderen ruimte</string></dict>
+    <key>TalentImageTitle_4_123</key><dict><key>value</key><string>Ruimtegevend</string></dict>
     <key>TalentImageTitle_5_789</key><dict><key>value</key><string>Autonoom</string></dict>
     <key>TalentImageTitle_5_123</key><dict><key>value</key><string>Groepsgericht</string></dict>
-    <key>TalentImageTitle_6_789</key><dict><key>value</key><string>Communicatief</string></dict>
+    <key>TalentImageTitle_6_789</key><dict><key>value</key><string>Verbindend</string></dict>
     <key>TalentImageTitle_6_123</key><dict><key>value</key><string>Individueel</string></dict>
     <key>TalentImageTitle_7_789</key><dict><key>value</key><string>Inlevend</string></dict>
     <key>TalentImageTitle_7_123</key><dict><key>value</key><string>Feitelijk</string></dict>
-    <key>TalentImageTitle_8_789</key><dict><key>value</key><string>Dankbaar voor hulp</string></dict>
+    <key>TalentImageTitle_8_789</key><dict><key>value</key><string>Waardeert support</string></dict>
     <key>TalentImageTitle_8_123</key><dict><key>value</key><string>Zelfredzaam </string></dict>
-    <key>TalentImageTitle_9_789</key><dict><key>value</key><string>Overtuigend</string></dict>
-    <key>TalentImageTitle_9_123</key><dict><key>value</key><string>Meegaand</string></dict>
+    <key>TalentImageTitle_9_789</key><dict><key>value</key><string>Sturend</string></dict>
+    <key>TalentImageTitle_9_123</key><dict><key>value</key><string>Coöperatief</string></dict>
     <key>TalentImageTitle_10_789</key><dict><key>value</key><string>Zelfvertrouwen</string></dict>
-    <key>TalentImageTitle_10_123</key><dict><key>value</key><string>Zelfkritisch</string></dict>
+    <key>TalentImageTitle_10_123</key><dict><key>value</key><string>Zelfreflecterend</string></dict>
     <key>TalentImageTitle_11_789</key><dict><key>value</key><string>Servicegericht</string></dict>
     <key>TalentImageTitle_11_123</key><dict><key>value</key><string>Zakelijk</string></dict>
-    <key>TalentImageTitle_12_789</key><dict><key>value</key><string>Gevarieerd</string></dict>
+    <key>TalentImageTitle_12_789</key><dict><key>value</key><string>Veelzijdig</string></dict>
     <key>TalentImageTitle_12_123</key><dict><key>value</key><string>Focus</string></dict>
     <key>TalentImageTitle_13_789</key><dict><key>value</key><string>Doorzetten</string></dict>
     <key>TalentImageTitle_13_123</key><dict><key>value</key><string>Prioriteiten verleggen</string></dict>
@@ -431,11 +431,11 @@
     <key>TalentImageTitle_18_789</key><dict><key>value</key><string>Representatief</string></dict>
     <key>TalentImageTitle_18_123</key><dict><key>value</key><string>Bescheiden</string></dict>
     <key>TalentImageTitle_21_789</key><dict><key>value</key><string>Leidend</string></dict>
-    <key>TalentImageTitle_21_123</key><dict><key>value</key><string>Acceptatievermogen</string></dict>
+    <key>TalentImageTitle_21_123</key><dict><key>value</key><string>Meegaand</string></dict>
     <key>TalentImageTitle_22_789</key><dict><key>value</key><string>Praktisch</string></dict>
-    <key>TalentImageTitle_22_123</key><dict><key>value</key><string>Abstractie vermogen</string></dict>
+    <key>TalentImageTitle_22_123</key><dict><key>value</key><string>Abstractievermogen</string></dict>
     <key>TalentImageTitle_25_789</key><dict><key>value</key><string>Probleemoplossend</string></dict>
-    <key>TalentImageTitle_25_123</key><dict><key>value</key><string>Zorgvuldig beslissen</string></dict>
+    <key>TalentImageTitle_25_123</key><dict><key>value</key><string>Bedachtzaam</string></dict>
     <key>TalentImageTitle_27_789</key><dict><key>value</key><string>Doelgericht</string></dict>
     <key>TalentImageTitle_27_123</key><dict><key>value</key><string>Procesgericht</string></dict>
     <key>TalentImageTitle_29_789</key><dict><key>value</key><string>Stabiel</string></dict>
