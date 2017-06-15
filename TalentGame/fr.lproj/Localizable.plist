@@ -251,7 +251,8 @@
     <dict>
         <key>value</key>
         <string>Talents d’organisation</string>
-    </dict>    <key>launching_app_name</key>
+    </dict>
+    <key>launching_app_name</key>
     <dict>
         <key>value</key>
         <string>Jeu des talents</string>

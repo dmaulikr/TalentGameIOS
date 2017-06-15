@@ -277,7 +277,9 @@
     <dict>
         <key>value</key>
         <string>Организационные таланты</string>
-    </dict>    <key>launching_app_name</key>
+    </dict>
+    
+    <key>launching_app_name</key>
     <dict>
         <key>value</key>
         <string>Игра Талантов</string>
@@ -465,5 +467,6 @@
     <key>TalentImageTitle_27_789</key><dict><key>value</key><string>Ориентирован на цель</string></dict>
     <key>TalentImageTitle_27_123</key><dict><key>value</key><string>Ориентирован на процесс</string></dict>
     <key>TalentImageTitle_29_789</key><dict><key>value</key><string>Стойкий</string></dict>
-    <key>TalentImageTitle_29_123</key><dict><key>value</key><string>Вовлеченный</string></dict></dict>
+    <key>TalentImageTitle_29_123</key><dict><key>value</key><string>Вовлеченный</string></dict>
+</dict>
 </plist>
