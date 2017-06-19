@@ -81,6 +81,7 @@ import UIKit
             let title: String = isGame ? dimensions[index].dimensionName : (key).localized;
         
             self.setTitle(title, for: .normal)
+            self.contentEdgeInsets = UIEdgeInsetsMake(5,5,5,5)
             self.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
             self.titleLabel?.textAlignment = NSTextAlignment.center;
             self.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14);
