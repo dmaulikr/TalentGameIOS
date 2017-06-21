@@ -13,6 +13,7 @@ import UIKit
     //MARK: Properties
     
     var dimensions: [Dimension] = DimensionService.getAllDimensions()
+    let screenSize: CGRect = UIScreen.main.bounds
     
     
     @IBInspectable var buttonSize: CGSize = CGSize(width: 120, height: 120){
@@ -62,8 +63,9 @@ import UIKit
     //MARK: Private Methods
     private func setupButton() {
         
+//        let a = screenSize.width/3;
+//        let b = screenSize.height;
         
-            
             if(index >= 6)
             {
                 return;
@@ -71,10 +73,10 @@ import UIKit
             
             // Add constraints
             self.translatesAutoresizingMaskIntoConstraints = false
-            self.heightAnchor.constraint(equalToConstant: buttonSize.height).isActive = true
-            self.widthAnchor.constraint(equalToConstant: buttonSize.width).isActive = true
+            self.heightAnchor.constraint(equalToConstant: screenSize.width/3).isActive = true
+            self.widthAnchor.constraint(equalToConstant: screenSize.width/3).isActive = true
             
-            self.layer.cornerRadius = CGFloat(buttonRadius)
+            self.layer.cornerRadius = CGFloat(screenSize.width/6)
             self.backgroundColor = hexStringToUIColor(hex: Constants.colors[index]);
             self.tintColor = UIColor.white
             let key = "Game\(index + 1)_Title";
@@ -84,7 +86,7 @@ import UIKit
             self.contentEdgeInsets = UIEdgeInsetsMake(5,5,5,5)
             self.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
             self.titleLabel?.textAlignment = NSTextAlignment.center;
-            self.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14);
+            self.titleLabel?.font = UIFont.boldSystemFont(ofSize: screenSize.width/27);
             self.setTitleColor(UIColor.white, for: [.highlighted, .selected, .normal])
             
             // Set the accessibility label
