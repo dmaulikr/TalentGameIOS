@@ -86,6 +86,7 @@ import UIKit
             self.contentEdgeInsets = UIEdgeInsetsMake(5,5,5,5)
             self.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
             self.titleLabel?.textAlignment = NSTextAlignment.center;
+        let lang = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
         if(lang == "da")
         {
             self.titleLabel?.font = UIFont.boldSystemFont(ofSize: screenSize.width/37);
