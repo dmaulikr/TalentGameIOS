@@ -86,7 +86,14 @@ import UIKit
             self.contentEdgeInsets = UIEdgeInsetsMake(5,5,5,5)
             self.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
             self.titleLabel?.textAlignment = NSTextAlignment.center;
+        if(lang == "da")
+        {
+            self.titleLabel?.font = UIFont.boldSystemFont(ofSize: screenSize.width/37);
+        }
+        else
+        {
             self.titleLabel?.font = UIFont.boldSystemFont(ofSize: screenSize.width/27);
+        }
             self.setTitleColor(UIColor.white, for: [.highlighted, .selected, .normal])
             
             // Set the accessibility label
