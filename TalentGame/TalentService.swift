@@ -53,14 +53,14 @@ class TalentService
             var title789:String = ""
             
             for title:String in str_TalentTitle123{
-                title123 += title.capitalizingFirstLetter()+"\n"
+                title123 += title + "\n"
             }
             
             let str_TalentTitle789 = talent.title789.components(separatedBy: ", ")
                 //.capitalizingFirstLetter().replacingOccurrences(of: ", ", with: "\n")
             
             for title:String in str_TalentTitle789{
-                title789 += title.capitalizingFirstLetter()+"\n"
+                title789 += title + "\n"
             }
 
             
