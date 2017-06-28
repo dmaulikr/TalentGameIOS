@@ -54,36 +54,13 @@
     <key>title_drives_alphabetical</key><dict><key>value</key><string>Drivkræfter alfabetisk</string></dict>
     <key>Done</key><dict><key>value</key><string>Gjort</string></dict>
     <key>Cancel</key><dict><key>value</key><string>Fortryd</string></dict>
-    <key>dimension1_text</key>
-    <dict>
-        <key>value</key>
-        <string>Følelsesmæssig balance</string>
-    </dict>
-    <key>dimension2_text</key>
-    <dict>
-        <key>value</key>
-        <string>Kommunikation</string>
-    </dict>
-    <key>dimension3_text</key>
-    <dict>
-        <key>value</key>
-        <string>Påvirkende talenter</string>
-    </dict>
-    <key>dimension4_text</key>
-    <dict>
-        <key>value</key>
-        <string>Motiver</string>
-    </dict>
-    <key>dimension5_text</key>
-    <dict>
-        <key>value</key>
-        <string>Ledelsesevner</string>
-    </dict>
-    <key>dimension6_text</key>
-    <dict>
-        <key>value</key>
-        <string>Organisationstalent</string>
-    </dict>
+    
+    <key>dimension1_text</key><dict><key>value</key><string>Følelsesmæssig balance</string></dict>
+    <key>dimension3_text</key><dict><key>value</key><string>Kommunikationsevner</string></dict>
+    <key>dimension4_text</key><dict><key>value</key><string>Påvirkende talenter</string></dict>
+    <key>dimension2_text</key><dict><key>value</key><string>Motiver</string></dict>
+    <key>dimension5_text</key><dict><key>value</key><string>ledelsesevner</string></dict>
+    <key>dimension6_text</key><dict><key>value</key><string>Organisatoriske evner</string></dict>
     
     <key>Talent1</key>
     <dict>
