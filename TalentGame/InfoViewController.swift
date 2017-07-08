@@ -40,7 +40,7 @@ class InfoViewController: UIViewController {
         emailLabel.text = "info@tmamethod.com";
         websiteLabel.text = "http://www.tmamethod.com";
         titleLabel.text = "app_name".localized;
-        textLabel.text = "AppInfo".localized;
+        textLabel.text = "AppInfo".localized.replacingOccurrences(of: "[newline]", with: "\n\n ");
     }
     
 }
