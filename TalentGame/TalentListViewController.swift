@@ -30,6 +30,30 @@ class TalentListViewController: UIViewController, UITableViewDelegate, UITableVi
         navigationItem.title = titleName ?? "app_name".localized
         
         dimensionId != nil ? bindTalents() : bindAllTalents()
+        
+        self.navigationItem.hidesBackButton = true
+        let newBackButton = UIBarButtonItem(title: "< 123", style: UIBarButtonItemStyle.done, target: self, action: #selector(self.back(sender:)))
+        self.navigationItem.leftBarButtonItem = newBackButton
+        
+        let rightButton = UIBarButtonItem(title: "789", style: UIBarButtonItemStyle.done, target: nil, action: nil)
+        
+        self.navigationItem.rightBarButtonItem = rightButton
+        
+        
+        if(dimensionId != nil)
+        {
+        self.navigationController?.navigationBar.barTintColor = hexStringToUIColor(hex: colorCode!);
+            self.navigationController?.navigationBar.tintColor = UIColor.white;
+        }
+    }
+    
+    func back(sender: UIBarButtonItem) {
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor.white;
+        
+        self.navigationController?.navigationBar.tintColor = self.view.tintColor;
+        
+        _ = navigationController?.popViewController(animated: true)
     }
     
     override func didReceiveMemoryWarning() {

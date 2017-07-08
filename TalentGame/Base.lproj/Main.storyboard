@@ -334,11 +334,11 @@
                         <viewControllerLayoutGuide type="bottom" id="7nN-aO-ZWP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8Wd-yx-By0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="170" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1Xc-JD-5fQ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" reuseIdentifier="cellIdentifier" rowHeight="170" id="wWv-JE-8R7" customClass="TalentListTableViewCell" customModule="TalentGame" customModuleProvider="target">
@@ -666,7 +666,7 @@
             <objects>
                 <navigationController storyboardIdentifier="NavTalentListViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="STl-Eg-B58" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eOf-KC-gBO">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="eOf-KC-gBO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1016,6 +1016,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="o6a-14-UkO"/>
-        <segue reference="YoQ-fb-s64"/>
+        <segue reference="Xql-87-hhw"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -21,6 +21,7 @@ class ViewController: UIViewController
     
         self.navigationItem.title = "app_name".localized
         
+        self.navigationController?.navigationBar.barTintColor = UIColor.white
         //self.scrollView.contentSize = CGSize(width:320, height: 700);
         
         //setButtons()
@@ -32,6 +33,15 @@ class ViewController: UIViewController
 //            self.view.makeTextWritingDirectionRightToLeft(self.navigationItem)
 //        }
         
+    }
+    
+    
+    
+    func back(sender: UIBarButtonItem) {
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor.white;
+        
+        _ = navigationController?.popViewController(animated: true)
     }
     
     override func didReceiveMemoryWarning() {
@@ -83,7 +93,7 @@ class ViewController: UIViewController
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "TalentListViewController") as! TalentListViewController
         controller.titleName = dimensions[sender.tag].dimensionName
-        controller.colorCode = locale_lang
+        controller.colorCode = dimensions[sender.tag].colorCode
         controller.dimensionId = (sender.tag) + 1
         self.navigationController?.pushViewController(controller, animated: true)
     }
